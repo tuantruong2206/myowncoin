@@ -76,7 +76,8 @@ public:
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 227931;
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
-        consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        //consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.powLimit = uint256S("0000ffffffffffffffff00000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -106,9 +107,14 @@ public:
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1561602521, 3503798145, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1561602521, 660390377, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000000013efffbc3d8127fcba950e760326b2f9541968c9c516f1beec61efef"));
+
+        printf("genesis.nNonce = %d\n", genesis.nNonce);
+        printf("genesisBlock = 0x%s\n", consensus.hashGenesisBlock.ToString().c_str());
+        printf("hashMerkleRoot = 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
+
+        assert(consensus.hashGenesisBlock == uint256S("0x000001aca59603e03740ed02179515954c2e2c951a501ad3f6e38f9d701f8ea7"));
         assert(genesis.hashMerkleRoot == uint256S("0x7e5bd93d1dee7483636eace59966684a05770c878e6e836ff4c985472961b60c"));
 
         //vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be")); // Pieter Wuille
@@ -134,9 +140,9 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x0000000013efffbc3d8127fcba950e760326b2f9541968c9c516f1beec61efef")),
-            0,
-            0,
+            ( 0, uint256S("0x000001aca59603e03740ed02179515954c2e2c951a501ad3f6e38f9d701f8ea7")),
+            1561602521,
+            1,
             0
         };
 
