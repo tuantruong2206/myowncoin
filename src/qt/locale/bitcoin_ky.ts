@@ -38,8 +38,8 @@
         <translation>Билдирүүнү &amp;текшерүү...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Nilabit</source>
+        <translation>Nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>

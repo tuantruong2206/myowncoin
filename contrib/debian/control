@@ -1,4 +1,4 @@
-Source: bitcoin
+Source: nilabit
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -27,7 +27,7 @@ Homepage: https://bitcoincore.org/
 Vcs-Git: git://github.com/bitcoin/bitcoin.git
 Vcs-Browser: https://github.com/bitcoin/bitcoin
 
-Package: bitcoind
+Package: nilabitd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -37,10 +37,10 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Bitcoin Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, bitcoind, and the CLI tool
- bitcoin-cli to interact with the daemon.
+ This package provides the daemon, nilabitd, and the CLI tool
+ nilabit-cli to interact with the daemon.
 
-Package: bitcoin-qt
+Package: nilabit-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -63,5 +63,5 @@ Description: peer-to-peer digital currency - standalone transaction tool
  is the name of the open source software which enables the use of this currency.
  .
  This package provides bitcoin-tx, a command-line transaction creation
- tool which can be used without a bitcoin daemon.  Some means of
+ tool which can be used without a nilabit daemon.  Some means of
  exchanging minimal transaction data with peers is still required.
