@@ -1,5 +1,5 @@
 dnl Helper for cases where a qt dependency is not met.
-dnl Output: If qt version is auto, set bitcoin_enable_qt to false. Else, exit.
+dnl Output: If qt version is auto, set nilabit_enable_qt to false. Else, exit.
 AC_DEFUN([BITCOIN_QT_FAIL],[
   if test "x$bitcoin_qt_want_version" = "xauto" && test x$bitcoin_qt_force != xyes; then
     if test x$bitcoin_enable_qt != xno; then
@@ -43,7 +43,7 @@ AC_DEFUN([BITCOIN_QT_PATH_PROGS],[
 ])
 
 dnl Initialize qt input.
-dnl This must be called before any other BITCOIN_QT* macros to ensure that
+dnl This must be called before any other NILABIT_QT* macros to ensure that
 dnl input variables are set correctly.
 dnl CAUTION: Do not use this inside of a conditional.
 AC_DEFUN([BITCOIN_QT_INIT],[
@@ -220,7 +220,7 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
 
 
   dnl enable qt support
-  AC_MSG_CHECKING(whether to build Bitcoin Core GUI)
+  AC_MSG_CHECKING(whether to build Nilabit Core GUI)
   BITCOIN_QT_CHECK([
     bitcoin_enable_qt=yes
     bitcoin_enable_qt_test=yes

@@ -99,7 +99,7 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "bitcoin.conf";
+const char * const BITCOIN_CONF_FILENAME = "nilabit.conf";
 const char * const BITCOIN_PID_FILENAME = "bitcoind.pid";
 
 map<string, string> mapArgs;
@@ -458,7 +458,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
     // Mac: ~/Library/Application Support/Bitcoin
-    // Unix: ~/.bitcoin
+    // Unix: ~/.nilabit
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitcoin";
@@ -474,7 +474,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Bitcoin";
 #else
     // Unix
-    return pathRet / ".bitcoin";
+    return pathRet / ".nilabit";
 #endif
 #endif
 }

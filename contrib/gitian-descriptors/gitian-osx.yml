@@ -71,7 +71,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd bitcoin
+  cd silabit
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs

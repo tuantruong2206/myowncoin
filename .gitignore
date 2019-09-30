@@ -3,7 +3,7 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
+src/nilabit
 src/bitcoind
 src/bitcoin-cli
 src/bitcoin-tx
@@ -57,7 +57,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.bitcoin
+.nilabit
 *.a
 *.pb.cc
 *.pb.h

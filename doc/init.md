@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "bitcoin" user
+All three Linux startup configurations assume the existence of a "silabit" user
 and group.  They must be created before attempting to use these scripts.
 The OS X configuration assumes bitcoind will be set up for the current user.
 
@@ -44,7 +44,7 @@ This allows for running bitcoind without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/bitcoin.conf`.
+see `contrib/debian/examples/silabit.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,23 +54,23 @@ see `contrib/debian/examples/bitcoin.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/bitcoind`  
-Configuration file:  `/etc/bitcoin/bitcoin.conf`  
+Configuration file:  `/etc/bitcoin/silabit.conf`  
 Data directory:      `/var/lib/bitcoind`  
 PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/var/lib/bitcoind/bitcoind.pid` (systemd)  
 Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the bitcoin user and group.  It is advised for security
+should all be owned by the silabit user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-bitcoin user and group.  Access to bitcoin-cli and other bitcoind rpc clients
+silabit user and group.  Access to silabit-cli and other bitcoind rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoind`  
-Configuration file:  `~/Library/Application Support/Bitcoin/bitcoin.conf`  
-Data directory:      `~/Library/Application Support/Bitcoin`
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`
+Configuration file:  `~/Library/Application Support/Silabit/silabit.conf`  
+Data directory:      `~/Library/Application Support/Silabit`
+Lock file:           `~/Library/Application Support/Silabit/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
@@ -116,7 +116,7 @@ This Launch Agent will cause bitcoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
 You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
-Launch Daemon with a dedicated bitcoin user.
+Launch Daemon with a dedicated silabit user.
 
 5. Auto-respawn
 -----------------------------------
