@@ -418,7 +418,7 @@
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>A Bitcoin Core súgóüzenet megjelenítése a Bitcoin lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message numerus="yes">
@@ -1939,7 +1939,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>A Bitcoin Core fejlesztői</translation>
     </message>
     <message>
@@ -2433,7 +2433,7 @@
         <translation>Külső cím (-whitebind address) feloldása nem sikerült: '%s'</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i A Bitcoin Core Fejlesztői</translation>
     </message>
     <message>

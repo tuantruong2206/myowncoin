@@ -430,7 +430,7 @@
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Arată mesajul de ajutor Bitcoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -1626,7 +1626,7 @@
         <translation>1 &amp;an</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Bun venit la consola Nucleului Bitcoin RPC.</translation>
     </message>
     <message>
@@ -2306,7 +2306,7 @@
         <translation>Nucleul Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Dezvoltatorii Nucleului Bitcoin</translation>
     </message>
     <message>
@@ -3004,7 +3004,7 @@
         <translation>Conectare prin proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Dezvoltatorii Bitcoin</translation>
     </message>
     <message>

@@ -430,7 +430,7 @@
         <translation>Opções de linha de &amp;comando</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostra a mensagem de ajuda do Bitcoin para pegar a lista com os comandos possíveis</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>Uso de memória</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o arquivo de log de depuração do Bitcoin na pasta de dados atual. Isso pode demorar para arquivos grandes.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>&amp;Desbanir nó</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Bem vindo ao console de RPC do Bitcoin.</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Programadores do Bitcoin</translation>
     </message>
     <message>
@@ -3316,7 +3316,7 @@
         <translation>Connecte-se através de um proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Desenvolvedores Bitcoin Core</translation>
     </message>
     <message>

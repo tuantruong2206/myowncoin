@@ -430,8 +430,8 @@
         <translation>&amp;Command-line options</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</translation>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -1518,8 +1518,8 @@
         <translation>Memory usage</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1678,8 +1678,8 @@
         <translation>&amp;Unban Node</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Welcome to the Bitcoin Core RPC console.</translation>
+        <source>Welcome to The Nilabit Core RPC console.</source>
+        <translation>Welcome to The Nilabit Core RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2418,8 +2418,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>The Bitcoin Core developers</translation>
+        <source>The Nilabit Core developers</source>
+        <translation>The Nilabit Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3316,8 +3316,8 @@
         <translation>Connect through SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Nilabit Core Developers</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>

@@ -1676,7 +1676,7 @@
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Los desarrolladores del Núcleo de Bitcoin</translation>
     </message>
     <message>

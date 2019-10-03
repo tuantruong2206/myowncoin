@@ -430,7 +430,7 @@
         <translation>П&amp;араметри командного рядка</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Показати довідку Bitcoin Core для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>Використання пам'яті</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Відкрити файл журналу налагодження Bitcoin Core з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>&amp;Розблокувати Вузол</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Вітаємо у RPC-консолі Bitcoin Core.</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Розробники Bitcoin Core</translation>
     </message>
     <message>
@@ -3316,7 +3316,7 @@
         <translation>Підключитись через SOCKS5-проксі</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>(C) 2009-%i Розробники Bitcoin Core</translation>
     </message>
     <message>

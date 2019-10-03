@@ -96,7 +96,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 ```
 
-### Building Bitcoin Core
+### Building Nilabit Core
 
 **Important**: use `gmake`, not `make`. The non-GNU `make` will exit with a horrible error.
 

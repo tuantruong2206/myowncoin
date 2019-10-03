@@ -1072,7 +1072,7 @@
         <translation>پاکسازی کنسول</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>به کنسول RPC هسته بیت کوین خوش آمدید.</translation>
     </message>
     <message>
@@ -1480,7 +1480,7 @@
         <translation> هسته Bitcoin </translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>توسعه‌دهندگان هسته بیت‌کوین</translation>
     </message>
     <message>

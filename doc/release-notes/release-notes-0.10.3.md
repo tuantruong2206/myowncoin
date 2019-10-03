@@ -25,7 +25,7 @@ Downgrade warning
 
 Because release 0.10.0 and later makes use of headers-first synchronization and
 parallel block download (see further), the block files and databases are not
-backwards-compatible with pre-0.10 versions of Bitcoin Core or other software:
+backwards-compatible with pre-0.10 versions of Nilabit Core or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or
@@ -75,7 +75,7 @@ for nuisance malleability on SIGHASH_ALL P2PKH transactions. On the down-side
 it will block most transactions made by sufficiently out of date software.
 
 Unlike the other avenues to change txids on transactions this
-one was randomly violated by all deployed bitcoin software prior to
+one was randomly violated by all deployed Nilabit software prior to
 its discovery. So, while other malleability vectors where made
 non-standard as soon as they were discovered, this one has remained
 permitted. Even BIP62 did not propose applying this rule to
@@ -92,7 +92,7 @@ still cooperate to break transactions.  Nor does it replace the
 need for wallet software to handle malleability sanely[1]. This
 only eliminates the cheap and irritating DOS attack.
 
-[1] On the Malleability of Bitcoin Transactions
+[1] On the Malleability of Nilabit Transactions
 Marcin Andrychowicz, Stefan Dziembowski, Daniel Malinowski, Łukasz Mazurek
 http://fc15.ifca.ai/preproceedings/bitcoin/paper_9.pdf
 

@@ -430,7 +430,7 @@
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Zeige den "Bitcoin Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>Speichernutzung</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Öffnet die "Bitcoin Core"-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>&amp;Node entsperren</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Willkommen in der "Bitcoin Core"-RPC-Konsole.</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
@@ -3308,7 +3308,7 @@
         <translation>Über einen SOCKS5-Proxy &amp;verbinden</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Urheberrecht (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>

@@ -522,7 +522,7 @@ Wallet:
 GUI:
 - `c21c74b` osx: Fix missing dock menu with qt5
 - `b90711c` Fix Transaction details shows wrong To:
-- `516053c` Make links in 'About Bitcoin Core' clickable
+- `516053c` Make links in 'About Nilabit Core' clickable
 - `bdc83e8` Ensure payment request network matches client network
 - `65f78a1` Add GUI view of peer information
 - `06a91d9` VerifyDB progress reporting

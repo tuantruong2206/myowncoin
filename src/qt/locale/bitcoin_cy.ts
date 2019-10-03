@@ -668,7 +668,7 @@
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Datblygwyr Graidd Bitcoin</translation>
     </message>
     <message>

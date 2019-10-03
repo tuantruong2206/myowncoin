@@ -420,7 +420,7 @@
         <translation>&amp;Επιλογές γραμμής εντολών</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Εμφανιση του Bitcoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Bitcoin γραμμής εντολών.</translation>
     </message>
     <message>
@@ -2062,7 +2062,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Οι προγραμματιστές του Bitcoin Core</translation>
     </message>
     <message>
@@ -2652,7 +2652,7 @@
         <translation>Σύνδεση μέσω διαμεσολαβητή SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Πνευματικά δικαιώματα 2009-%i Οι προγραμματιστές του Bitcoin Core</translation>
     </message>
     <message>

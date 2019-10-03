@@ -430,7 +430,7 @@
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Tampilkan pesan bantuan Bitcoin Core untuk mendapatkan daftar pilihan Command-line</translation>
     </message>
     <message numerus="yes">
@@ -1464,7 +1464,7 @@
         <translation>1 &amp;tahun</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Selamat datang di konsol RPC Bitcoin.</translation>
     </message>
     <message>
@@ -2064,7 +2064,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Pembangun Bitcoin Core</translation>
     </message>
     <message>

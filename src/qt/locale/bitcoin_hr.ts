@@ -418,7 +418,7 @@
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
     <message numerus="yes">
@@ -1086,7 +1086,7 @@
         <translation>Očisti konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Dobrodošli u Bitcoin RPC konzolu.</translation>
     </message>
     <message>

@@ -1810,7 +1810,7 @@
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     <message>

@@ -410,7 +410,7 @@
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Мавжуд Bitcoin буйруқлар матни мосламалари билан  Bitcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
@@ -1744,7 +1744,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoin Core дастурчилари</translation>
     </message>
     <message>

@@ -422,7 +422,7 @@
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Oglejte si seznam in kratek opis vseh opcij pri zagonu programa iz ukazne vrstice</translation>
     </message>
     <message numerus="yes">
@@ -1446,7 +1446,7 @@
         <translation>Trenutno število blokov</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Odpre razhroščevalni dnevnik debug.log, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
     </message>
     <message>
@@ -1550,7 +1550,7 @@
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Dobrodošli v konzoli RPC programa Bitcoin Core.</translation>
     </message>
     <message>
@@ -2278,7 +2278,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoin Core razvijalci</translation>
     </message>
     <message>
@@ -3020,8 +3020,8 @@
         <translation>Poveži se preko posredniškega strežnika SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Nilabit Core Developers</translation>
     </message>
     <message>
         <source>Information</source>

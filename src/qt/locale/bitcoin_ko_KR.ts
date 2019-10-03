@@ -430,7 +430,7 @@
         <translation>명령어-라인 옵션</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>사용할 수 있는 비트코인 명령어 옵션 목록을 가져오기 위해 Bitcoin-Qt 도움말 메시지를 표시합니다.</translation>
     </message>
     <message numerus="yes">
@@ -1934,7 +1934,7 @@
         <translation>비트코인 코어</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>비트코인코어 개발자들</translation>
     </message>
     <message>

@@ -430,7 +430,7 @@
         <translation>&amp;Kommandolinjevalg</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Vis Bitcoin Core hjelpemeldingen for å få en liste med mulige kommandolinjevalg</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>Minnebruk</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Åpne Bitcoin Core sin loggfil for feilsøk fra gjeldende datamappe. Dette kan ta noen sekunder for store loggfiler.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>Fjern &amp;Utestengning av Node</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Velkommen til Bitcoin Core sin RPC-konsoll.</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoin Core utviklerne</translation>
     </message>
     <message>
@@ -3316,7 +3316,7 @@
         <translation>Koble til via SOCKS5-proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i utviklerne av Bitcoin Core</translation>
     </message>
     <message>

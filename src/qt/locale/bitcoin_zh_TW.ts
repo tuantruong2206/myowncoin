@@ -430,7 +430,7 @@
         <translation>命令列選項</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>顯示 Bitcoin Core 的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>記憶體使用量</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>從目前的資料目錄下開啓 Bitcoin Core 的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>解禁解點連線</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>歡迎使用 Bitcoin Core 的 RPC 主控台。</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoin Core 開發人員</translation>
     </message>
     <message>
@@ -3317,7 +3317,7 @@
         <translation>透過 SOCKS5 代理伺服器連線</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>版權為 Bitcoin Core 開發人員自西元 2009 至 %i 年起所有</translation>
     </message>
     <message>

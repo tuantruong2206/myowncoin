@@ -430,7 +430,7 @@
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostra il messaggio di aiuto di Bitcoin Core per ottenere la lista delle opzioni della riga di comando valide.</translation>
     </message>
     <message numerus="yes">
@@ -1519,7 +1519,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Utilizzo memoria</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Apre il file log di debug di Bitcoin Core dalla cartella dati attuale. Questa azione può richiedere alcuni secondi per file log di grandi dimensioni.</translation>
     </message>
     <message>
@@ -1679,7 +1679,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Elimina Ban Nodo</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Benvenuto nella console RPC di Bitcoin Core.</translation>
     </message>
     <message>
@@ -2419,7 +2419,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
@@ -3317,7 +3317,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Connessione attraverso un proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>

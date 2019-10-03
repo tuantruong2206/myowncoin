@@ -1524,7 +1524,7 @@
         <translation>Core de Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Os desarrolladores de Bitcoin Core</translation>
     </message>
     <message>

@@ -431,7 +431,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Visa Bitcoin Cores hjälpmeddelande för att få en lista med möjliga Bitcoin-kommandoradsalternativ.</translation>
     </message>
     <message numerus="yes">
@@ -1519,7 +1519,7 @@ Var vänlig och försök igen.</translation>
         <translation>Minnesåtgång</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Öppna felsökningsloggfilen för Bitcoin Core från den nuvarande datakatalogen. Detta kan ta några sekunder om loggfilen är stor.</translation>
     </message>
     <message>
@@ -1679,7 +1679,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Ta bort ban från nod</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Välkommen till RPC-konsolen för Bitcoin Core.</translation>
     </message>
     <message>
@@ -2419,7 +2419,7 @@ Var vänlig och försök igen.</translation>
         <translation>Bitcoin Kärna</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
@@ -3317,7 +3317,7 @@ Var vänlig och försök igen.</translation>
         <translation>Anslut genom SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Bitcoin Core Utvecklarna</translation>
     </message>
     <message>

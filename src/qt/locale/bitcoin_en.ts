@@ -545,7 +545,7 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
@@ -1962,7 +1962,7 @@
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2170,7 +2170,7 @@
     </message>
     <message>
         <location line="+74"/>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3118,7 +3118,7 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4310,7 +4310,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

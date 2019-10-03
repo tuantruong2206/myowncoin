@@ -422,7 +422,7 @@
         <translation>Opcions de la &amp;línia d'ordes</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostra el missatge d'ajuda del Bitcoin Core per obtindre una llista amb les possibles opcions de línia d'ordes de Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -1446,7 +1446,7 @@
         <translation>Nombre de blocs actuals</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Obri el fitxer de registre de depuració del Bitcoin Core del directori de dades actual. Pot portar uns quants segons per a fitxers de registre grans.</translation>
     </message>
     <message>
@@ -1550,7 +1550,7 @@
         <translation>Neteja la consola</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Vos donem la benviguda a la consola RPC del Bitcoin Core.</translation>
     </message>
     <message>
@@ -2278,7 +2278,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Els desenvolupadors del Bitcoin Core</translation>
     </message>
     <message>
@@ -3064,7 +3064,7 @@
         <translation>Connecta a través del proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Els desenvolupadors del Bitcoin Core</translation>
     </message>
     <message>

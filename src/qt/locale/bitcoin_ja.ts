@@ -430,7 +430,7 @@
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>有効な Bitcoin のコマンドライン オプションを見るために Bitcoin Core のヘルプメッセージを表示します。</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>メモリ使用量</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>現在のデータディレクトリからBitcoin Coreのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>ノードのbanを解除する (&amp;U)</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Bitcoin CoreのRPCコンソールへようこそ。</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>
@@ -3317,7 +3317,7 @@
         <translation>SOCKS5 プロキシ経由で接続する</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Copyright (C) 2009-%i Bitcoin Core 開発者</translation>
     </message>
     <message>

@@ -406,7 +406,7 @@
         <translation>&amp;Налични команди</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Покажи помощните съобщения на Биткойн за да видиш наличните и валидни команди</translation>
     </message>
     <message>
@@ -1934,7 +1934,7 @@
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Разработчици на Bitcoin Core</translation>
     </message>
     <message>
@@ -2456,7 +2456,7 @@
         <translation>Свързване чрез SOCKS5  прокси</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Всички права запазени (C) 2009-%i Доставчиците на Биткойн</translation>
     </message>
     <message>

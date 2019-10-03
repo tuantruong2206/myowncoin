@@ -1883,7 +1883,7 @@ Réessayez.</translation>
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Les développeurs de Bitcoin Core</translation>
     </message>
     <message>

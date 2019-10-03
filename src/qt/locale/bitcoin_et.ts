@@ -1294,7 +1294,7 @@
         <translation>Bitcoini tuumik</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Bitcoini Tuuma arendajad</translation>
     </message>
     <message>

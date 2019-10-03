@@ -430,7 +430,7 @@
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostrar el mensaje de ayuda de Bitcoin Core con una lista de las posibles opciones de la consola de comandos de Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -1514,7 +1514,7 @@
         <translation>Uso de memoria</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abre el archivo de registro de depuración de Bitcoin desde el directorio de datos actual. Esto puede tardar unos segundos para ficheros de registro de gran tamaño.</translation>
     </message>
     <message>
@@ -1674,7 +1674,7 @@
         <translation>&amp;Desbanear Nodo</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Bienvenido a la consola RPC de Bitcoin Core.</translation>
     </message>
     <message>
@@ -2414,7 +2414,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
@@ -3311,8 +3311,8 @@
         <translation>Conectar usando SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Nilabit Core Developers</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>

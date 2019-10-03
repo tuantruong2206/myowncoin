@@ -430,7 +430,7 @@
         <translation>&amp;Opdrachytregelopties</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
         <translation>Toon het Bitcoin Core hulpbericht om een lijst te krijgen met mogelijke Bitcoinopdrachtregelopties</translation>
     </message>
     <message numerus="yes">
@@ -1518,7 +1518,7 @@
         <translation>Geheugengebruik</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Open het Bitcoin Core debuglogbestand van de huidige gegevensmap. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>&amp;Maak Ban Ongedaan voor Node</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to The Nilabit Core RPC console.</source>
         <translation>Welkom op de Bitcoin Core RPC console.</translation>
     </message>
     <message>
@@ -2418,7 +2418,7 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>De Bitcoin Core-ontwikkelaars</translation>
     </message>
     <message>
@@ -3316,7 +3316,7 @@
         <translation>Verbind door SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
         <translation>Auteursrecht (C) 2009-%i De Bitcoin Core Ontwikkelaars</translation>
     </message>
     <message>
