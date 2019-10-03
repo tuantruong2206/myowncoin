@@ -14,13 +14,13 @@ function clean_up {
    done
 }
 
-WORKINGDIR="/tmp/silabit"
+WORKINGDIR="/tmp/nilabit"
 TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test/"
 BASEDIR="https://bitcoin.org/bin/"
-VERSIONPREFIX="silabit-core-"
+VERSIONPREFIX="nilabit-core-"
 RCVERSIONSTRING="rc"
 
 #this URL is used if a version number is not specified as an argument to the script
@@ -82,7 +82,7 @@ if [ $RET -ne 0 ]; then
       echo "Bad signature."
    elif [ $RET -eq 2 ]; then
       #or if a gpg error has occurred
-      echo "gpg error. Do you have the Silabit Core binary release signing key installed?"
+      echo "gpg error. Do you have the nilabit Core binary release signing key installed?"
    fi
 
    echo "gpg output:"

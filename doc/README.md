@@ -1,13 +1,13 @@
-Silabit Core 0.12.1
+nilabit Core 0.12.1
 =====================
 
 Setup
 ---------------------
-[Silabit Core](http://bitcoin.org/en/download) is the original Silabit client and it builds the backbone of the network. However, it downloads and stores the entire history of Silabit transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[nilabit Core](http://bitcoin.org/en/download) is the original nilabit client and it builds the backbone of the network. However, it downloads and stores the entire history of nilabit transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Silabit on your native platform.
+The following are some helpful notes on how to run nilabit on your native platform.
 
 ### Unix
 
@@ -18,22 +18,22 @@ Unpack the files into a directory and run:
 
 ### Windows
 
-Unpack the files into a directory, and then run silabit-qt.exe.
+Unpack the files into a directory, and then run nilabit-qt.exe.
 
 ### OS X
 
-Drag Silabit-Core to your applications folder, and then run Silabit-Core.
+Drag nilabit-Core to your applications folder, and then run nilabit-Core.
 
 ### Need Help?
 
-* See the documentation at the [Silabit Wiki](https://en.bitcoin.it/wiki/Main_Page)
+* See the documentation at the [nilabit Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#silabit](http://webchat.freenode.net?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoin).
-* Ask for help on the [SilabitTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+* Ask for help on [#nilabit](http://webchat.freenode.net?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoin).
+* Ask for help on the [nilabitTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
 
 Building
 ---------------------
-The following are developer notes on how to build Silabit on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build nilabit on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -43,7 +43,7 @@ The following are developer notes on how to build Silabit on your native platfor
 
 Development
 ---------------------
-The Silabit repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The nilabit repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -59,9 +59,9 @@ The Silabit repo's [root README](/README.md) contains relevant information on th
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [SilabitTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
+* Discuss on the [nilabitTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
 * Discuss project-specific development on #bitcoin-core-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-core-dev).
-* Discuss general Silabit development on #bitcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-dev).
+* Discuss general nilabit development on #bitcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
