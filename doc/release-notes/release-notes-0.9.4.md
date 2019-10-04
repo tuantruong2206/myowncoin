@@ -1,4 +1,4 @@
-Bitcoin Core version 0.9.4 is now available from:
+Nilabit Core version 0.9.4 is now available from:
 
   https://bitcoin.org/bin/0.9.4/
 
@@ -25,7 +25,7 @@ various operating system maintainers. Review by Gregory Maxwell determined that
 this update is incompatible with the Nilabit system and could lead to consensus
 forks.
 
-Bitcoin Core released binaries from https://bitcoin.org are unaffected,
+Nilabit Core released binaries from https://bitcoin.org are unaffected,
 as are any built with the gitian deterministic build system.
 
 However, if you are running either

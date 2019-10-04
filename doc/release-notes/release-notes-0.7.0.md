@@ -1,4 +1,4 @@
-Bitcoin version 0.7.0 is now available for download at:
+Nilabit version 0.7.0 is now available for download at:
   http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.7.0/
 
 We recommend that everybody running prior versions of bitcoind/Bitcoin-Qt
@@ -14,7 +14,7 @@ source-only tarballs/zipballs directly from there:
 
 Ubuntu Linux users can use the "Personal Package Archive" (PPA)
 maintained by Matt Corallo to automatically keep 
-bitcoin up-to-date.  Just type
+Nilabit up-to-date.  Just type
   sudo apt-add-repository ppa:bitcoin/bitcoin
   sudo apt-get update
 in your terminal, then install the bitcoin-qt package:
@@ -45,7 +45,7 @@ Incompatible Changes
   and 'getrawmempool' commands.
 * Remove deprecated RPC 'getblocknumber'
 
-Bitcoin Improvement Proposals implemented
+Nilabit Improvement Proposals implemented
 
 BIP 22 - 'getblocktemplate', 'submitblock' RPCs
 BIP 34 - block version 2, height in coinbase

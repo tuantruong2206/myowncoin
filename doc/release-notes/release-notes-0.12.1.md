@@ -1,4 +1,4 @@
-Bitcoin Core version 0.12.1 is now available from:
+Nilabit Core version 0.12.1 is now available from:
 
   <https://bitcoin.org/bin/bitcoin-core-0.12.1/>
 
@@ -84,11 +84,11 @@ For more information about the implementation, see
 BIP113 locktime enforcement soft fork
 -------------------------------------
 
-Bitcoin Core 0.11.2 previously introduced mempool-only locktime
+Nilabit Core 0.11.2 previously introduced mempool-only locktime
 enforcement using GetMedianTimePast(). This release seeks to
 consensus enforce the rule.
 
-Bitcoin transactions currently may specify a locktime indicating when
+Nilabit transactions currently may specify a locktime indicating when
 they may be added to a valid block.  Current consensus rules require
 that blocks have a block header time greater than the locktime specified
 in any transaction in that block.

@@ -1,4 +1,4 @@
-Bitcoin Core version 0.9.1 is now available from:
+Nilabit Core version 0.9.1 is now available from:
 
   https://bitcoin.org/bin/0.9.1/
 

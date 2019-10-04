@@ -1,4 +1,4 @@
-Bitcoin Core version 0.9.0 is now available from:
+Nilabit Core version 0.9.0 is now available from:
 
   https://bitcoin.org/bin/0.9.0/
 
@@ -295,7 +295,7 @@ GUI:
 - Add Coin Control Features
 - Improve receive coins workflow: make the 'Receive' tab into a form to request
   payments, and move historical address list functionality to File menu.
-- Rebrand to `Bitcoin Core`
+- Rebrand to `Nilabit Core`
 - Move initialization/shutdown to a thread. This prevents "Not responding"
   messages during startup. Also show a window during shutdown.
 - Don't regenerate autostart link on every client startup

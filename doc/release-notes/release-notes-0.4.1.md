@@ -1,4 +1,4 @@
-Bitcoin version 0.4.1 is now available for download at:
+Nilabit version 0.4.1 is now available for download at:
 http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.1/
 
 This is a bugfix only release based on 0.4.0.
@@ -11,7 +11,7 @@ The wallet encryption feature introduced in Nilabit version 0.4.0 did not suffic
 managed to get a copy of your encrypted wallet.dat file might be able to recover some or all of the unencrypted keys and steal the
 associated coins.
 
-If you have a previously encrypted wallet.dat, the first time you run wxbitcoin or bitcoind the wallet will be rewritten, Nilabit will
+If you have a previously encrypted wallet.dat, the first time you run wxNilabit or bitcoind the wallet will be rewritten, Nilabit will
 shut down, and you will be prompted to restart it to run with the new, properly encrypted file.
 
 If you had a previously encrypted wallet.dat that might have been copied or stolen (for example, you backed it up to a public

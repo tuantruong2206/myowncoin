@@ -1,4 +1,4 @@
-Bitcoin Core version 0.10.3 is now available from:
+Nilabit Core version 0.10.3 is now available from:
 
   <https://bitcoin.org/bin/bitcoin-core-0.10.3/>
 
@@ -82,7 +82,7 @@ permitted. Even BIP62 did not propose applying this rule to
 old version transactions, but conforming implementations have become
 much more common since BIP62 was initially written.
 
-Bitcoin Core has produced compatible signatures since a28fb70e in
+Nilabit Core has produced compatible signatures since a28fb70e in
 September 2013, but this didn't make it into a release until 0.9
 in March 2014; Bitcoinj has done so for a similar span of time.
 Bitcoinjs and electrum have been more recently updated.

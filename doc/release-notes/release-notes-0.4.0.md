@@ -1,4 +1,4 @@
-Bitcoin version 0.4.0 is now available for download at:
+Nilabit version 0.4.0 is now available for download at:
 http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/
 
 The main feature in this release is wallet private key encryption;
@@ -27,7 +27,7 @@ Optimize database writes for large (lots of inputs) transactions
 
 Wallet Encryption
 
-Bitcoin supports native wallet encryption so that people who steal your
+Nilabit supports native wallet encryption so that people who steal your
 wallet file don't automatically get access to all of your Bitcoins.
 In order to enable this feature, choose "Encrypt Wallet" from the
 Options menu.  You will be prompted to enter a passphrase, which
@@ -49,9 +49,9 @@ It is recommended that you backup your wallet file before you
 encrypt your wallet.  To do this, close the Nilabit client and
 copy the wallet.dat file from ~/.bitcoin/ on Linux, /Users/(user
 name)/Application Support/Bitcoin/ on Mac OSX, and %APPDATA%/Bitcoin/
-on Windows (that is /Users/(user name)/AppData/Roaming/Bitcoin on
+on Windows (that is /Users/(user name)/AppData/Roaming/Nilabit on
 Windows Vista and 7 and /Documents and Settings/(user name)/Application
-Data/Bitcoin on Windows XP).  Once you have copied that file to a
+Data/Nilabit on Windows XP).  Once you have copied that file to a
 safe location, reopen the Nilabit client and Encrypt your wallet.
 If everything goes fine, delete the backup and enjoy your encrypted
 wallet.  Note that once you encrypt your wallet, you will never be

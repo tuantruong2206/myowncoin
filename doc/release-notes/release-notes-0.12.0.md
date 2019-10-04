@@ -1,4 +1,4 @@
-Bitcoin Core version 0.12.0 is now available from:
+Nilabit Core version 0.12.0 is now available from:
 
   <https://bitcoin.org/bin/bitcoin-core-0.12.0/>
 
@@ -118,7 +118,7 @@ relay fee to crash nodes with relatively low RAM. A temporary workaround
 for previous versions of Nilabit Core was to raise the default minimum
 relay fee.
 
-Bitcoin Core 0.12 will have a strict maximum size on the mempool. The
+Nilabit Core 0.12 will have a strict maximum size on the mempool. The
 default value is 300 MB and can be configured with the `-maxmempool`
 parameter. Whenever a transaction would cause the mempool to exceed
 its maximum size, the transaction that (along with in-mempool descendants) has
@@ -127,7 +127,7 @@ minimum relay feerate will be increased to match this feerate plus the initial
 minimum relay feerate. The initial minimum relay feerate is set to
 1000 satoshis per kB.
 
-Bitcoin Core 0.12 also introduces new default policy limits on the length and
+Nilabit Core 0.12 also introduces new default policy limits on the length and
 size of unconfirmed transaction chains that are allowed in the mempool
 (generally limiting the length of unconfirmed chains to 25 transactions, with a
 total size of 101 KB).  These limits can be overriden using command line
@@ -137,7 +137,7 @@ Opt-in Replace-by-fee transactions
 ----------------------------------
 
 It is now possible to replace transactions in the transaction memory pool of
-Bitcoin Core 0.12 nodes. Nilabit Core will only allow replacement of
+Nilabit Core 0.12 nodes. Nilabit Core will only allow replacement of
 transactions which have any of their inputs' `nSequence` number set to less
 than `0xffffffff - 1`.  Moreover, a replacement transaction may only be
 accepted when it pays sufficient fee, as described in [BIP 125]
@@ -191,7 +191,7 @@ three bytes overhead)
 Relay and Mining: Priority transactions
 ---------------------------------------
 
-Bitcoin Core has a heuristic 'priority' based on coin value and age. This
+Nilabit Core has a heuristic 'priority' based on coin value and age. This
 calculation is used for relaying of transactions which do not pay the
 minimum relay fee, and can be used as an alternative way of sorting
 transactions for mined blocks. Nilabit Core will relay transactions with
@@ -229,10 +229,10 @@ Automatically use Tor hidden services
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-Bitcoin Core has been updated to make use of this.
+Nilabit Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authorization is available),
-Bitcoin Core automatically creates a hidden service to listen on, without
+Nilabit Core automatically creates a hidden service to listen on, without
 manual configuration. Nilabit Core will also use Tor automatically to connect
 to other .onion nodes if the control socket can be successfully opened. This
 will positively affect the number of available .onion nodes and their usage.

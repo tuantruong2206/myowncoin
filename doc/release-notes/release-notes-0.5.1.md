@@ -1,4 +1,4 @@
-Bitcoin version 0.5.1 is now available for download at:
+Nilabit version 0.5.1 is now available for download at:
 http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.1/
 
 This is a bugfix-only release.
@@ -19,7 +19,7 @@ https://github.com/bitcoin/bitcoin/zipball/v0.5.1  # .zip
 
 For Ubuntu users, there is a new ppa maintained by Matt Corallo which
 you can add to your system so that it will automatically keep
-bitcoin up-to-date.  Just type
+Nilabit up-to-date.  Just type
 sudo apt-add-repository ppa:bitcoin/bitcoin
 in your terminal, then install the bitcoin-qt package.
 
