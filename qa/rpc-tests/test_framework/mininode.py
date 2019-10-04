@@ -6,12 +6,12 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #
-# mininode.py - Bitcoin P2P network half-a-node
+# mininode.py - Nilabit P2P network half-a-node
 #
 # This python code was modified from ArtForz' public domain  half-a-node, as
 # found in the mini-node branch of http://github.com/jgarzik/pynode.
 #
-# NodeConn: an object which manages p2p connectivity to a bitcoin node
+# NodeConn: an object which manages p2p connectivity to a Nilabit node
 # NodeConnCB: a base class that describes the interface for receiving
 #             callbacks with network messages from a NodeConn
 # CBlock, CTransaction, CBlockHeader, CTxIn, CTxOut, etc....:
@@ -1184,7 +1184,7 @@ class NodeConn(asyncore.dispatcher):
         vt.addrFrom.ip = "0.0.0.0"
         vt.addrFrom.port = 0
         self.send_message(vt, True)
-        print('MiniNode: Connecting to Bitcoin Node IP # ' + dstaddr + ':' \
+        print('MiniNode: Connecting to Nilabit Node IP # ' + dstaddr + ':' \
             + str(dstport))
 
         try:

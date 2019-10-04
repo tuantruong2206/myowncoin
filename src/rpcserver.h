@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Bitcoin RPC command dispatcher.
+ * Nilabit RPC command dispatcher.
  */
 class CRPCTable
 {

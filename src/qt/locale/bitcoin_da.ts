@@ -66,11 +66,11 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Disse er dine Bitcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender bitcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine Bitcoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine bitcoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
+        <translation>Bitcoin Core vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine Nilabit fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -318,7 +318,7 @@
         <translation>Genindekserer blokke på disken…</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Nilabit address</source>
         <translation>Send bitcoins til en Bitcoin-adresse</translation>
     </message>
     <message>
@@ -358,8 +358,8 @@
         <translation>&amp;Modtag</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Vis oplysninger om Bitcoin Core</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Vis oplysninger om Nilabit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -374,11 +374,11 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
         <translation>Underskriv beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
         <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Bitcoin-adresser</translation>
     </message>
     <message>
@@ -406,12 +406,12 @@
         <translation>Anmod om betalinger (genererer QR-koder og "bitcoin:"-URI'er)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Om Bitcoin Core</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>&amp;Om Nilabit Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Ændr opsætning af Bitcoin Core</translation>
+        <source>Modify configuration options for Nilabit Core</source>
+        <translation>Ændr opsætning af Nilabit Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,11 +430,11 @@
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message>
-        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Vis Bitcoin Core hjælpebesked for at få en liste over mulige tilvalg for Bitcoin kommandolinje</translation>
+        <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
+        <translation>Vis Nilabit Core hjælpebesked for at få en liste over mulige tilvalg for Nilabit kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Nilabit network</source>
         <translation><numerusform>%n aktiv forbindelse til Bitcoin-netværket</numerusform><numerusform>%n aktive forbindelser til Bitcoin-netværket</numerusform></translation>
     </message>
     <message>
@@ -817,7 +817,7 @@
         <translation>Den indtastede adresse "%1" er allerede i adressebogen.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Nilabit address.</source>
         <translation>Den indtastede adresse "%1" er ikke en gyldig Bitcoin-adresse.</translation>
     </message>
     <message>
@@ -867,8 +867,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Om Bitcoin Core</translation>
+        <source>About Nilabit Core</source>
+        <translation>Om Nilabit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -918,15 +918,15 @@
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Velkommen til Bitcoin Core.</translation>
+        <source>Welcome to Nilabit Core.</source>
+        <translation>Velkommen til Nilabit Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Bitcoin Core skal gemme sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Nilabit Core will store its data.</source>
+        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Nilabit Core skal gemme sin data.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Bitcoin Core vil downloade og gemme et kopi af Bitcoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
@@ -1020,8 +1020,8 @@
         <translation>Minimér i stedet for at lukke applikationen, når vinduet lukkes. Når denne indstilling er slået til, vil applikationen først blive lukket, når Afslut vælges i menuen.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Sproget for brugerfladen kan vælges her. Denne indstilling vil træde i kraft efter genstart af Bitcoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Nilabit Core.</source>
+        <translation>Sproget for brugerfladen kan vælges her. Denne indstilling vil træde i kraft efter genstart af Nilabit Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1048,12 +1048,12 @@
         <translation>&amp;Netværk</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Start Bitcoin Core automatisk efter der logges ind på systemet.</translation>
+        <source>Automatically start Nilabit Core after logging in to the system.</source>
+        <translation>Start Nilabit Core automatisk efter der logges ind på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Start Bitcoin Core ved system-login</translation>
+        <source>&amp;Start Nilabit Core on system login</source>
+        <translation>&amp;Start Nilabit Core ved system-login</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1080,7 +1080,7 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Åbn automatisk Bitcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
@@ -1088,7 +1088,7 @@
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Nilabit network through a SOCKS5 proxy.</source>
         <translation>Forbind til Bitcoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
@@ -1128,7 +1128,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Nilabit network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Forbind til Bitcoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
     </message>
     <message>
@@ -1215,7 +1215,7 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</source>
         <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
@@ -1322,7 +1322,7 @@
         <translation>Hentnings-URL for betalingsanmodning er ugyldig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Nilabit address or malformed URI parameters.</source>
         <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
@@ -1396,7 +1396,7 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Nilabit address (e.g. %1)</source>
         <translation>Indtast en Bitcoin-adresse (fx %1)</translation>
     </message>
     <message>
@@ -1519,7 +1519,7 @@
     </message>
     <message>
         <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Bitcoin Cores fejlsøgningslogfil fra den aktuelle datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
+        <translation>Åbn Nilabit Cores fejlsøgningslogfil fra den aktuelle datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1679,7 +1679,7 @@
     </message>
     <message>
         <source>Welcome to The Nilabit Core RPC console.</source>
-        <translation>Velkommen til Bitcoin Cores RPC-konsol.</translation>
+        <translation>Velkommen til Nilabit Cores RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1761,7 +1761,7 @@
         <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nilabit network.</source>
         <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Bitcoin-netværket.</translation>
     </message>
     <message>
@@ -1994,7 +1994,7 @@
         <translation>total mindst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Nilabit transactions than the network can process.</source>
         <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter bitcoin-transaktioner, end hvad netværket kan bearbejde.</translation>
     </message>
     <message>
@@ -2154,7 +2154,7 @@
         <translation>Adressegenganger fundet. Adresser bør kun bruges én gang hver.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Nilabit address</source>
         <translation>Advarsel: Ugyldig Bitcoin-adresse</translation>
     </message>
     <message>
@@ -2205,7 +2205,7 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Nilabit address to send the payment to</source>
         <translation>Bitcoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
@@ -2249,7 +2249,7 @@
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
         <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Bitcoin-netværket.</translation>
     </message>
     <message>
@@ -2287,7 +2287,7 @@
         <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage bitcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Nilabit address to sign the message with</source>
         <translation>Bitcoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
@@ -2319,7 +2319,7 @@
         <translation>Kopiér den nuværende underskrift til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Nilabit address</source>
         <translation>Underskriv denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
     </message>
     <message>
@@ -2343,11 +2343,11 @@
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Nilabit address the message was signed with</source>
         <translation>Bitcoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
         <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
     </message>
     <message>
@@ -2419,7 +2419,7 @@
     </message>
     <message>
         <source>The Nilabit Core developers</source>
-        <translation>Udviklerne af Bitcoin Core</translation>
+        <translation>Udviklerne af Nilabit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2936,8 +2936,8 @@
         <translation>Maksimalt totalgebyr (i %s) for brug i en enkelt tegnebogstransaktion; ved at sætte dette for lavt, kan store transaktioner afbrydes (standard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Kontrollér venligst, at din computers dato og tid er korrekt! Hvis uret ikke passer, vil Bitcoin Core ikke fungere korrekt.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Nilabit Core will not work properly.</source>
+        <translation>Kontrollér venligst, at din computers dato og tid er korrekt! Hvis uret ikke passer, vil Nilabit Core ikke fungere korrekt.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3008,8 +3008,8 @@
         <translation>Dette er en foreløbig testudgivelse - brug på eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Ikke i stand til at tildele til %s på denne computer. Bitcoin Core kører sansynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Nilabit Core is probably already running.</source>
+        <translation>Ikke i stand til at tildele til %s på denne computer. Nilabit Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3216,8 +3216,8 @@
         <translation>Tildel til den givne adresse for at lytte efter JSON-RPC-forbindelser. Brug [vært]:port-notation for IPv6. Denne valgmulighed kan angives flere gange (standard: tildel til alle grænseflader)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Kan ikke opnå en lås på datamappe %s. Bitcoin Core kører sansynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Nilabit Core is probably already running.</source>
+        <translation>Kan ikke opnå en lås på datamappe %s. Nilabit Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3317,11 +3317,11 @@
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Nilabit Core Developers</source>
-        <translation>Ophavsret © 2009-%i Udviklerne af Bitcoin Core</translation>
+        <translation>Ophavsret © 2009-%i Udviklerne af Nilabit Core</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Nilabit Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Nilabit Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3336,8 +3336,8 @@
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Sundhedstjek under klargøring mislykkedes. Bitcoin Core lukker ned.</translation>
+        <source>Initialization sanity check failed. Nilabit Core is shutting down.</source>
+        <translation>Sundhedstjek under klargøring mislykkedes. Nilabit Core lukker ned.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3456,8 +3456,8 @@
         <translation>Brugernavn til JSON-RPC-forbindelser</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Bitcoin Core for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Nilabit Core to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Nilabit Core for at gennemføre</translation>
     </message>
     <message>
         <source>Warning</source>

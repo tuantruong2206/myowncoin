@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -405,8 +405,8 @@
     </message>
     <message>
         <location line="-436"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <source>Send coins to a Nilabit address</source>
+        <translation>Send coins to a Nilabit address</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -455,7 +455,7 @@
     </message>
     <message>
         <location line="+40"/>
-        <source>Show information about Bitcoin Core</source>
+        <source>Show information about Nilabit Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -475,13 +475,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
+        <translation>Sign messages with your Nilabit addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Nilabit addresses</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -515,12 +515,12 @@
     </message>
     <message>
         <location line="+38"/>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Nilabit Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Nilabit Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -545,15 +545,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+329"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Nilabit network</source>
         <translation>
-            <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
+            <numerusform>%n active connection to Nilabit network</numerusform>
+            <numerusform>%n active connections to Nilabit network</numerusform>
         </translation>
     </message>
     <message>
@@ -1041,8 +1041,8 @@
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Bitcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Nilabit address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Nilabit address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1103,7 +1103,7 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Bitcoin Core</source>
+        <source>About Nilabit Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1166,17 +1166,17 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Nilabit Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Nilabit Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1299,7 +1299,7 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Nilabit Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1335,12 +1335,12 @@
     </message>
     <message>
         <location line="-153"/>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
+        <source>Automatically start Nilabit Core after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin Core on system login</source>
+        <source>&amp;Start Nilabit Core on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1375,8 +1375,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1385,7 +1385,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Nilabit network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1440,7 +1440,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Nilabit network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1550,8 +1550,8 @@
     <message>
         <location line="+59"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1695,7 +1695,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Nilabit address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1787,7 +1787,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+118"/>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Nilabit address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2276,7 +2276,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nilabit network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2570,7 +2570,7 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Nilabit transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2776,7 +2776,7 @@
     </message>
     <message>
         <location line="+236"/>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Nilabit address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2841,7 +2841,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Nilabit address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2898,7 +2898,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2946,7 +2946,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Nilabit address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2988,8 +2988,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this Bitcoin address</translation>
+        <source>Sign the message to prove you own this Nilabit address</source>
+        <translation>Sign the message to prove you own this Nilabit address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3019,13 +3019,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Nilabit address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
+        <translation>Verify the message to ensure it was signed with the specified Nilabit address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3785,7 +3785,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Nilabit Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3895,7 +3895,7 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Nilabit Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4190,7 +4190,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Nilabit Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4315,7 +4315,7 @@
     </message>
     <message>
         <location line="+16"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Nilabit Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4335,7 +4335,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Nilabit Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4485,7 +4485,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Nilabit Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

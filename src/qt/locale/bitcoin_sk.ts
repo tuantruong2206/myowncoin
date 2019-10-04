@@ -66,12 +66,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Bitcoin adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Nilabit adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Bitcoin adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Nilabit adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Jadro Bitcoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj, že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred krádežou bitcoinov pomocou škodlivého software.</translation>
+        <translation>Jadro Nilabit sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj, že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred krádežou bitcoinov pomocou škodlivého software.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -318,7 +318,7 @@
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Nilabit address</source>
         <translation>Poslať bitcoins na adresu</translation>
     </message>
     <message>
@@ -358,8 +358,8 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Zobraziť informácie o Bitcoin Core</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Zobraziť informácie o Nilabit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -374,12 +374,12 @@
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Bitcoin aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Nilabit aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Bitcoin adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Nilabit adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,11 +406,11 @@
         <translation>Vyžiadať platby (vygeneruje QR kódy a bitcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Nilabit Core</source>
         <translation>O jadre Bitcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Nilabit Core</source>
         <translation>Upraviť možnosti nastavenia pre Jadro Bitcoin</translation>
     </message>
     <message>
@@ -423,18 +423,18 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvoriť bitcoin URI alebo výzvu k platbe</translation>
+        <translation>Otvoriť Nilabit URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Zobraziť pomocnú správu od Bitcoin Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
+        <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
+        <translation>Zobraziť pomocnú správu od Nilabit Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Nilabit network</source>
         <translation><numerusform>%n aktívne pripojenie do siete Bitcoin</numerusform><numerusform>%n aktívne pripojenia do siete Bitcoin</numerusform><numerusform>%n aktívnych pripojení do siete Bitcoin</numerusform></translation>
     </message>
     <message>
@@ -817,7 +817,7 @@
         <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Nilabit address.</source>
         <translation>Vložená adresa "%1" nieje platnou adresou bitcoin.</translation>
     </message>
     <message>
@@ -867,7 +867,7 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Nilabit Core</source>
         <translation>O jadre Bitcoin</translation>
     </message>
     <message>
@@ -918,16 +918,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Nilabit Core.</source>
         <translation>Vitajte v jadre Bitcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Bitcoin Jadro ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Nilabit Core will store its data.</source>
+        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Nilabit Jadro ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Jadro Bitcoin stiahne zo siete a uloží kópiu Bitcoin blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
+        <source>Bitcoin Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Jadro Nilabit stiahne zo siete a uloží kópiu Nilabit blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1020,7 +1020,7 @@
         <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Nilabit Core.</source>
         <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Jadra Bitcoin.</translation>
     </message>
     <message>
@@ -1048,12 +1048,12 @@
         <translation>&amp;Sieť</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Jadro Bitcoin po prihlásení do systému</translation>
+        <source>Automatically start Nilabit Core after logging in to the system.</source>
+        <translation>Automaticky spustiť Jadro Nilabit po prihlásení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Spustiť Bitcoin pri spustení systému správy okien</translation>
+        <source>&amp;Start Nilabit Core on system login</source>
+        <translation>&amp;Spustiť Nilabit pri spustení systému správy okien</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1080,16 +1080,16 @@
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Bitcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Nilabit na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Bitcoin cez proxy server SOCKS5.</translation>
+        <source>Connect to the Nilabit network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete Nilabit cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1128,7 +1128,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Nilabit network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Pripojiť k Bitcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
@@ -1165,7 +1165,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť Nilabit pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1215,8 +1215,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bitcoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Nilabit po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1322,8 +1322,8 @@
         <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Bitcoin adresou alebo zle upravenými vlastnosťami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Nilabit address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Nilabit adresou alebo zle upravenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1396,8 +1396,8 @@
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Zadajte bitcoin adresu (napr. %1)</translation>
+        <source>Enter a Nilabit address (e.g. %1)</source>
+        <translation>Zadajte Nilabit adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1519,7 +1519,7 @@
     </message>
     <message>
         <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť Bitcoin log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
+        <translation>Otvoriť Nilabit log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1758,7 +1758,7 @@
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nilabit network.</source>
         <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Bitcoin.</translation>
     </message>
     <message>
@@ -1991,7 +1991,7 @@
         <translation>spolu aspoň</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Nilabit transactions than the network can process.</source>
         <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
     </message>
     <message>
@@ -2147,8 +2147,8 @@
         <translation>Našla sa duplicitná adresa: každú adresu je možné použiť len raz.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varovanie: Nesprávna Bitcoin adresa</translation>
+        <source>Warning: Invalid Nilabit address</source>
+        <translation>Varovanie: Nesprávna Nilabit adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2198,7 +2198,7 @@
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Nilabit address to send the payment to</source>
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -2242,7 +2242,7 @@
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
         <translation>Správa ktorá bola pripojená k bitcoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin.</translation>
     </message>
     <message>
@@ -2258,7 +2258,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
-        <translation>Jadro Bitcoin sa ukončuje...</translation>
+        <translation>Jadro Nilabit sa ukončuje...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2276,7 +2276,7 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Nilabit address to sign the message with</source>
         <translation>Bitcoin adresa pre podpísanie správy s</translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Nilabit address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2328,12 +2328,12 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Nilabit address the message was signed with</source>
         <translation>Adresa Bitcoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Bitcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Nilabit adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2905,8 +2905,8 @@
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Skontrolujte správnosť nastavenia dátumu a času na vašom počítači! Ak je čas nesprávny Jadro Bitcoin nebude správne fungovať.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Nilabit Core will not work properly.</source>
+        <translation>Skontrolujte správnosť nastavenia dátumu a času na vašom počítači! Ak je čas nesprávny Jadro Nilabit nebude správne fungovať.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
@@ -2954,11 +2954,11 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu bitcoin ani obchodovanie.</translation>
+        <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu Nilabit ani obchodovanie.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Bitcoin Jadro je už pravdepodobne spustené.</translation>
+        <source>Unable to bind to %s on this computer. Nilabit Core is probably already running.</source>
+        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Nilabit Jadro je už pravdepodobne spustené.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -3151,8 +3151,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Neviem uzamknúť data adresár %s. Jadro Bitcoin je pravdepodobne už spustené.</translation>
+        <source>Cannot obtain a lock on data directory %s. Nilabit Core is probably already running.</source>
+        <translation>Neviem uzamknúť data adresár %s. Jadro Nilabit je pravdepodobne už spustené.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3239,7 +3239,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Nilabit Core</source>
         <translation>Chyba pri čítaní wallet.dat: Peňaženka vyžaduje vyššiu verziu Jadra Bitcoin</translation>
     </message>
     <message>
@@ -3255,8 +3255,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Inicializačná kontrola zlyhala. Jadro Bitcoin sa ukončuje.</translation>
+        <source>Initialization sanity check failed. Nilabit Core is shutting down.</source>
+        <translation>Inicializačná kontrola zlyhala. Jadro Nilabit sa ukončuje.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3359,7 +3359,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Nilabit Core to complete</source>
         <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte Jadro Bitcoin</translation>
     </message>
     <message>

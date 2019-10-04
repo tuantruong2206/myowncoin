@@ -66,12 +66,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Bitcoin para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones Nilabit para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones de Bitcoin para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones de Nilabit para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>Cliente Bitcoin Core</translation>
+        <translation>Cliente Nilabit Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -318,7 +318,7 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Nilabit address</source>
         <translation>Enviar bitcoins a una dirección Bitcoin</translation>
     </message>
     <message>
@@ -358,8 +358,8 @@
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Mostrar información acerca de Bitcoin Core</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Mostrar información acerca de Nilabit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -374,12 +374,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Bitcoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Nilabit para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Bitcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Nilabit concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,11 +406,11 @@
         <translation>Solicitar pagos (generando códigos QR e identificadores URI "bitcoin:")</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Acerca de Bitcoin Core</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>&amp;Acerca de Nilabit Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Nilabit Core</source>
         <translation>Modificar las opciones de configuración de Bitcoin</translation>
     </message>
     <message>
@@ -430,11 +430,11 @@
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de Bitcoin Core con una lista de las posibles opciones de la consola de comandos de Bitcoin</translation>
+        <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
+        <translation>Mostrar el mensaje de ayuda de Nilabit Core con una lista de las posibles opciones de la consola de comandos de Bitcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Nilabit network</source>
         <translation><numerusform>%n conexión activa hacia la red Bitcoin</numerusform><numerusform>%n conexiones activas hacia la red Bitcoin</numerusform></translation>
     </message>
     <message>
@@ -817,8 +817,8 @@
         <translation>La dirección introducida "%1" ya está presente en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Bitcoin válida.</translation>
+        <source>The entered address "%1" is not a valid Nilabit address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Nilabit válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -867,8 +867,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Acerca de Bitcoin Core</translation>
+        <source>About Nilabit Core</source>
+        <translation>Acerca de Nilabit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -914,15 +914,15 @@
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Bienvenido a Bitcoin Core</translation>
+        <source>Welcome to Nilabit Core.</source>
+        <translation>Bienvenido a Nilabit Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Bitcoin Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Nilabit Core will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Nilabit Core.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Bitcoin Core va a descargar y guardar una copia de la cadena de bloques de Bitcoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
@@ -1016,7 +1016,7 @@
         <translation>Minimizar en lugar de salir de la aplicación cuando la ventana está cerrada. Cuando se activa esta opción, la aplicación sólo se cerrará después de seleccionar Salir en el menú.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Nilabit Core.</source>
         <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Bitcoin.</translation>
     </message>
     <message>
@@ -1044,12 +1044,12 @@
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Iniciar automáticamente Bitcoin Core al iniciar el sistema.</translation>
+        <source>Automatically start Nilabit Core after logging in to the system.</source>
+        <translation>Iniciar automáticamente Nilabit Core al iniciar el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Iniciar Bitcoin Core al inicio del sistema</translation>
+        <source>&amp;Start Nilabit Core on system login</source>
+        <translation>&amp;Iniciar Nilabit Core al inicio del sistema</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1076,16 +1076,16 @@
         <translation>&amp;Gastar cambio no confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Bitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Nilabit en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear el puerto mediante &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red Bitcoin a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Nilabit network through a SOCKS5 proxy.</source>
+        <translation>Conectarse a la red Nilabit a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1124,8 +1124,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red Bitcoin mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
+        <source>Connect to the Nilabit network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red Nilabit mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1211,8 +1211,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Bitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Nilabit después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1318,8 +1318,8 @@
         <translation>La URL de obtención de la solicitud de pago es inválida: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección Bitcoin inválida o a parámetros de la URI mal formados</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Nilabit address or malformed URI parameters.</source>
+        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección Nilabit inválida o a parámetros de la URI mal formados</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1392,8 +1392,8 @@
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Introducir una dirección Bitcoin (p. ej. %1)</translation>
+        <source>Enter a Nilabit address (e.g. %1)</source>
+        <translation>Introducir una dirección Nilabit (p. ej. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1515,7 +1515,7 @@
     </message>
     <message>
         <source>Open The Nilabit Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abre el archivo de registro de depuración de Bitcoin desde el directorio de datos actual. Esto puede tardar unos segundos para ficheros de registro de gran tamaño.</translation>
+        <translation>Abre el archivo de registro de depuración de Nilabit desde el directorio de datos actual. Esto puede tardar unos segundos para ficheros de registro de gran tamaño.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1675,7 +1675,7 @@
     </message>
     <message>
         <source>Welcome to The Nilabit Core RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Bitcoin Core.</translation>
+        <translation>Bienvenido a la consola RPC de Nilabit Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1757,7 +1757,7 @@
         <translation>R&amp;eutilizar una dirección existente para recibir (no recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nilabit network.</source>
         <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Bitcoin.</translation>
     </message>
     <message>
@@ -1990,8 +1990,8 @@
         <translation>total por lo menos</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones Bitcoin que la red pueda procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Nilabit transactions than the network can process.</source>
+        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones Nilabit que la red pueda procesar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2150,8 +2150,8 @@
         <translation>Se ha encontrado una dirección duplicada. Solo se puede enviar a cada dirección una vez por operación de envío.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Alerta: Dirección de Bitcoin inválida</translation>
+        <source>Warning: Invalid Nilabit address</source>
+        <translation>Alerta: Dirección de Nilabit inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2159,7 +2159,7 @@
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Alerta: Dirección de Bitcoin inválida</translation>
+        <translation>Alerta: Dirección de Nilabit inválida</translation>
     </message>
     <message>
         <source>Copy dust</source>
@@ -2201,8 +2201,8 @@
         <translation>Esto es un pago ordinario.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Dirección Bitcoin a la que enviar el pago</translation>
+        <source>The Nilabit address to send the payment to</source>
+        <translation>Dirección Nilabit a la que enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2245,7 +2245,7 @@
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
         <translation>Un mensaje que se adjuntó a la bitcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Bitcoin.</translation>
     </message>
     <message>
@@ -2283,8 +2283,8 @@
         <translation>Puede firmar los mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa de manera vaga o aleatoria, pues los ataques de phishing pueden tratar de engañarle firmando su identidad a través de ellos. Sólo firme declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Dirección Bitcoin con la que firmar el mensaje</translation>
+        <source>The Nilabit address to sign the message with</source>
+        <translation>Dirección Nilabit con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2315,7 +2315,7 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Nilabit address</source>
         <translation>Firmar el mensaje para demostrar que se posee esta dirección Bitcoin</translation>
     </message>
     <message>
@@ -2339,12 +2339,12 @@
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle. </translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>La dirección Bitcoin con la que se firmó el mensaje</translation>
+        <source>The Nilabit address the message was signed with</source>
+        <translation>La dirección Nilabit con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Bitcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Nilabit indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2415,7 +2415,7 @@
     </message>
     <message>
         <source>The Nilabit Core developers</source>
-        <translation>Los desarrolladores de Bitcoin Core</translation>
+        <translation>Los desarrolladores de Nilabit Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2934,8 +2934,8 @@
         <translation>Máximas comisiones totales (en %s) para utilizar en una sola transacción de la cartera; establecer esto demasiado bajo puede abortar grandes transacciones (predeterminado: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Por favor, mira si la fecha y la hora en tu computador son correctas! Si tu hara es errónea Bitcoin Core no funcionará correctamente.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Nilabit Core will not work properly.</source>
+        <translation>Por favor, mira si la fecha y la hora en tu computador son correctas! Si tu hara es errónea Nilabit Core no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3007,8 +3007,8 @@
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando Bitcoin Core.</translation>
+        <source>Unable to bind to %s on this computer. Nilabit Core is probably already running.</source>
+        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando Nilabit Core.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3211,8 +3211,8 @@
         <translation>Ligar a las direcciones especificadas para escuchar por conexiones JSON-RPC. Usar la notación para IPv6 [host]:puerto. Esta opción se puede especificar múltiples veces (por defecto: ligar a todas las interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Bitcoin Core.</translation>
+        <source>Cannot obtain a lock on data directory %s. Nilabit Core is probably already running.</source>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Nilabit Core.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3315,8 +3315,8 @@
         <translation>Copyright (C) 2009-%i The Nilabit Core Developers</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Nilabit Core</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Nilabit Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3331,8 +3331,8 @@
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>La inicialización de la verificación de validez falló. Se está apagando Bitcoin Core.</translation>
+        <source>Initialization sanity check failed. Nilabit Core is shutting down.</source>
+        <translation>La inicialización de la verificación de validez falló. Se está apagando Nilabit Core.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3452,8 +3452,8 @@
 </translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Monedero es necesario volver a escribir: reiniciar Bitcoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Nilabit Core to complete</source>
+        <translation>Monedero es necesario volver a escribir: reiniciar Nilabit Core para completar</translation>
     </message>
     <message>
         <source>Warning</source>

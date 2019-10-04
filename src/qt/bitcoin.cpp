@@ -163,7 +163,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Bitcoin Core startup and shutdown.
+/** Class encapsulating Nilabit Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore: public QObject
@@ -189,7 +189,7 @@ private:
     void handleRunawayException(const std::exception *e);
 };
 
-/** Main Bitcoin application object */
+/** Main Nilabit application object */
 class BitcoinApplication: public QApplication
 {
     Q_OBJECT
@@ -494,7 +494,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Bitcoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Nilabit can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 

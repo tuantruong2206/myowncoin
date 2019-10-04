@@ -293,7 +293,7 @@
         <translation>Bitcoin மையம்</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Nilabit Core</source>
         <translation>Bitcoin மையம் பற்றி</translation>
     </message>
     </context>

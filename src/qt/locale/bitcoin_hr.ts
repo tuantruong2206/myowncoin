@@ -66,12 +66,12 @@
         <translation>Adresa za primanje</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Nilabit adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Bitcoin adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Nilabit adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -306,8 +306,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Slanje novca na bitcoin adresu</translation>
+        <source>Send coins to a Nilabit address</source>
+        <translation>Slanje novca na Nilabit adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +346,8 @@
         <translation>Pri&amp;mi</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Prikaži informacije o programu Bitcoin Core</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Prikaži informacije o programu Nilabit Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -362,12 +362,12 @@
         <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
+        <translation>Poruku potpišemo s Nilabit adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom Nilabit adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -394,11 +394,11 @@
         <translation>Zatraži uplatu (stvara QR kod i bitcoin: URI adresu)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;O programu Bitcoin Core</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>&amp;O programu Nilabit Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Nilabit Core</source>
         <translation>Promijeni postavke programa</translation>
     </message>
     <message>
@@ -418,12 +418,12 @@
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message>
-        <source>Show The Nilabit Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Nilabit network</source>
+        <translation><numerusform>%n aktivna veza na Nilabit mrežu</numerusform><numerusform>%n aktivnih veza na Nilabit mrežu</numerusform><numerusform>%n aktivnih veza na Nilabit mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -686,7 +686,7 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka bitcoin adrese</translation>
+        <translation>Oznaka Nilabit adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -717,8 +717,8 @@
         <translation>Upisana adresa "%1" je već u adresaru.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana bitcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Nilabit address.</source>
+        <translation>Upisana adresa "%1" nije valjana Nilabit adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -759,8 +759,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O programu Bitcoin Core</translation>
+        <source>About Nilabit Core</source>
+        <translation>O programu Nilabit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -782,8 +782,8 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Dobrodošli u programu Bitcoin Core.</translation>
+        <source>Welcome to Nilabit Core.</source>
+        <translation>Dobrodošli u programu Nilabit Core.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
@@ -864,11 +864,11 @@
         <translation>&amp;Mreža</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
+        <source>Automatically start Nilabit Core after logging in to the system.</source>
         <translation>Program se automatski pokrene po prijavi u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
+        <source>&amp;Start Nilabit Core on system login</source>
         <translation>&amp;Pokreni program kod prijave u sustav</translation>
     </message>
     <message>
@@ -880,8 +880,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Nilabit klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -955,8 +955,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nilabit network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Nilabit mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1087,7 +1087,7 @@
     </message>
     <message>
         <source>Welcome to The Nilabit Core RPC console.</source>
-        <translation>Dobrodošli u Bitcoin RPC konzolu.</translation>
+        <translation>Dobrodošli u Nilabit RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
