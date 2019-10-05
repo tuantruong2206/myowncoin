@@ -56,14 +56,14 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>О Bitcoin Core</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>О Nilabit Core</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -125,16 +125,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>версия</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>О Bitcoin Core</translation>
+        <source>About Nilabit Core</source>
+        <translation>О Nilabit Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -148,8 +148,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -220,8 +220,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     </context>
 <context>
@@ -280,7 +280,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Information</source>
         <translation>Информация</translation>

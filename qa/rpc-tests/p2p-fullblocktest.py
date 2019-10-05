@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2016 The Bitcoin Core developers
+# Copyright (c) 2015-2016 The Nilabit Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@ class PreviousSpendableOutput(object):
         self.n = n  # the output we're spending
 
 '''
-This reimplements tests from the bitcoinj/FullBlockTestGenerator used
+This reimplements tests from the nilabitj/FullBlockTestGenerator used
 by the pull-tester.
 
 We use the testing framework in which we expect a particular answer from

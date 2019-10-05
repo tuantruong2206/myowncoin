@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2014-2016 The Bitcoin Core developers
+# Copyright (c) 2014-2016 The Nilabit Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,13 +7,13 @@
 # Test rpc http basics
 #
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 
 import http.client
 import urllib.parse
 
-class HTTPBasicsTest (BitcoinTestFramework):
+class HTTPBasicsTest (nilabitTestFramework):
     def setup_nodes(self):
         return start_nodes(4, self.options.tmpdir)
 

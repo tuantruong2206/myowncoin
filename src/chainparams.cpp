@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2015 The Nilabit Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -117,12 +117,12 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000001aca59603e03740ed02179515954c2e2c951a501ad3f6e38f9d701f8ea7"));
         assert(genesis.hashMerkleRoot == uint256S("0x7e5bd93d1dee7483636eace59966684a05770c878e6e836ff4c985472961b60c"));
 
-        //vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be")); // Pieter Wuille
+        //vSeeds.push_back(CDNSSeedData("nilabit.sipa.be", "seed.nilabit.sipa.be")); // Pieter Wuille
         //vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me")); // Matt Corallo
-        //vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.bitcoin.dashjr.org")); // Luke Dashjr
-        //vSeeds.push_back(CDNSSeedData("bitcoinstats.com", "seed.bitcoinstats.com")); // Christian Decker
+        //vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.nilabit.dashjr.org")); // Luke Dashjr
+        //vSeeds.push_back(CDNSSeedData("nilabitstats.com", "seed.nilabitstats.com")); // Christian Decker
         //vSeeds.push_back(CDNSSeedData("xf2.org", "bitseed.xf2.org")); // Jeff Garzik
-        //vSeeds.push_back(CDNSSeedData("bitcoin.jonasschnelli.ch", "seed.bitcoin.jonasschnelli.ch")); // Jonas Schnelli
+        //vSeeds.push_back(CDNSSeedData("nilabit.jonasschnelli.ch", "seed.nilabit.jonasschnelli.ch")); // Jonas Schnelli
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -216,9 +216,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("bitcoin.petertodd.org", "testnet-seed.bitcoin.petertodd.org"));
+        //vSeeds.push_back(CDNSSeedData("nilabit.petertodd.org", "testnet-seed.nilabit.petertodd.org"));
         //vSeeds.push_back(CDNSSeedData("bluematt.me", "testnet-seed.bluematt.me"));
-        //vSeeds.push_back(CDNSSeedData("bitcoin.schildbach.de", "testnet-seed.bitcoin.schildbach.de"));
+        //vSeeds.push_back(CDNSSeedData("nilabit.schildbach.de", "testnet-seed.nilabit.schildbach.de"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

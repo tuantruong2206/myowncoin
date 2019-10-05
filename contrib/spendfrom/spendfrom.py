@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend silabits received on particular addresses,
+# Use the raw transactions API to spend nilabits received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a bitcoind or Silabit-Qt running
+# Assumes it will talk to a bitcoind or nilabit-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -26,7 +26,7 @@ from jsonrpc import ServiceProxy, json
 BASE_FEE=Decimal("0.001")
 
 def check_json_precision():
-    """Make sure json library being used does not lose precision converting BTC values"""
+    """Make sure json library being used does not lose precision converting NLB values"""
     n = Decimal("20000000.00000003")
     satoshis = int(json.loads(json.dumps(float(n)))*1.0e8)
     if satoshis != 2000000000000003:
@@ -35,13 +35,13 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the nilabit data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/Silabit/")
+        return os.path.expanduser("~/Library/Application Support/nilabit/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Silabit")
+        return os.path.join(os.environ['APPDATA'], "nilabit")
     return os.path.expanduser("~/.nilabit")
 
-def read_silabit_config(dbdir):
-    """Read the silabit.conf file from dbdir, returns dictionary of settings"""
+def read_bitcoin_config(dbdir):
+    """Read the nilabit.conf file from dbdir, returns dictionary of settings"""
     from ConfigParser import SafeConfigParser
 
     class FakeSecHead(object):
@@ -59,11 +59,11 @@ def read_silabit_config(dbdir):
                 return s
 
     config_parser = SafeConfigParser()
-    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "silabit.conf"))))
+    config_parser.readfp(FakeSecHead(open(os.path.join(dbdir, "nilabit.conf"))))
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a silabit JSON-RPC server"""
+    """Connect to a nilabit JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
@@ -110,7 +110,7 @@ def list_available(bitcoind):
         vout = rawtx["vout"][output['vout']]
         pk = vout["scriptPubKey"]
 
-        # This code only deals with ordinary pay-to-silabit-address
+        # This code only deals with ordinary pay-to-nilabit-address
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
@@ -152,7 +152,7 @@ def create_tx(bitcoind, fromaddresses, toaddress, amount, fee):
         total_available += all_coins[addr]["total"]
 
     if total_available < needed:
-        sys.stderr.write("Error, only %f BTC available, need %f\n"%(total_available, needed));
+        sys.stderr.write("Error, only %f NLB available, need %f\n"%(total_available, needed));
         sys.exit(1)
 
     #
@@ -221,15 +221,15 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get silabits from")
+                      help="addresses to get nilabits from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send silabits to")
+                      help="address to get send nilabits to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",
                       help="fee to include")
     parser.add_option("--datadir", dest="datadir", default=determine_db_dir(),
-                      help="location of silabit.conf file with RPC username/password (default: %default)")
+                      help="location of nilabit.conf file with RPC username/password (default: %default)")
     parser.add_option("--testnet", dest="testnet", default=False, action="store_true",
                       help="Use the test network")
     parser.add_option("--dry_run", dest="dry_run", default=False, action="store_true",

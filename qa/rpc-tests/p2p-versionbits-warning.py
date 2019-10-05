@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# Copyright (c) 2016 The Bitcoin Core developers
+# Copyright (c) 2016 The Nilabit Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 from test_framework.mininode import *
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 import time
 from test_framework.blocktools import create_block, create_coinbase
@@ -58,7 +58,7 @@ class TestNode(NodeConnCB):
         return received_pong
 
 
-class VersionBitsWarningTest(BitcoinTestFramework):
+class VersionBitsWarningTest(nilabitTestFramework):
     def setup_chain(self):
         initialize_chain_clean(self.options.tmpdir, 1)
 

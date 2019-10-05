@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Silabit tests.
+Utilities to generate test vectors for the data-driven nilabit tests.
 
 Usage: 
 

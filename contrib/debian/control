@@ -27,7 +27,7 @@ Homepage: https://nilabitcore.org/
 Vcs-Git: git://github.com/nilabit/nilabit.git
 Vcs-Browser: https://github.com/nilabit/nilabit
 
-Package: nilabitd
+Package: bitcoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -37,7 +37,7 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. nilabit Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, nilabitd, and the CLI tool
+ This package provides the daemon, bitcoind, and the CLI tool
  nilabit-cli to interact with the daemon.
 
 Package: nilabit-qt

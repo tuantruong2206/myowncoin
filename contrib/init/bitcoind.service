@@ -1,15 +1,15 @@
 [Unit]
-Description=Silabit's distributed currency daemon
+Description=nilabit's distributed currency daemon
 After=network.target
 
 [Service]
-User=silabit
-Group=silabit
+User=nilabit
+Group=nilabit
 
 Type=forking
 PIDFile=/var/lib/bitcoind/bitcoind.pid
 ExecStart=/usr/bin/bitcoind -daemon -pid=/var/lib/bitcoind/bitcoind.pid \
--conf=/etc/silabit/silabit.conf -datadir=/var/lib/bitcoind -disablewallet
+-conf=/etc/nilabit/nilabit.conf -datadir=/var/lib/bitcoind -disablewallet
 
 Restart=always
 PrivateTmp=true
