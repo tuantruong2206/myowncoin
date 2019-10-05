@@ -108,7 +108,7 @@
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -160,7 +160,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signa &amp;nuntium...</translation>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <source>Send coins to a Nilabit address</source>
-        <translation>Mitte nummos ad inscriptionem Bitcoin</translation>
+        <translation>Mitte nummos ad inscriptionem nilabit</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -250,8 +250,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,7 +283,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoin</translation>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus nilabit</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -302,8 +302,8 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Nucleus</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Nucleus</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -461,8 +461,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Nucleus</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Nucleus</translation>
     </message>
     <message>
         <source>version</source>
@@ -484,8 +484,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Nucleus</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Nucleus</translation>
     </message>
     <message>
         <source>Error</source>
@@ -620,8 +620,8 @@
         <translation>Tractatio URI</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start nilabit: click-to-pay handler</source>
+        <translation>nilabit incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     </context>
 <context>
@@ -966,7 +966,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione nilabit</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1032,8 +1032,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Nucleus</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Nucleus</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1400,7 +1400,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Optiones:</translation>

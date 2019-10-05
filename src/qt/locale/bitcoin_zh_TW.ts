@@ -160,7 +160,7 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
         <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Nilabit 了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>你確定要把錢包加密嗎？</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core 現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取錢幣。</translation>
+        <source>nilabit Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nilabits from being stolen by malware infecting your computer.</source>
+        <translation>nilabit Core 現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取錢幣。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>簽署訊息...</translation>
@@ -306,8 +306,8 @@
         <translation>開啓 URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core 客戶端軟體</translation>
+        <source>nilabit Core client</source>
+        <translation>nilabit Core 客戶端軟體</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -342,8 +342,8 @@
         <translation>驗證訊息...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,11 +398,11 @@
         <translation>分頁工具列</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and nilabit: URIs)</source>
         <translation>要求付款(產生 QR Code 和 Nilabit 付款協議的資源識別碼: URI)</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>顯示已使用過的收款位址和標記的清單</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a nilabit: URI or payment request</source>
         <translation>開啓 Nilabit 協議的資源識別碼(URI)或付款要求</translation>
     </message>
     <message>
@@ -855,8 +855,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -926,8 +926,8 @@
         <translation>因為這是程式第一次啓動，你可以選擇 Nilabit Core 儲存資料的地方。</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core 會下載並儲存一份 Nilabit 區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
+        <source>nilabit Core will download and store a copy of the Nilabit block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>nilabit Core 會下載並儲存一份 Nilabit 區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -938,8 +938,8 @@
         <translation>使用自訂的資料目錄:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1314,7 +1314,7 @@
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start nilabit: click-to-pay handler</source>
         <translation>沒辦法啟動 Nilabit 協議的按就付處理器</translation>
     </message>
     <message>
@@ -2225,8 +2225,8 @@
         <translation>刪掉這個項目</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 bitcoin。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less nilabits than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 nilabit。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2249,7 +2249,7 @@
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
+        <source>A message that was attached to the nilabit: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nilabit network.</source>
         <translation>附加在 Nilabit 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Nilabit 網路上。</translation>
     </message>
     <message>
@@ -2264,7 +2264,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
+        <source>nilabit Core is shutting down...</source>
         <translation>正在關閉 Nilabit Core 中...</translation>
     </message>
     <message>
@@ -2283,7 +2283,7 @@
         <translation>簽署訊息</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive nilabits sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>你可以用自己的位址簽署訊息或合約，來證明你可以從該位址收款。但是請小心，不要簽署語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
     </message>
     <message>
@@ -2414,12 +2414,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>The Nilabit Core developers</source>
-        <translation>Bitcoin Core 開發人員</translation>
+        <translation>nilabit Core 開發人員</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2906,7 +2906,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>選項:</translation>
@@ -2938,7 +2938,7 @@
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong Nilabit Core will not work properly.</source>
-        <translation>請檢查電腦日期和時間是否正確！Bitcoin Core 沒辦法在時鐘不準的情況下正常運作。</translation>
+        <translation>請檢查電腦日期和時間是否正確！nilabit Core 沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3010,7 +3010,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Nilabit Core is probably already running.</source>
-        <translation>沒辦法繫結在這台電腦上的 %s 。Bitcoin Core 可能已經在執行了。</translation>
+        <translation>沒辦法繫結在這台電腦上的 %s 。nilabit Core 可能已經在執行了。</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3218,7 +3218,7 @@
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Nilabit Core is probably already running.</source>
-        <translation>沒辦法鎖定資料目錄 %s。Bitcoin Core 可能已經在執行了。</translation>
+        <translation>沒辦法鎖定資料目錄 %s。nilabit Core 可能已經在執行了。</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3338,7 +3338,7 @@
     </message>
     <message>
         <source>Initialization sanity check failed. Nilabit Core is shutting down.</source>
-        <translation>初始化時的基本檢查失敗了。Bitcoin Core 就要關閉了。</translation>
+        <translation>初始化時的基本檢查失敗了。nilabit Core 就要關閉了。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>

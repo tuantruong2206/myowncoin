@@ -54,7 +54,7 @@ see `contrib/debian/examples/nilabit.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/bitcoind`  
-Configuration file:  `/etc/bitcoin/nilabit.conf`  
+Configuration file:  `/etc/nilabit/nilabit.conf`  
 Data directory:      `/var/lib/bitcoind`  
 PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/var/lib/bitcoind/bitcoind.pid` (systemd)  
 Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
@@ -104,18 +104,18 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy bitcoind.init to /etc/init.d/bitcoind. Test by running `service bitcoind start`.
 
 Using this script, you can adjust the path and flags to the bitcoind program by
-setting the BITCOIND and FLAGS environment variables in the file
+setting the bitcoind and FLAGS environment variables in the file
 /etc/sysconfig/bitcoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X
 
-Copy org.bitcoin.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.bitcoin.bitcoind.plist`.
+Copy org.nilabit.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.nilabit.bitcoind.plist`.
 
 This Launch Agent will cause bitcoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
-You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
+You will need to modify org.nilabit.bitcoind.plist if you intend to use it as a
 Launch Daemon with a dedicated nilabit user.
 
 5. Auto-respawn

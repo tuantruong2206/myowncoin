@@ -1,12 +1,12 @@
 Nilabit Core version 0.12.0 is now available from:
 
-  <https://bitcoin.org/bin/bitcoin-core-0.12.0/>
+  <https://nilabit.org/bin/nilabit-core-0.12.0/>
 
 This is a new major version release, bringing new features and other improvements.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/bitcoin/bitcoin/issues>
+  <https://github.com/nilabit/nilabit/issues>
 
 Upgrading and downgrading
 =========================
@@ -16,8 +16,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
-bitcoind/bitcoin-qt (on Linux).
+installer (on Windows) or just copy over /Applications/nilabit-Qt (on Mac) or
+bitcoind/nilabit-qt (on Linux).
 
 Downgrade warning
 -----------------
@@ -61,7 +61,7 @@ Signature validation using libsecp256k1
 ---------------------------------------
 
 ECDSA signatures inside Nilabit transactions now use validation using
-[libsecp256k1](https://github.com/bitcoin-core/secp256k1) instead of OpenSSL.
+[libsecp256k1](https://github.com/nilabit-core/secp256k1) instead of OpenSSL.
 
 Depending on the platform, this means a significant speedup for raw signature
 validation speed. The advantage is largest on x86_64, where validation is over
@@ -98,7 +98,7 @@ Direct headers announcement (BIP 130)
 -------------------------------------
 
 Between compatible peers, [BIP 130]
-(https://github.com/bitcoin/bips/blob/master/bip-0130.mediawiki)
+(https://github.com/nilabit/bips/blob/master/bip-0130.mediawiki)
 direct headers announcement is used. This means that blocks are advertised by
 announcing their headers directly, instead of just announcing the hash. In a
 reorganization, all new headers are sent, instead of just the new tip. This
@@ -141,7 +141,7 @@ Nilabit Core 0.12 nodes. Nilabit Core will only allow replacement of
 transactions which have any of their inputs' `nSequence` number set to less
 than `0xffffffff - 1`.  Moreover, a replacement transaction may only be
 accepted when it pays sufficient fee, as described in [BIP 125]
-(https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki).
+(https://github.com/nilabit/bips/blob/master/bip-0125.mediawiki).
 
 Transaction replacement can be disabled with a new command line option,
 `-mempoolreplacement=0`.  Transactions signaling replacement under BIP125 will
@@ -245,7 +245,7 @@ information, pass `-debug=tor`.
 Notifications through ZMQ
 -------------------------
 
-Bitcoind can now (optionally) asynchronously notify clients through a
+bitcoind can now (optionally) asynchronously notify clients through a
 ZMQ-based PUB socket of the arrival of new transactions and blocks.
 This feature requires installation of the ZMQ C API library 4.x and
 configuring its use through the command line or configuration file.
@@ -258,7 +258,7 @@ Various improvements have been made to how the wallet calculates
 transaction fees.
 
 Users can decide to pay a predefined fee rate by setting `-paytxfee=<n>`
-(or `settxfee <n>` rpc during runtime). A value of `n=0` signals Bitcoin
+(or `settxfee <n>` rpc during runtime). A value of `n=0` signals nilabit
 Core to use floating fees. By default, Nilabit Core will use floating
 fees.
 
@@ -315,7 +315,7 @@ However, rescans as well as the RPCs `importwallet`, `importaddress`,
 `importprivkey` are disabled.
 
 To enable block pruning set `prune=<N>` on the command line or in
-`bitcoin.conf`, where `N` is the number of MiB to allot for
+`nilabit.conf`, where `N` is the number of MiB to allot for
 raw block & undo data.
 
 A value of 0 disables pruning. The minimal value above 0 is 550. Your
@@ -326,13 +326,13 @@ practice. In future releases, a higher value may also help the network
 as a whole: stored blocks could be served to other nodes.
 
 For further information about pruning, you may also consult the [release
-notes of v0.11.0](https://github.com/bitcoin/bitcoin/blob/v0.11.0/doc/release-notes.md#block-file-pruning).
+notes of v0.11.0](https://github.com/nilabit/nilabit/blob/v0.11.0/doc/release-notes.md#block-file-pruning).
 
 `NODE_BLOOM` service bit
 ------------------------
 
 Support for the `NODE_BLOOM` service bit, as described in [BIP
-111](https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki), has been
+111](https://github.com/nilabit/bips/blob/master/bip-0111.mediawiki), has been
 added to the P2P protocol code.
 
 BIP 111 defines a service bit to allow peers to advertise that they support
@@ -364,7 +364,7 @@ RPC: Low-level API changes
 * The `asm` property of each scriptSig now contains the decoded signature hash
   type for each signature that provides a valid defined hash type.
 
-* OP_NOP2 has been renamed to OP_CHECKLOCKTIMEVERIFY by [BIP 65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)
+* OP_NOP2 has been renamed to OP_CHECKLOCKTIMEVERIFY by [BIP 65](https://github.com/nilabit/bips/blob/master/bip-0065.mediawiki)
 
 The following items contain assembly representations of scriptSig signatures
 and are affected by this change:
@@ -374,7 +374,7 @@ and are affected by this change:
 - RPC `decodescript`
 - REST `/rest/tx/` (JSON format)
 - REST `/rest/block/` (JSON format when including extended tx details)
-- `bitcoin-tx -json`
+- `nilabit-tx -json`
 
 For example, the `scriptSig.asm` property of a transaction input that
 previously showed an assembly representation of:
@@ -424,7 +424,7 @@ caching. A sample config for apache2 could look like:
     SSLCertificateFile /etc/apache2/ssl/server.crt
     SSLCertificateKeyFile /etc/apache2/ssl/server.key
 
-    <Location /bitcoinrpc>
+    <Location /nilabitrpc>
         ProxyPass http://127.0.0.1:8332/
         ProxyPassReverse http://127.0.0.1:8332/
         # optional enable digest auth
@@ -433,7 +433,7 @@ caching. A sample config for apache2 could look like:
 
         # optional bypass bitcoind rpc basic auth
         # RequestHeader set Authorization "Basic <hash>"
-        # get the <hash> from the shell with: base64 <<< bitcoinrpc:<password>
+        # get the <hash> from the shell with: base64 <<< nilabitrpc:<password>
     </Location>
 
     # Or, balance the load:
@@ -632,14 +632,14 @@ git merge commit are mentioned.
 ### Build system
 
 - #6210 `0e4f2a0` build: disable optional use of gmp in internal secp256k1 build (Wladimir J. van der Laan)
-- #6214 `87406aa` [OSX] revert renaming of Bitcoin-Qt.app and use CFBundleDisplayName (partial revert of #6116) (Jonas Schnelli)
+- #6214 `87406aa` [OSX] revert renaming of nilabit-Qt.app and use CFBundleDisplayName (partial revert of #6116) (Jonas Schnelli)
 - #6218 `9d67b10` build/gitian misc updates (Cory Fields)
-- #6269 `d4565b6` gitian: Use the new bitcoin-detached-sigs git repo for OSX signatures (Cory Fields)
+- #6269 `d4565b6` gitian: Use the new nilabit-detached-sigs git repo for OSX signatures (Cory Fields)
 - #6418 `d4a910c` Add autogen.sh to source tarball. (randy-waterhouse)
 - #6373 `1ae3196` depends: non-qt bumps for 0.12 (Cory Fields)
 - #6434 `059b352` Preserve user-passed CXXFLAGS with --enable-debug (Gavin Andresen)
 - #6501 `fee6554` Misc build fixes (Cory Fields)
-- #6600 `ef4945f` Include bitcoin-tx binary on Debian/Ubuntu (Zak Wilcox)
+- #6600 `ef4945f` Include nilabit-tx binary on Debian/Ubuntu (Zak Wilcox)
 - #6619 `4862708` depends: bump miniupnpc and ccache (Michael Ford)
 - #6801 `ae69a75` [depends] Latest config.guess and config.sub (Michael Ford)
 - #6938 `193f7b5` build: If both Qt4 and Qt5 are installed, use Qt5 (Wladimir J. van der Laan)
@@ -714,7 +714,7 @@ git merge commit are mentioned.
 - #6337 `0564c5b` Testing infrastructure: mocktime fixes (Gavin Andresen)
 - #6350 `60abba1` add unit tests for the decodescript rpc (mruddy)
 - #5881 `3203a08` Fix and improve txn_doublespend.py test (Tom Harding)
-- #6390 `6a73d66` tests: Fix bitcoin-tx signing test case (Wladimir J. van der Laan)
+- #6390 `6a73d66` tests: Fix nilabit-tx signing test case (Wladimir J. van der Laan)
 - #6368 `7fc25c2` CLTV: Add more tests to improve coverage (Esteban Ordano)
 - #6414 `5121c68` Fix intermittent test failure, reduce test time (Tom Harding)
 - #6417 `44fa82d` [QA] fix possible reorg issue in (fund)rawtransaction(s).py RPC test (Jonas Schnelli)
@@ -727,7 +727,7 @@ git merge commit are mentioned.
 - #6509 `bb4faee` Fix race condition on test node shutdown (Casey Rodarmor)
 - #6523 `561f8af` Add p2p-fullblocktest.py (Casey Rodarmor)
 - #6590 `981fd92` Fix stale socket rebinding and re-enable python tests for Windows (Cory Fields)
-- #6730 `cb4d6d0` build: Remove dependency of bitcoin-cli on secp256k1 (Wladimir J. van der Laan)
+- #6730 `cb4d6d0` build: Remove dependency of nilabit-cli on secp256k1 (Wladimir J. van der Laan)
 - #6616 `5ab5dca` Regression Tests: Migrated rpc-tests.sh to all Python rpc-tests.py (Peter Tschipper)
 - #6720 `d479311` Creates unittests for addrman, makes addrman more testable. (Ethan Heilman)
 - #6853 `c834f56` Added fPowNoRetargeting field to Consensus::Params (Eric Lombrozo)
@@ -745,7 +745,7 @@ git merge commit are mentioned.
 - #7063 `6abf6eb` [Tests] Add prioritisetransaction RPC test (Suhas Daftuar)
 - #7137 `16f4a6e` Tests: Explicitly set chain limits in replace-by-fee test (Suhas Daftuar)
 - #7216 `9572e49` Removed offline testnet DNSSeed 'alexykot.me'. (tnull)
-- #7209 `f3ad812` test: don't override BITCOIND and BITCOINCLI if they're set (Wladimir J. van der Laan)
+- #7209 `f3ad812` test: don't override bitcoind and nilabitCLI if they're set (Wladimir J. van der Laan)
 - #7226 `301f16a` Tests: Add more tests to p2p-fullblocktest (Suhas Daftuar)
 - #7153 `9ef7c54` [Tests] Add mempool_limit.py test (Jonas Schnelli)
 - #7170 `453c567` tests: Disable Tor interaction (Wladimir J. van der Laan)
@@ -759,9 +759,9 @@ git merge commit are mentioned.
 - #5975 `1fea667` Consensus: Decouple ContextualCheckBlockHeader from checkpoints (Jorge Timón)
 - #6061 `eba2f06` Separate Consensus::CheckTxInputs and GetSpendHeight in CheckInputs (Jorge Timón)
 - #5994 `786ed11` detach wallet from miner (Jonas Schnelli)
-- #6387 `11576a5` [bitcoin-cli] improve error output (Jonas Schnelli)
-- #6401 `6db53b4` Add BITCOIND_SIGTERM_TIMEOUT to OpenRC init scripts (Florian Schmaus)
-- #6430 `b01981e` doc: add documentation for shared library libbitcoinconsensus (Braydon Fuller)
+- #6387 `11576a5` [nilabit-cli] improve error output (Jonas Schnelli)
+- #6401 `6db53b4` Add bitcoind_SIGTERM_TIMEOUT to OpenRC init scripts (Florian Schmaus)
+- #6430 `b01981e` doc: add documentation for shared library libnilabitconsensus (Braydon Fuller)
 - #6372 `dcc495e` Update Linearize tool to support Windows paths; fix variable scope; update README and example configuration (Paul Georgiou)
 - #6453 `8fe5cce` Separate core memory usage computation in core_memusage.h (Pieter Wuille)
 - #6149 `633fe10` Buffer log messages and explicitly open logs (Adam Weiss)
@@ -886,6 +886,6 @@ Thanks to everyone who directly contributed to this release:
 - Zak Wilcox
 - zathras-crypto
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/nilabit/).
 
 

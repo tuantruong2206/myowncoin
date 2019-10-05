@@ -4,7 +4,7 @@
 
 #define BOOST_TEST_MODULE Nilabit Test Suite
 
-#include "test_bitcoin.h"
+#include "test_nilabit.h"
 
 #include "chainparams.h"
 #include "consensus/consensus.h"

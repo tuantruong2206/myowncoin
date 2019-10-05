@@ -172,7 +172,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Duke u sinkronizuar me rrjetin...</translation>
@@ -210,8 +210,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -246,8 +246,8 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Berthama nilabit</translation>
     </message>
     <message>
         <source>&amp;About Nilabit Core</source>
@@ -385,8 +385,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Berthama nilabit</translation>
     </message>
     <message>
         <source>version</source>
@@ -405,11 +405,11 @@
     </message>
     <message>
         <source>Welcome to Nilabit Core.</source>
-        <translation>Miresevini ne Berthamen Bitcoin</translation>
+        <translation>Miresevini ne Berthamen nilabit</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Berthama nilabit</translation>
     </message>
     <message>
         <source>Error</source>
@@ -624,8 +624,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Berthama nilabit</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -792,7 +792,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsionet:</translation>

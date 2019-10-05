@@ -40,7 +40,7 @@ def determine_db_dir():
         return os.path.join(os.environ['APPDATA'], "nilabit")
     return os.path.expanduser("~/.nilabit")
 
-def read_nilabit_config(dbdir):
+def read_bitcoin_config(dbdir):
     """Read the nilabit.conf file from dbdir, returns dictionary of settings"""
     from ConfigParser import SafeConfigParser
 

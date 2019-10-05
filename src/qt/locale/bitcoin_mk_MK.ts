@@ -132,7 +132,7 @@
         <translation>Потврдете го криптирањето на паричникот</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
         <translation>Предупредување: Ако го шифрирате вашиот паричник и ја изгубите вашата тајна фраза, ќе &lt;b&gt;ГИ ИЗГУБИТЕ СИТЕ ВАШИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Потпиши &amp;порака...</translation>
@@ -250,7 +250,7 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
+        <source>nilabit Core client</source>
         <translation>Биткоин Core софтверот</translation>
     </message>
     <message>
@@ -270,7 +270,7 @@
         <translation>&amp;Потврди порака...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>nilabit</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -306,7 +306,7 @@
         <translation>&amp;Помош</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
@@ -575,7 +575,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
@@ -594,7 +594,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
@@ -934,7 +934,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткоин Core</translation>
     </message>
     </context>
@@ -1022,7 +1022,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Опции:</translation>

@@ -40,7 +40,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/bitcoin/bitcoin.git
+        git clone https://github.com/nilabit/nilabit.git
         cd nilabit
 
 2.  Build nilabit-core:
@@ -79,7 +79,7 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `bitcoind` for your own use.
 
-bitcoind/bitcoin-cli binaries are not included in the nilabit-Qt.app bundle.
+bitcoind/nilabit-cli binaries are not included in the nilabit-Qt.app bundle.
 
 If you are building `bitcoind` or `nilabit Core` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -102,8 +102,8 @@ directory. We have to first create the RPC configuration file, though.
 Run `./bitcoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin/nilabit.conf"
+    echo -e "rpcuser=nilabitrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/nilabit/nilabit.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/nilabit/nilabit.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
@@ -115,5 +115,5 @@ Other commands:
 -------
 
     ./bitcoind -daemon # to start the nilabit daemon.
-    ./bitcoin-cli --help  # for a list of command-line options.
-    ./bitcoin-cli help    # When the daemon is running, to get a list of RPC commands
+    ./nilabit-cli --help  # for a list of command-line options.
+    ./nilabit-cli help    # When the daemon is running, to get a list of RPC commands

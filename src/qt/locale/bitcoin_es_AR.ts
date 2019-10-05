@@ -160,16 +160,16 @@
         <translation>Confirmá la encriptación de la billetera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atención: Si encriptás tu billetera y perdés tu frase de contraseña, vas a &lt;b&gt;PERDER TODOS TUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
+        <translation>Atención: Si encriptás tu billetera y perdés tu frase de contraseña, vas a &lt;b&gt;PERDER TODOS TUS nilabitS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Estás seguro que querés encriptar tu billetera?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core ahora se va a cerrar para terminar el proceso de encriptación. Acordate que encriptar tu billetera no te protege completamente de que algún malware que pueda infectar tu computadora te robe tus bitcoins.</translation>
+        <source>nilabit Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nilabits from being stolen by malware infecting your computer.</source>
+        <translation>nilabit Core ahora se va a cerrar para terminar el proceso de encriptación. Acordate que encriptar tu billetera no te protege completamente de que algún malware que pueda infectar tu computadora te robe tus nilabits.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -220,7 +220,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     </context>
 <context>
     <name>ClientModel</name>
@@ -368,6 +368,6 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     </context>
 </TS>

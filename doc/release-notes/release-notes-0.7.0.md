@@ -1,24 +1,24 @@
 Nilabit version 0.7.0 is now available for download at:
-  http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.7.0/
+  http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.7.0/
 
-We recommend that everybody running prior versions of bitcoind/Bitcoin-Qt
+We recommend that everybody running prior versions of bitcoind/nilabit-Qt
 upgrade to this release, except for users running Mac OSX 10.5.
 
 Please report bugs using the issue tracker at github:
-  https://github.com/bitcoin/bitcoin/issues
+  https://github.com/nilabit/nilabit/issues
 
 Project source code is hosted at github; you can get
 source-only tarballs/zipballs directly from there:
-  https://github.com/bitcoin/bitcoin/tarball/v0.7.0  # .tar.gz
-  https://github.com/bitcoin/bitcoin/zipball/v0.7.0  # .zip
+  https://github.com/nilabit/nilabit/tarball/v0.7.0  # .tar.gz
+  https://github.com/nilabit/nilabit/zipball/v0.7.0  # .zip
 
 Ubuntu Linux users can use the "Personal Package Archive" (PPA)
 maintained by Matt Corallo to automatically keep 
 Nilabit up-to-date.  Just type
-  sudo apt-add-repository ppa:bitcoin/bitcoin
+  sudo apt-add-repository ppa:nilabit/nilabit
   sudo apt-get update
-in your terminal, then install the bitcoin-qt package:
-  sudo apt-get install bitcoin-qt
+in your terminal, then install the nilabit-qt package:
+  sudo apt-get install nilabit-qt
 
 
 How to Upgrade
@@ -27,10 +27,10 @@ If you are running an older version, shut it down. Wait
 until it has completely shut down (which might take a few minutes for older
 versions), then run the installer (on Windows) or just copy over
 Code:
-/Applications/Bitcoin-Qt
+/Applications/nilabit-Qt
 (on Mac) or
 Code:
-bitcoind/bitcoin-qt
+bitcoind/nilabit-qt
 (on Linux).
 
 If you were running on Linux with a version that might have been compiled
@@ -119,8 +119,8 @@ Qt GUI
 * Much better translations
 * Override progress bar design on platforms with segmented progress bars to assist with readability
 * Added 'immature balance' display on the overview page
-* (Windows only): enable ASLR and DEP for bitcoin-qt.exe
-* (Windows only): add meta-data to bitcoin-qt.exe (e.g. description)
+* (Windows only): enable ASLR and DEP for nilabit-qt.exe
+* (Windows only): add meta-data to nilabit-qt.exe (e.g. description)
 
 Internal codebase
 

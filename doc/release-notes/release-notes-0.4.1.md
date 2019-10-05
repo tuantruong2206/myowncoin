@@ -1,5 +1,5 @@
 Nilabit version 0.4.1 is now available for download at:
-http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.1/
+http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.4.1/
 
 This is a bugfix only release based on 0.4.0.
 
@@ -25,12 +25,12 @@ new private keys are properly backed up you should:
 1. Run Nilabit and let it rewrite the wallet.dat file
 
 2. Run it again, then ask it for a new nilabit address.
-wxBitcoin: new address visible on main window
+wxnilabit: new address visible on main window
 bitcoind: run the 'walletpassphrase' RPC command to unlock the wallet,  then run the 'getnewaddress' RPC command.
 
 3. If your encrypted wallet.dat may have been copied or stolen, send all of your nilabits to the new nilabit address.
 
-4. Shut down Bitcoin, then backup the wallet.dat file.
+4. Shut down nilabit, then backup the wallet.dat file.
 IMPORTANT: be sure to request a new nilabit address before backing up, so that the 'keypool' is regenerated and backed up.
 
 "Security in depth" is always a good idea, so choosing a secure location for the backup and/or encrypting the backup before uploading it is recommended. And as in previous releases, if your machine is infected by malware there are several ways an attacker might steal your nilabits.

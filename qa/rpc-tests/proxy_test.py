@@ -6,7 +6,7 @@
 import socket
 
 from test_framework.socks5 import Socks5Configuration, Socks5Command, Socks5Server, AddressType
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 from test_framework.netutil import test_ipv6_local
 '''
@@ -34,7 +34,7 @@ addnode connect to generic DNS name
 '''
 
 
-class ProxyTest(BitcoinTestFramework):
+class ProxyTest(nilabitTestFramework):
     def __init__(self):
         self.have_ipv6 = test_ipv6_local()
         # Create two proxies on different ports
@@ -110,11 +110,11 @@ class ProxyTest(BitcoinTestFramework):
 
         if test_onion:
             # Test: outgoing onion connection through node
-            node.addnode("bitcoinostk4e4re.onion:8333", "onetry")
+            node.addnode("nilabitostk4e4re.onion:8333", "onetry")
             cmd = proxies[2].queue.get()
             assert(isinstance(cmd, Socks5Command))
             assert_equal(cmd.atyp, AddressType.DOMAINNAME)
-            assert_equal(cmd.addr, b"bitcoinostk4e4re.onion")
+            assert_equal(cmd.addr, b"nilabitostk4e4re.onion")
             assert_equal(cmd.port, 8333)
             if not auth:
                 assert_equal(cmd.username, None)

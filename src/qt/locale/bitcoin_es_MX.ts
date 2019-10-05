@@ -148,8 +148,8 @@
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS nilabitS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -196,7 +196,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje</translation>
@@ -270,7 +270,7 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
+        <source>nilabit Core client</source>
         <translation>cliente Nilabit Core</translation>
     </message>
     <message>
@@ -283,7 +283,7 @@
     </message>
     <message>
         <source>Send coins to a Nilabit address</source>
-        <translation>Enviar monedas a una dirección Bitcoin</translation>
+        <translation>Enviar monedas a una dirección nilabit</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -306,8 +306,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -338,8 +338,8 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>nucleo Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>nucleo nilabit</translation>
     </message>
     <message>
         <source>&amp;About Nilabit Core</source>
@@ -351,7 +351,7 @@
     </message>
     <message>
         <source>Show The Nilabit Core help message to get a list with possible Nilabit command-line options</source>
-        <translation>Mostrar mensaje de ayuda del nucleo de Nilabit para optener una lista con los posibles comandos  de Bitcoin</translation>
+        <translation>Mostrar mensaje de ayuda del nucleo de Nilabit para optener una lista con los posibles comandos  de nilabit</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -505,8 +505,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>nucleo Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>nucleo nilabit</translation>
     </message>
     <message>
         <source>version</source>
@@ -536,8 +536,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>nucleo Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>nucleo nilabit</translation>
     </message>
     </context>
 <context>
@@ -604,7 +604,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nilabit network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de nilabit.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -818,8 +818,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Apagando el nucleo de Bitcoin...</translation>
+        <source>nilabit Core is shutting down...</source>
+        <translation>Apagando el nucleo de nilabit...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -848,8 +848,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>nilabit Core</source>
+        <translation>nilabit Core</translation>
     </message>
     <message>
         <source>The Nilabit Core developers</source>
@@ -1156,7 +1156,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>

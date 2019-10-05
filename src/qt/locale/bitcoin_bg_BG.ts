@@ -32,9 +32,9 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -57,7 +57,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
@@ -68,7 +68,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     </context>
@@ -120,7 +120,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>nilabit Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     </context>
@@ -152,6 +152,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     </context>
 </TS>
