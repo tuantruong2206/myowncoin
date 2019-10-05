@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_POLICY_POLICY_H
-#define nilabit_POLICY_POLICY_H
+#ifndef bitcoin_POLICY_POLICY_H
+#define bitcoin_POLICY_POLICY_H
 
 #include "consensus/consensus.h"
 #include "script/interpreter.h"
@@ -63,4 +63,4 @@ bool IsStandardTx(const CTransaction& tx, std::string& reason);
      */
 bool AreInputsStandard(const CTransaction& tx, const CCoinsViewCache& mapInputs);
 
-#endif // nilabit_POLICY_POLICY_H
+#endif // bitcoin_POLICY_POLICY_H

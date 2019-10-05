@@ -7,8 +7,8 @@
  * Server/client environment: argument handling, config file parsing,
  * logging, thread wrappers
  */
-#ifndef nilabit_UTIL_H
-#define nilabit_UTIL_H
+#ifndef bitcoin_UTIL_H
+#define bitcoin_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
@@ -53,8 +53,8 @@ extern bool fLogIPs;
 extern volatile bool fReopenDebugLog;
 extern CTranslationInterface translationInterface;
 
-extern const char * const nilabit_CONF_FILENAME;
-extern const char * const nilabit_PID_FILENAME;
+extern const char * const bitcoin_CONF_FILENAME;
+extern const char * const bitcoin_PID_FILENAME;
 
 /**
  * Translation function: Call Translate signal on UI interface, which returns a boost::optional result.
@@ -247,4 +247,4 @@ template <typename Callable> void TraceThread(const char* name,  Callable func)
     }
 }
 
-#endif // nilabit_UTIL_H
+#endif // bitcoin_UTIL_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_BLOOM_H
-#define nilabit_BLOOM_H
+#ifndef bitcoin_BLOOM_H
+#define bitcoin_BLOOM_H
 
 #include "serialize.h"
 
@@ -135,4 +135,4 @@ private:
 };
 
 
-#endif // nilabit_BLOOM_H
+#endif // bitcoin_BLOOM_H

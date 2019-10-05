@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_SCRIPT_SCRIPT_ERROR_H
-#define nilabit_SCRIPT_SCRIPT_ERROR_H
+#ifndef bitcoin_SCRIPT_SCRIPT_ERROR_H
+#define bitcoin_SCRIPT_SCRIPT_ERROR_H
 
 typedef enum ScriptError_t
 {
@@ -59,4 +59,4 @@ typedef enum ScriptError_t
 
 const char* ScriptErrorString(const ScriptError error);
 
-#endif // nilabit_SCRIPT_SCRIPT_ERROR_H
+#endif // bitcoin_SCRIPT_SCRIPT_ERROR_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CRYPTO_SHA512_H
-#define nilabit_CRYPTO_SHA512_H
+#ifndef bitcoin_CRYPTO_SHA512_H
+#define bitcoin_CRYPTO_SHA512_H
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -25,4 +25,4 @@ public:
     CSHA512& Reset();
 };
 
-#endif // nilabit_CRYPTO_SHA512_H
+#endif // bitcoin_CRYPTO_SHA512_H

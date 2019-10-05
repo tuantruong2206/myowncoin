@@ -7,8 +7,8 @@
 #error This header can only be compiled as C++.
 #endif
 
-#ifndef nilabit_PROTOCOL_H
-#define nilabit_PROTOCOL_H
+#ifndef bitcoin_PROTOCOL_H
+#define bitcoin_PROTOCOL_H
 
 #include "netbase.h"
 #include "serialize.h"
@@ -318,4 +318,4 @@ enum {
     MSG_FILTERED_BLOCK,
 };
 
-#endif // nilabit_PROTOCOL_H
+#endif // bitcoin_PROTOCOL_H

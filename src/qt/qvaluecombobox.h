@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_QVALUECOMBOBOX_H
-#define nilabit_QT_QVALUECOMBOBOX_H
+#ifndef bitcoin_QT_QVALUECOMBOBOX_H
+#define bitcoin_QT_QVALUECOMBOBOX_H
 
 #include <QComboBox>
 #include <QVariant>
@@ -34,4 +34,4 @@ private Q_SLOTS:
     void handleSelectionChanged(int idx);
 };
 
-#endif // nilabit_QT_QVALUECOMBOBOX_H
+#endif // bitcoin_QT_QVALUECOMBOBOX_H

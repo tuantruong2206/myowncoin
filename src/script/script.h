@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_SCRIPT_SCRIPT_H
-#define nilabit_SCRIPT_SCRIPT_H
+#ifndef bitcoin_SCRIPT_SCRIPT_H
+#define bitcoin_SCRIPT_SCRIPT_H
 
 #include "crypto/common.h"
 #include "prevector.h"
@@ -640,4 +640,4 @@ public:
     virtual ~CReserveScript() {}
 };
 
-#endif // nilabit_SCRIPT_SCRIPT_H
+#endif // bitcoin_SCRIPT_SCRIPT_H

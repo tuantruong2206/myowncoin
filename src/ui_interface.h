@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_UI_INTERFACE_H
-#define nilabit_UI_INTERFACE_H
+#ifndef bitcoin_UI_INTERFACE_H
+#define bitcoin_UI_INTERFACE_H
 
 #include <stdint.h>
 #include <string>
@@ -103,4 +103,4 @@ public:
 
 extern CClientUIInterface uiInterface;
 
-#endif // nilabit_UI_INTERFACE_H
+#endif // bitcoin_UI_INTERFACE_H

@@ -1,5 +1,5 @@
-#ifndef _nilabit_PREVECTOR_H_
-#define _nilabit_PREVECTOR_H_
+#ifndef _bitcoin_PREVECTOR_H_
+#define _bitcoin_PREVECTOR_H_
 
 #include <stdlib.h>
 #include <stdint.h>

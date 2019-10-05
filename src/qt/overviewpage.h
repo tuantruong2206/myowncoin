@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_OVERVIEWPAGE_H
-#define nilabit_QT_OVERVIEWPAGE_H
+#ifndef bitcoin_QT_OVERVIEWPAGE_H
+#define bitcoin_QT_OVERVIEWPAGE_H
 
 #include "amount.h"
 
@@ -64,4 +64,4 @@ private Q_SLOTS:
     void updateWatchOnlyLabels(bool showWatchOnly);
 };
 
-#endif // nilabit_QT_OVERVIEWPAGE_H
+#endif // bitcoin_QT_OVERVIEWPAGE_H

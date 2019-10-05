@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_MEMUSAGE_H
-#define nilabit_MEMUSAGE_H
+#ifndef bitcoin_MEMUSAGE_H
+#define bitcoin_MEMUSAGE_H
 
 #include <stdlib.h>
 
@@ -129,4 +129,4 @@ static inline size_t DynamicUsage(const boost::unordered_map<X, Y, Z>& m)
 
 }
 
-#endif // nilabit_MEMUSAGE_H
+#endif // bitcoin_MEMUSAGE_H

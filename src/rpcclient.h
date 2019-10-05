@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_RPCCLIENT_H
-#define nilabit_RPCCLIENT_H
+#ifndef bitcoin_RPCCLIENT_H
+#define bitcoin_RPCCLIENT_H
 
 #include <univalue.h>
 
@@ -14,4 +14,4 @@ UniValue RPCConvertValues(const std::string& strMethod, const std::vector<std::s
  */
 UniValue ParseNonRFCJSONValue(const std::string& strVal);
 
-#endif // nilabit_RPCCLIENT_H
+#endif // bitcoin_RPCCLIENT_H

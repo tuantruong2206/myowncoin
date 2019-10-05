@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_INTRO_H
-#define nilabit_QT_INTRO_H
+#ifndef bitcoin_QT_INTRO_H
+#define bitcoin_QT_INTRO_H
 
 #include <QDialog>
 #include <QMutex>
@@ -72,4 +72,4 @@ private:
     friend class FreespaceChecker;
 };
 
-#endif // nilabit_QT_INTRO_H
+#endif // bitcoin_QT_INTRO_H

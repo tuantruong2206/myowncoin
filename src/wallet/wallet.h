@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_WALLET_WALLET_H
-#define nilabit_WALLET_WALLET_H
+#ifndef bitcoin_WALLET_WALLET_H
+#define bitcoin_WALLET_WALLET_H
 
 #include "amount.h"
 #include "streams.h"
@@ -935,4 +935,4 @@ private:
     std::vector<char> _ssExtra;
 };
 
-#endif // nilabit_WALLET_WALLET_H
+#endif // bitcoin_WALLET_WALLET_H

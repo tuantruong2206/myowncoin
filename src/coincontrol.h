@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_COINCONTROL_H
-#define nilabit_COINCONTROL_H
+#ifndef bitcoin_COINCONTROL_H
+#define bitcoin_COINCONTROL_H
 
 #include "primitives/transaction.h"
 
@@ -68,4 +68,4 @@ private:
     std::set<COutPoint> setSelected;
 };
 
-#endif // nilabit_COINCONTROL_H
+#endif // bitcoin_COINCONTROL_H

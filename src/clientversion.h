@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CLIENTVERSION_H
-#define nilabit_CLIENTVERSION_H
+#ifndef bitcoin_CLIENTVERSION_H
+#define bitcoin_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
@@ -67,4 +67,4 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
 
 #endif // WINDRES_PREPROC
 
-#endif // nilabit_CLIENTVERSION_H
+#endif // bitcoin_CLIENTVERSION_H

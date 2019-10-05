@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_COMPRESSOR_H
-#define nilabit_COMPRESSOR_H
+#ifndef bitcoin_COMPRESSOR_H
+#define bitcoin_COMPRESSOR_H
 
 #include "primitives/transaction.h"
 #include "script/script.h"
@@ -120,4 +120,4 @@ public:
     }
 };
 
-#endif // nilabit_COMPRESSOR_H
+#endif // bitcoin_COMPRESSOR_H

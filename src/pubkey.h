@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_PUBKEY_H
-#define nilabit_PUBKEY_H
+#ifndef bitcoin_PUBKEY_H
+#define bitcoin_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -221,4 +221,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // nilabit_PUBKEY_H
+#endif // bitcoin_PUBKEY_H

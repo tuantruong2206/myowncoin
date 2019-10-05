@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_RPCSERVER_H
-#define nilabit_RPCSERVER_H
+#ifndef bitcoin_RPCSERVER_H
+#define bitcoin_RPCSERVER_H
 
 #include "amount.h"
 #include "rpcprotocol.h"
@@ -270,4 +270,4 @@ void InterruptRPC();
 void StopRPC();
 std::string JSONRPCExecBatch(const UniValue& vReq);
 
-#endif // nilabit_RPCSERVER_H
+#endif // bitcoin_RPCSERVER_H

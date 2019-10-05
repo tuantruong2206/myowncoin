@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_HTTPRPC_H
-#define nilabit_HTTPRPC_H
+#ifndef bitcoin_HTTPRPC_H
+#define bitcoin_HTTPRPC_H
 
 #include <string>
 #include <map>

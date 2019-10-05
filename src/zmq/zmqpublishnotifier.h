@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_ZMQ_ZMQPUBLISHNOTIFIER_H
-#define nilabit_ZMQ_ZMQPUBLISHNOTIFIER_H
+#ifndef bitcoin_ZMQ_ZMQPUBLISHNOTIFIER_H
+#define bitcoin_ZMQ_ZMQPUBLISHNOTIFIER_H
 
 #include "zmqabstractnotifier.h"
 
@@ -40,4 +40,4 @@ public:
     bool NotifyTransaction(const CTransaction &transaction);
 };
 
-#endif // nilabit_ZMQ_ZMQPUBLISHNOTIFIER_H
+#endif // bitcoin_ZMQ_ZMQPUBLISHNOTIFIER_H

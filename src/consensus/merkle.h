@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_MERKLE
-#define nilabit_MERKLE
+#ifndef bitcoin_MERKLE
+#define bitcoin_MERKLE
 
 #include <stdint.h>
 #include <vector>

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_SYNC_H
-#define nilabit_SYNC_H
+#ifndef bitcoin_SYNC_H
+#define bitcoin_SYNC_H
 
 #include "threadsafety.h"
 
@@ -277,4 +277,4 @@ public:
     }
 };
 
-#endif // nilabit_SYNC_H
+#endif // bitcoin_SYNC_H

@@ -5,8 +5,8 @@
 /**
  * Functionality for communicating with Tor.
  */
-#ifndef nilabit_TORCONTROL_H
-#define nilabit_TORCONTROL_H
+#ifndef bitcoin_TORCONTROL_H
+#define bitcoin_TORCONTROL_H
 
 #include "scheduler.h"
 
@@ -17,4 +17,4 @@ void StartTorControl(boost::thread_group& threadGroup, CScheduler& scheduler);
 void InterruptTorControl();
 void StopTorControl();
 
-#endif /* nilabit_TORCONTROL_H */
+#endif /* bitcoin_TORCONTROL_H */

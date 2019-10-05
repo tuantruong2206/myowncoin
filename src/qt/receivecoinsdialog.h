@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_RECEIVECOINSDIALOG_H
-#define nilabit_QT_RECEIVECOINSDIALOG_H
+#ifndef bitcoin_QT_RECEIVECOINSDIALOG_H
+#define bitcoin_QT_RECEIVECOINSDIALOG_H
 
 #include "guiutil.h"
 
@@ -76,4 +76,4 @@ private Q_SLOTS:
     void copyAmount();
 };
 
-#endif // nilabit_QT_RECEIVECOINSDIALOG_H
+#endif // bitcoin_QT_RECEIVECOINSDIALOG_H

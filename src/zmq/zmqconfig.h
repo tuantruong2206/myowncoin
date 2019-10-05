@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_ZMQ_ZMQCONFIG_H
-#define nilabit_ZMQ_ZMQCONFIG_H
+#ifndef bitcoin_ZMQ_ZMQCONFIG_H
+#define bitcoin_ZMQ_ZMQCONFIG_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
@@ -21,4 +21,4 @@
 
 void zmqError(const char *str);
 
-#endif // nilabit_ZMQ_ZMQCONFIG_H
+#endif // bitcoin_ZMQ_ZMQCONFIG_H

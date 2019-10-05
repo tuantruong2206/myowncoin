@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_GUICONSTANTS_H
-#define nilabit_QT_GUICONSTANTS_H
+#ifndef bitcoin_QT_GUICONSTANTS_H
+#define bitcoin_QT_GUICONSTANTS_H
 
 /* Milliseconds between model updates */
 static const int MODEL_UPDATE_DELAY = 250;
@@ -51,4 +51,4 @@ static const int MAX_URI_LENGTH = 255;
 #define QAPP_APP_NAME_DEFAULT "nilabit-Qt"
 #define QAPP_APP_NAME_TESTNET "nilabit-Qt-testnet"
 
-#endif // nilabit_QT_GUICONSTANTS_H
+#endif // bitcoin_QT_GUICONSTANTS_H

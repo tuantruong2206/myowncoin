@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_AMOUNT_H
-#define nilabit_AMOUNT_H
+#ifndef bitcoin_AMOUNT_H
+#define bitcoin_AMOUNT_H
 
 #include "serialize.h"
 
@@ -62,4 +62,4 @@ public:
     }
 };
 
-#endif //  nilabit_AMOUNT_H
+#endif //  bitcoin_AMOUNT_H

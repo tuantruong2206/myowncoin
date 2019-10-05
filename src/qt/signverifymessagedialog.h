@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_SIGNVERIFYMESSAGEDIALOG_H
-#define nilabit_QT_SIGNVERIFYMESSAGEDIALOG_H
+#ifndef bitcoin_QT_SIGNVERIFYMESSAGEDIALOG_H
+#define bitcoin_QT_SIGNVERIFYMESSAGEDIALOG_H
 
 #include <QDialog>
 
@@ -50,4 +50,4 @@ private Q_SLOTS:
     void on_clearButton_VM_clicked();
 };
 
-#endif // nilabit_QT_SIGNVERIFYMESSAGEDIALOG_H
+#endif // bitcoin_QT_SIGNVERIFYMESSAGEDIALOG_H

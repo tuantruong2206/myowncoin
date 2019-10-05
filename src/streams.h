@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_STREAMS_H
-#define nilabit_STREAMS_H
+#ifndef bitcoin_STREAMS_H
+#define bitcoin_STREAMS_H
 
 #include "support/allocators/zeroafterfree.h"
 #include "serialize.h"
@@ -592,4 +592,4 @@ public:
     }
 };
 
-#endif // nilabit_STREAMS_H
+#endif // bitcoin_STREAMS_H

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_RANDOM_H
-#define nilabit_RANDOM_H
+#ifndef bitcoin_RANDOM_H
+#define bitcoin_RANDOM_H
 
 #include "uint256.h"
 
@@ -46,4 +46,4 @@ static inline uint32_t insecure_rand(void)
     return (insecure_rand_Rw << 16) + insecure_rand_Rz;
 }
 
-#endif // nilabit_RANDOM_H
+#endif // bitcoin_RANDOM_H

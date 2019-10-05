@@ -3,11 +3,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_SUPPORT_CLEANSE_H
-#define nilabit_SUPPORT_CLEANSE_H
+#ifndef bitcoin_SUPPORT_CLEANSE_H
+#define bitcoin_SUPPORT_CLEANSE_H
 
 #include <stdlib.h>
 
 void memory_cleanse(void *ptr, size_t len);
 
-#endif // nilabit_SUPPORT_CLEANSE_H
+#endif // bitcoin_SUPPORT_CLEANSE_H

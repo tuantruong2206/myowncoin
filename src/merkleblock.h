@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_MERKLEBLOCK_H
-#define nilabit_MERKLEBLOCK_H
+#ifndef bitcoin_MERKLEBLOCK_H
+#define bitcoin_MERKLEBLOCK_H
 
 #include "serialize.h"
 #include "uint256.h"
@@ -153,4 +153,4 @@ public:
     }
 };
 
-#endif // nilabit_MERKLEBLOCK_H
+#endif // bitcoin_MERKLEBLOCK_H

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_TXDB_H
-#define nilabit_TXDB_H
+#ifndef bitcoin_TXDB_H
+#define bitcoin_TXDB_H
 
 #include "coins.h"
 #include "dbwrapper.h"
@@ -62,4 +62,4 @@ public:
     bool LoadBlockIndexGuts();
 };
 
-#endif // nilabit_TXDB_H
+#endif // bitcoin_TXDB_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_PAYMENTSERVER_H
-#define nilabit_QT_PAYMENTSERVER_H
+#ifndef bitcoin_QT_PAYMENTSERVER_H
+#define bitcoin_QT_PAYMENTSERVER_H
 
 // This class handles payment requests from clicking on
 // nilabit: URIs
@@ -148,4 +148,4 @@ private:
     OptionsModel *optionsModel;
 };
 
-#endif // nilabit_QT_PAYMENTSERVER_H
+#endif // bitcoin_QT_PAYMENTSERVER_H

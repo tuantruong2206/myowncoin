@@ -46,8 +46,8 @@
 #include <QUrlQuery>
 #endif
 
-const int nilabit_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString nilabit_IPC_PREFIX("nilabit:");
+const int bitcoin_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
+const QString bitcoin_IPC_PREFIX("nilabit:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
@@ -213,7 +213,7 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(nilabit_IPC_PREFIX, Qt::CaseInsensitive)) // nilabit: URI
+        if (arg.startsWith(bitcoin_IPC_PREFIX, Qt::CaseInsensitive)) // nilabit: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -271,7 +271,7 @@ bool PaymentServer::ipcSendCommandLine()
     {
         QLocalSocket* socket = new QLocalSocket();
         socket->connectToServer(ipcServerName(), QIODevice::WriteOnly);
-        if (!socket->waitForConnected(nilabit_IPC_CONNECT_TIMEOUT))
+        if (!socket->waitForConnected(bitcoin_IPC_CONNECT_TIMEOUT))
         {
             delete socket;
             socket = NULL;
@@ -286,7 +286,7 @@ bool PaymentServer::ipcSendCommandLine()
 
         socket->write(block);
         socket->flush();
-        socket->waitForBytesWritten(nilabit_IPC_CONNECT_TIMEOUT);
+        socket->waitForBytesWritten(bitcoin_IPC_CONNECT_TIMEOUT);
         socket->disconnectFromServer();
 
         delete socket;
@@ -407,7 +407,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(nilabit_IPC_PREFIX, Qt::CaseInsensitive)) // nilabit: URI
+    if (s.startsWith(bitcoin_IPC_PREFIX, Qt::CaseInsensitive)) // nilabit: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);

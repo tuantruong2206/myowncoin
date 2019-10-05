@@ -4,15 +4,15 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-if BUILD_nilabit_LIBS
+if BUILD_bitcoin_LIBS
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libnilabitconsensus.pc
 endif
 
 bitcoind_BIN=$(top_builddir)/src/bitcoind$(EXEEXT)
-nilabit_QT_BIN=$(top_builddir)/src/qt/nilabit-qt$(EXEEXT)
-nilabit_CLI_BIN=$(top_builddir)/src/nilabit-cli$(EXEEXT)
-nilabit_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
+bitcoin_QT_BIN=$(top_builddir)/src/qt/nilabit-qt$(EXEEXT)
+bitcoin_CLI_BIN=$(top_builddir)/src/nilabit-cli$(EXEEXT)
+bitcoin_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=nilabit-Qt.app
 OSX_DMG=nilabit-Core.dmg
@@ -41,9 +41,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) $
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_nilabit_filtered.info total_coverage.info \
+  leveldb_baseline.info test_bitcoin_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info rpc_test.info rpc_test_filtered.info \
-  leveldb_baseline_filtered.info test_nilabit_coverage.info test_nilabit.info
+  leveldb_baseline_filtered.info test_bitcoin_coverage.info test_nilabit.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -58,11 +58,11 @@ distcheck-hook:
 distcleancheck:
 	@:
 
-$(nilabit_WIN_INSTALLER): all-recursive
+$(bitcoin_WIN_INSTALLER): all-recursive
 	$(MKDIR_P) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(bitcoind_BIN) $(top_builddir)/release
-	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(nilabit_QT_BIN) $(top_builddir)/release
-	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(nilabit_CLI_BIN) $(top_builddir)/release
+	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(bitcoin_QT_BIN) $(top_builddir)/release
+	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(bitcoin_CLI_BIN) $(top_builddir)/release
 	@test -f $(MAKENSIS) && $(MAKENSIS) -V2 $(top_builddir)/share/setup.nsi || \
 	  echo error: could not build $@
 	@echo built $@
@@ -86,7 +86,7 @@ $(OSX_APP)/Contents/Resources/nilabit.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/nilabit-Qt: $(nilabit_QT_BIN)
+$(OSX_APP)/Contents/MacOS/nilabit-Qt: $(bitcoin_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
@@ -133,16 +133,16 @@ appbundle: $(OSX_APP_BUILT)
 deploy: $(OSX_DMG)
 endif
 if TARGET_WINDOWS
-deploy: $(nilabit_WIN_INSTALLER)
+deploy: $(bitcoin_WIN_INSTALLER)
 endif
 
-$(nilabit_QT_BIN): FORCE
+$(bitcoin_QT_BIN): FORCE
 	$(MAKE) -C src qt/$(@F)
 
 $(bitcoind_BIN): FORCE
 	$(MAKE) -C src $(@F)
 
-$(nilabit_CLI_BIN): FORCE
+$(bitcoin_CLI_BIN): FORCE
 	$(MAKE) -C src $(@F)
 
 if USE_LCOV
@@ -168,10 +168,10 @@ test_nilabit.info: baseline_filtered_combined.info
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_nilabit_filtered.info: test_nilabit.info
+test_bitcoin_filtered.info: test_nilabit.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_nilabit_filtered.info
+block_test.info: test_bitcoin_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool $(COMPARISON_TOOL_REORG_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t nilabitJBlockTest -o $@
@@ -181,7 +181,7 @@ block_test.info: test_nilabit_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-rpc_test.info: test_nilabit_filtered.info
+rpc_test.info: test_bitcoin_filtered.info
 	-@TIMEOUT=15 python qa/pull-tester/rpc-tests.py $(EXTENDED_RPC_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t rpc-tests -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
@@ -190,13 +190,13 @@ rpc_test.info: test_nilabit_filtered.info
 rpc_test_filtered.info: rpc_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_nilabit_coverage.info: baseline_filtered_combined.info test_nilabit_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_nilabit_filtered.info -o $@
+test_bitcoin_coverage.info: baseline_filtered_combined.info test_bitcoin_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_bitcoin_filtered.info -o $@
 
-total_coverage.info: baseline_filtered_combined.info test_nilabit_filtered.info block_test_filtered.info rpc_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_nilabit_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info: baseline_filtered_combined.info test_bitcoin_filtered.info block_test_filtered.info rpc_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_bitcoin_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_nilabit.coverage/.dirstamp:  test_nilabit_coverage.info
+test_nilabit.coverage/.dirstamp:  test_bitcoin_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -218,7 +218,7 @@ dist_noinst_SCRIPTS = autogen.sh
 
 EXTRA_DIST = $(top_srcdir)/share/genbuild.sh qa/pull-tester/rpc-tests.py qa/rpc-tests $(DIST_DOCS) $(WINDOWS_PACKAGING) $(OSX_PACKAGING) $(BIN_CHECKS)
 
-CLEANFILES = $(OSX_DMG) $(nilabit_WIN_INSTALLER)
+CLEANFILES = $(OSX_DMG) $(bitcoin_WIN_INSTALLER)
 
 .INTERMEDIATE: $(COVERAGE_INFO)
 

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_CSVMODELWRITER_H
-#define nilabit_QT_CSVMODELWRITER_H
+#ifndef bitcoin_QT_CSVMODELWRITER_H
+#define bitcoin_QT_CSVMODELWRITER_H
 
 #include <QList>
 #include <QObject>
@@ -43,4 +43,4 @@ private:
     QList<Column> columns;
 };
 
-#endif // nilabit_QT_CSVMODELWRITER_H
+#endif // bitcoin_QT_CSVMODELWRITER_H

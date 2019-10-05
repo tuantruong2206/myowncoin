@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_COMPAT_H
-#define nilabit_COMPAT_H
+#ifndef bitcoin_COMPAT_H
+#define bitcoin_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
@@ -101,4 +101,4 @@ bool static inline IsSelectableSocket(SOCKET s) {
 #endif
 }
 
-#endif // nilabit_COMPAT_H
+#endif // bitcoin_COMPAT_H

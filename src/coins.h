@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_COINS_H
-#define nilabit_COINS_H
+#ifndef bitcoin_COINS_H
+#define bitcoin_COINS_H
 
 #include "compressor.h"
 #include "core_memusage.h"
@@ -490,4 +490,4 @@ private:
     CCoinsViewCache(const CCoinsViewCache &);
 };
 
-#endif // nilabit_COINS_H
+#endif // bitcoin_COINS_H

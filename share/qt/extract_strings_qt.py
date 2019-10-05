@@ -69,7 +69,7 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *nilabit_strings[] = {\n')
+f.write('static const char UNUSED *bitcoin_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:

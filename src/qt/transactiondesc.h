@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_TRANSACTIONDESC_H
-#define nilabit_QT_TRANSACTIONDESC_H
+#ifndef bitcoin_QT_TRANSACTIONDESC_H
+#define bitcoin_QT_TRANSACTIONDESC_H
 
 #include <QObject>
 #include <QString>
@@ -28,4 +28,4 @@ private:
     static QString FormatTxStatus(const CWalletTx& wtx);
 };
 
-#endif // nilabit_QT_TRANSACTIONDESC_H
+#endif // bitcoin_QT_TRANSACTIONDESC_H

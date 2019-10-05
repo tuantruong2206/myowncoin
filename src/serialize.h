@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_SERIALIZE_H
-#define nilabit_SERIALIZE_H
+#ifndef bitcoin_SERIALIZE_H
+#define bitcoin_SERIALIZE_H
 
 #include "compat/endian.h"
 
@@ -938,4 +938,4 @@ public:
     }
 };
 
-#endif // nilabit_SERIALIZE_H
+#endif // bitcoin_SERIALIZE_H

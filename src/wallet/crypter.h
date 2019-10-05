@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_WALLET_CRYPTER_H
-#define nilabit_WALLET_CRYPTER_H
+#ifndef bitcoin_WALLET_CRYPTER_H
+#define bitcoin_WALLET_CRYPTER_H
 
 #include "keystore.h"
 #include "serialize.h"
@@ -193,4 +193,4 @@ public:
     boost::signals2::signal<void (CCryptoKeyStore* wallet)> NotifyStatusChanged;
 };
 
-#endif // nilabit_WALLET_CRYPTER_H
+#endif // bitcoin_WALLET_CRYPTER_H

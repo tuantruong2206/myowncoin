@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_DBWRAPPER_H
-#define nilabit_DBWRAPPER_H
+#ifndef bitcoin_DBWRAPPER_H
+#define bitcoin_DBWRAPPER_H
 
 #include "clientversion.h"
 #include "serialize.h"
@@ -276,5 +276,5 @@ public:
 
 };
 
-#endif // nilabit_DBWRAPPER_H
+#endif // bitcoin_DBWRAPPER_H
 

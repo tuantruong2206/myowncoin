@@ -8,7 +8,7 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *nilabit_strings[] = {
+static const char UNUSED *bitcoin_strings[] = {
 QT_TRANSLATE_NOOP("nilabit-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CHAINPARAMSBASE_H
-#define nilabit_CHAINPARAMSBASE_H
+#ifndef bitcoin_CHAINPARAMSBASE_H
+#define bitcoin_CHAINPARAMSBASE_H
 
 #include <string>
 #include <vector>
@@ -59,4 +59,4 @@ std::string ChainNameFromCommandLine();
  */
 bool AreBaseParamsConfigured();
 
-#endif // nilabit_CHAINPARAMSBASE_H
+#endif // bitcoin_CHAINPARAMSBASE_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_TRANSACTIONFILTERPROXY_H
-#define nilabit_QT_TRANSACTIONFILTERPROXY_H
+#ifndef bitcoin_QT_TRANSACTIONFILTERPROXY_H
+#define bitcoin_QT_TRANSACTIONFILTERPROXY_H
 
 #include "amount.h"
 
@@ -65,4 +65,4 @@ private:
     bool showInactive;
 };
 
-#endif // nilabit_QT_TRANSACTIONFILTERPROXY_H
+#endif // bitcoin_QT_TRANSACTIONFILTERPROXY_H

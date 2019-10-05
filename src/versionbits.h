@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CONSENSUS_VERSIONBITS
-#define nilabit_CONSENSUS_VERSIONBITS
+#ifndef bitcoin_CONSENSUS_VERSIONBITS
+#define bitcoin_CONSENSUS_VERSIONBITS
 
 #include "chain.h"
 #include <map>

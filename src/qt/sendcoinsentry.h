@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_SENDCOINSENTRY_H
-#define nilabit_QT_SENDCOINSENTRY_H
+#ifndef bitcoin_QT_SENDCOINSENTRY_H
+#define bitcoin_QT_SENDCOINSENTRY_H
 
 #include "walletmodel.h"
 
@@ -70,4 +70,4 @@ private:
     bool updateLabel(const QString &address);
 };
 
-#endif // nilabit_QT_SENDCOINSENTRY_H
+#endif // bitcoin_QT_SENDCOINSENTRY_H

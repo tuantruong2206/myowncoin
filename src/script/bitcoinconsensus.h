@@ -3,10 +3,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_nilabitCONSENSUS_H
-#define nilabit_nilabitCONSENSUS_H
+#ifndef bitcoin_nilabitCONSENSUS_H
+#define bitcoin_nilabitCONSENSUS_H
 
-#if defined(BUILD_nilabit_INTERNAL) && defined(HAVE_CONFIG_H)
+#if defined(BUILD_bitcoin_INTERNAL) && defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
   #if defined(_WIN32)
     #if defined(DLL_EXPORT)
@@ -66,4 +66,4 @@ EXPORT_SYMBOL unsigned int nilabitconsensus_version();
 
 #undef EXPORT_SYMBOL
 
-#endif // nilabit_nilabitCONSENSUS_H
+#endif // bitcoin_nilabitCONSENSUS_H

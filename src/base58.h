@@ -11,8 +11,8 @@
  * - E-mail usually won't line-break if there's no punctuation to break at.
  * - Double-clicking selects the whole string as one word if it's all alphanumeric.
  */
-#ifndef nilabit_BASE58_H
-#define nilabit_BASE58_H
+#ifndef bitcoin_BASE58_H
+#define bitcoin_BASE58_H
 
 #include "chainparams.h"
 #include "key.h"
@@ -167,4 +167,4 @@ public:
 typedef CnilabitExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CnilabitExtKey;
 typedef CnilabitExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CnilabitExtPubKey;
 
-#endif // nilabit_BASE58_H
+#endif // bitcoin_BASE58_H

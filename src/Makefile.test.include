@@ -32,7 +32,7 @@ RAW_TEST_FILES = test/data/alertTests.raw
 
 GENERATED_TEST_FILES = $(JSON_TEST_FILES:.json=.json.h) $(RAW_TEST_FILES:.raw=.raw.h)
 
-nilabit_TESTS =\
+bitcoin_TESTS =\
   test/arith_uint256_tests.cpp \
   test/scriptnum10.h \
   test/addrman_tests.cpp \
@@ -87,43 +87,43 @@ nilabit_TESTS =\
   test/util_tests.cpp
 
 if ENABLE_WALLET
-nilabit_TESTS += \
+bitcoin_TESTS += \
   test/accounting_tests.cpp \
   wallet/test/wallet_tests.cpp \
   test/rpc_wallet_tests.cpp
 endif
 
-test_test_nilabit_SOURCES = $(nilabit_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_nilabit_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
-test_test_nilabit_LDADD = $(LIBnilabit_SERVER) $(LIBnilabit_CLI) $(LIBnilabit_COMMON) $(LIBnilabit_UTIL) $(LIBnilabit_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+test_test_bitcoin_SOURCES = $(bitcoin_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+test_test_bitcoin_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
+test_test_bitcoin_LDADD = $(LIBbitcoin_SERVER) $(LIBbitcoin_CLI) $(LIBbitcoin_COMMON) $(LIBbitcoin_UTIL) $(LIBbitcoin_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB) $(LIBSECP256K1)
-test_test_nilabit_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+test_test_bitcoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 if ENABLE_WALLET
-test_test_nilabit_LDADD += $(LIBnilabit_WALLET)
+test_test_bitcoin_LDADD += $(LIBbitcoin_WALLET)
 endif
 
-test_test_nilabit_LDADD += $(LIBnilabit_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-test_test_nilabit_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+test_test_bitcoin_LDADD += $(LIBbitcoin_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_bitcoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 
 if ENABLE_ZMQ
-test_test_nilabit_LDADD += $(ZMQ_LIBS)
+test_test_bitcoin_LDADD += $(ZMQ_LIBS)
 endif
 
-nodist_test_test_nilabit_SOURCES = $(GENERATED_TEST_FILES)
+nodist_test_test_bitcoin_SOURCES = $(GENERATED_TEST_FILES)
 
-$(nilabit_TESTS): $(GENERATED_TEST_FILES)
+$(bitcoin_TESTS): $(GENERATED_TEST_FILES)
 
-CLEAN_nilabit_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
+CLEAN_bitcoin_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
-CLEANFILES += $(CLEAN_nilabit_TEST)
+CLEANFILES += $(CLEAN_bitcoin_TEST)
 
-nilabit_test: $(TEST_BINARY)
+bitcoin_test: $(TEST_BINARY)
 
-nilabit_test_check: $(TEST_BINARY) FORCE
+bitcoin_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
-nilabit_test_clean : FORCE
-	rm -f $(CLEAN_nilabit_TEST) $(test_test_nilabit_OBJECTS) $(TEST_BINARY)
+bitcoin_test_clean : FORCE
+	rm -f $(CLEAN_bitcoin_TEST) $(test_test_bitcoin_OBJECTS) $(TEST_BINARY)
 
 check-local:
 	@echo "Running test/nilabit-util-test.py..."

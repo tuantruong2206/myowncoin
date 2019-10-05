@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CONSENSUS_VALIDATION_H
-#define nilabit_CONSENSUS_VALIDATION_H
+#ifndef bitcoin_CONSENSUS_VALIDATION_H
+#define bitcoin_CONSENSUS_VALIDATION_H
 
 #include <string>
 
@@ -82,4 +82,4 @@ public:
     std::string GetDebugMessage() const { return strDebugMessage; }
 };
 
-#endif // nilabit_CONSENSUS_VALIDATION_H
+#endif // bitcoin_CONSENSUS_VALIDATION_H

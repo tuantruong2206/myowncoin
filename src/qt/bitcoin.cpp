@@ -138,11 +138,11 @@ static void initTranslations(QTranslator &qtTranslatorBase, QTranslator &qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. nilabit_de.qm (shortcut "de" needs to be defined in nilabit.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in nilabit.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. nilabit_de_DE.qm (shortcut "de_DE" needs to be defined in nilabit.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in nilabit.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -506,7 +506,7 @@ WId nilabitApplication::getMainWinId() const
     return window->winId();
 }
 
-#ifndef nilabit_QT_TEST
+#ifndef bitcoin_QT_TEST
 int main(int argc, char *argv[])
 {
     SetupEnvironment();
@@ -525,7 +525,7 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(nilabit);
-    Q_INIT_RESOURCE(nilabit_locale);
+    Q_INIT_RESOURCE(bitcoin_locale);
 
     nilabitApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -676,4 +676,4 @@ int main(int argc, char *argv[])
     }
     return app.getReturnValue();
 }
-#endif // nilabit_QT_TEST
+#endif // bitcoin_QT_TEST

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_RPCPROTOCOL_H
-#define nilabit_RPCPROTOCOL_H
+#ifndef bitcoin_RPCPROTOCOL_H
+#define bitcoin_RPCPROTOCOL_H
 
 #include <list>
 #include <map>
@@ -90,4 +90,4 @@ bool GetAuthCookie(std::string *cookie_out);
 /** Delete RPC authentication cookie from disk */
 void DeleteAuthCookie();
 
-#endif // nilabit_RPCPROTOCOL_H
+#endif // bitcoin_RPCPROTOCOL_H

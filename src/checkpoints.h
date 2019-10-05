@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_CHECKPOINTS_H
-#define nilabit_CHECKPOINTS_H
+#ifndef bitcoin_CHECKPOINTS_H
+#define bitcoin_CHECKPOINTS_H
 
 #include "uint256.h"
 
@@ -29,4 +29,4 @@ double GuessVerificationProgress(const CCheckpointData& data, CBlockIndex* pinde
 
 } //namespace Checkpoints
 
-#endif // nilabit_CHECKPOINTS_H
+#endif // bitcoin_CHECKPOINTS_H

@@ -99,8 +99,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const nilabit_CONF_FILENAME = "nilabit.conf";
-const char * const nilabit_PID_FILENAME = "bitcoind.pid";
+const char * const bitcoin_CONF_FILENAME = "nilabit.conf";
+const char * const bitcoin_PID_FILENAME = "bitcoind.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -521,7 +521,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", nilabit_CONF_FILENAME));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", bitcoin_CONF_FILENAME));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -555,7 +555,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", nilabit_PID_FILENAME));
+    boost::filesystem::path pathPidFile(GetArg("-pid", bitcoin_PID_FILENAME));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

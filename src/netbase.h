@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_NETBASE_H
-#define nilabit_NETBASE_H
+#ifndef bitcoin_NETBASE_H
+#define bitcoin_NETBASE_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/nilabit-config.h"
@@ -222,4 +222,4 @@ bool SetSocketNonBlocking(SOCKET& hSocket, bool fNonBlocking);
  */
 struct timeval MillisToTimeval(int64_t nTimeout);
 
-#endif // nilabit_NETBASE_H
+#endif // bitcoin_NETBASE_H

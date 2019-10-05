@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_nilabitADDRESSVALIDATOR_H
-#define nilabit_QT_nilabitADDRESSVALIDATOR_H
+#ifndef bitcoin_QT_nilabitADDRESSVALIDATOR_H
+#define bitcoin_QT_nilabitADDRESSVALIDATOR_H
 
 #include <QValidator>
 
@@ -32,4 +32,4 @@ public:
     State validate(QString &input, int &pos) const;
 };
 
-#endif // nilabit_QT_nilabitADDRESSVALIDATOR_H
+#endif // bitcoin_QT_nilabitADDRESSVALIDATOR_H

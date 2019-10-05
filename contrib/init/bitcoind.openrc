@@ -12,11 +12,11 @@ bitcoind_CONFIGFILE=${bitcoind_CONFIGFILE:-/etc/nilabit/nilabit.conf}
 bitcoind_PIDDIR=${bitcoind_PIDDIR:-/var/run/bitcoind}
 bitcoind_PIDFILE=${bitcoind_PIDFILE:-${bitcoind_PIDDIR}/bitcoind.pid}
 bitcoind_DATADIR=${bitcoind_DATADIR:-${bitcoind_DEFAULT_DATADIR}}
-bitcoind_USER=${bitcoind_USER:-${nilabit_USER:-nilabit}}
+bitcoind_USER=${bitcoind_USER:-${bitcoin_USER:-nilabit}}
 bitcoind_GROUP=${bitcoind_GROUP:-nilabit}
 bitcoind_BIN=${bitcoind_BIN:-/usr/bin/bitcoind}
 bitcoind_NICE=${bitcoind_NICE:-${NICELEVEL:-0}}
-bitcoind_OPTS="${bitcoind_OPTS:-${nilabit_OPTS}}"
+bitcoind_OPTS="${bitcoind_OPTS:-${bitcoin_OPTS}}"
 
 name="nilabit Core Daemon"
 description="nilabit cryptocurrency P2P network daemon"

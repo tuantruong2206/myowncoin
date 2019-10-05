@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_TRANSACTIONTABLEMODEL_H
-#define nilabit_QT_TRANSACTIONTABLEMODEL_H
+#ifndef bitcoin_QT_TRANSACTIONTABLEMODEL_H
+#define bitcoin_QT_TRANSACTIONTABLEMODEL_H
 
 #include "nilabitunits.h"
 
@@ -115,4 +115,4 @@ public Q_SLOTS:
     friend class TransactionTablePriv;
 };
 
-#endif // nilabit_QT_TRANSACTIONTABLEMODEL_H
+#endif // bitcoin_QT_TRANSACTIONTABLEMODEL_H

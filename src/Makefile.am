@@ -5,18 +5,18 @@ AM_CXXFLAGS = $(HARDENED_CXXFLAGS)
 AM_CPPFLAGS = $(HARDENED_CPPFLAGS)
 EXTRA_LIBRARIES =
 
-nilabit_CONFIG_INCLUDES=-I$(builddir)/config
-nilabit_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS) $(CRYPTO_CFLAGS) $(SSL_CFLAGS)
+bitcoin_CONFIG_INCLUDES=-I$(builddir)/config
+bitcoin_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS) $(CRYPTO_CFLAGS) $(SSL_CFLAGS)
 
-nilabit_INCLUDES += -I$(srcdir)/secp256k1/include
-nilabit_INCLUDES += -I$(srcdir)/univalue/include
+bitcoin_INCLUDES += -I$(srcdir)/secp256k1/include
+bitcoin_INCLUDES += -I$(srcdir)/univalue/include
 
-LIBnilabit_SERVER=libnilabit_server.a
-LIBnilabit_WALLET=libnilabit_wallet.a
-LIBnilabit_COMMON=libnilabit_common.a
-LIBnilabit_CLI=libnilabit_cli.a
-LIBnilabit_UTIL=libnilabit_util.a
-LIBnilabit_CRYPTO=crypto/libnilabit_crypto.a
+LIBbitcoin_SERVER=libbitcoin_server.a
+LIBbitcoin_WALLET=libbitcoin_wallet.a
+LIBbitcoin_COMMON=libbitcoin_common.a
+LIBbitcoin_CLI=libbitcoin_cli.a
+LIBbitcoin_UTIL=libbitcoin_util.a
+LIBbitcoin_CRYPTO=crypto/libbitcoin_crypto.a
 LIBnilabitQT=qt/libnilabitqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 LIBUNIVALUE=univalue/libunivalue.la
@@ -30,24 +30,24 @@ $(LIBUNIVALUE): $(wildcard univalue/lib/*) $(wildcard univalue/include/*)
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES += \
-  crypto/libnilabit_crypto.a \
-  libnilabit_util.a \
-  libnilabit_common.a \
-  libnilabit_server.a \
-  libnilabit_cli.a
+  crypto/libbitcoin_crypto.a \
+  libbitcoin_util.a \
+  libbitcoin_common.a \
+  libbitcoin_server.a \
+  libbitcoin_cli.a
 if ENABLE_WALLET
-nilabit_INCLUDES += $(BDB_CPPFLAGS)
-EXTRA_LIBRARIES += libnilabit_wallet.a
+bitcoin_INCLUDES += $(BDB_CPPFLAGS)
+EXTRA_LIBRARIES += libbitcoin_wallet.a
 endif
 if ENABLE_ZMQ
-EXTRA_LIBRARIES += libnilabit_zmq.a
+EXTRA_LIBRARIES += libbitcoin_zmq.a
 endif
 
-if BUILD_nilabit_LIBS
+if BUILD_bitcoin_LIBS
 lib_LTLIBRARIES = libnilabitconsensus.la
-LIBnilabit_CONSENSUS=libnilabitconsensus.la
+LIBbitcoin_CONSENSUS=libnilabitconsensus.la
 else
-LIBnilabit_CONSENSUS=
+LIBbitcoin_CONSENSUS=
 endif
 
 bin_PROGRAMS =
@@ -58,13 +58,13 @@ if BUILD_bitcoind
   bin_PROGRAMS += bitcoind
 endif
 
-if BUILD_nilabit_UTILS
+if BUILD_bitcoin_UTILS
   bin_PROGRAMS += nilabit-cli nilabit-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
 # Nilabit core #
-nilabit_CORE_H = \
+bitcoin_CORE_H = \
   addrman.h \
   alert.h \
   amount.h \
@@ -165,12 +165,12 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh $(abs_top_builddir)/src/obj/build.h \
 	  $(abs_top_srcdir)
-libnilabit_util_a-clientversion.$(OBJEXT): obj/build.h
+libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
 # server: shared between bitcoind and nilabit-qt
-libnilabit_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
-libnilabit_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_server_a_SOURCES = \
+libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
+libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   bloom.cpp \
@@ -202,14 +202,14 @@ libnilabit_server_a_SOURCES = \
   txmempool.cpp \
   validationinterface.cpp \
   versionbits.cpp \
-  $(nilabit_CORE_H)
+  $(bitcoin_CORE_H)
 
 if ENABLE_ZMQ
-LIBnilabit_ZMQ=libnilabit_zmq.a
+LIBbitcoin_ZMQ=libbitcoin_zmq.a
 
-libnilabit_zmq_a_CPPFLAGS = $(nilabit_INCLUDES) $(ZMQ_CFLAGS)
-libnilabit_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_zmq_a_SOURCES = \
+libbitcoin_zmq_a_CPPFLAGS = $(bitcoin_INCLUDES) $(ZMQ_CFLAGS)
+libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_zmq_a_SOURCES = \
   zmq/zmqabstractnotifier.cpp \
   zmq/zmqnotificationinterface.cpp \
   zmq/zmqpublishnotifier.cpp
@@ -218,9 +218,9 @@ endif
 
 # wallet: shared between bitcoind and nilabit-qt, but only linked
 # when wallet enabled
-libnilabit_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
-libnilabit_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_wallet_a_SOURCES = \
+libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
+libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_wallet_a_SOURCES = \
   wallet/crypter.cpp \
   wallet/db.cpp \
   wallet/rpcdump.cpp \
@@ -229,12 +229,12 @@ libnilabit_wallet_a_SOURCES = \
   wallet/wallet_ismine.cpp \
   wallet/walletdb.cpp \
   policy/rbf.cpp \
-  $(nilabit_CORE_H)
+  $(bitcoin_CORE_H)
 
 # crypto primitives library
-crypto_libnilabit_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_CONFIG_INCLUDES)
-crypto_libnilabit_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libnilabit_crypto_a_SOURCES = \
+crypto_libbitcoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_CONFIG_INCLUDES)
+crypto_libbitcoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/common.h \
   crypto/hmac_sha256.cpp \
   crypto/hmac_sha256.h \
@@ -250,9 +250,9 @@ crypto_libnilabit_crypto_a_SOURCES = \
   crypto/sha512.h
 
 # common: shared between bitcoind, and nilabit-qt and non-server tools
-libnilabit_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
-libnilabit_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_common_a_SOURCES = \
+libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
+libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_common_a_SOURCES = \
   amount.cpp \
   arith_uint256.cpp \
   base58.cpp \
@@ -276,14 +276,14 @@ libnilabit_common_a_SOURCES = \
   script/script_error.cpp \
   script/sign.cpp \
   script/standard.cpp \
-  $(nilabit_CORE_H)
+  $(bitcoin_CORE_H)
 
 # util: shared between all executables.
 # This library *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
-libnilabit_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
-libnilabit_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_util_a_SOURCES = \
+libbitcoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
+libbitcoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_util_a_SOURCES = \
   support/pagelocker.cpp \
   chainparamsbase.cpp \
   clientversion.cpp \
@@ -299,25 +299,25 @@ libnilabit_util_a_SOURCES = \
   utilmoneystr.cpp \
   utilstrencodings.cpp \
   utiltime.cpp \
-  $(nilabit_CORE_H)
+  $(bitcoin_CORE_H)
 
 if GLIBC_BACK_COMPAT
-libnilabit_util_a_SOURCES += compat/glibc_compat.cpp
+libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
 # cli: shared between nilabit-cli and nilabit-qt
-libnilabit_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
-libnilabit_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libnilabit_cli_a_SOURCES = \
+libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
+libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
-  $(nilabit_CORE_H)
+  $(bitcoin_CORE_H)
 
-nodist_libnilabit_util_a_SOURCES = $(srcdir)/obj/build.h
+nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
 bitcoind_SOURCES = bitcoind.cpp
-bitcoind_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
+bitcoind_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
 bitcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 bitcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
@@ -326,65 +326,65 @@ bitcoind_SOURCES += bitcoind-res.rc
 endif
 
 bitcoind_LDADD = \
-  $(LIBnilabit_SERVER) \
-  $(LIBnilabit_COMMON) \
+  $(LIBbitcoin_SERVER) \
+  $(LIBbitcoin_COMMON) \
   $(LIBUNIVALUE) \
-  $(LIBnilabit_UTIL) \
-  $(LIBnilabit_CRYPTO) \
+  $(LIBbitcoin_UTIL) \
+  $(LIBbitcoin_CRYPTO) \
   $(LIBLEVELDB) \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-bitcoind_LDADD += $(LIBnilabit_ZMQ) $(ZMQ_LIBS)
+bitcoind_LDADD += $(LIBbitcoin_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-bitcoind_LDADD += libnilabit_wallet.a
+bitcoind_LDADD += libbitcoin_wallet.a
 endif
 
 bitcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
 # nilabit-cli binary #
-nilabit_cli_SOURCES = nilabit-cli.cpp
-nilabit_cli_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES) $(EVENT_CFLAGS)
-nilabit_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-nilabit_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bitcoin_cli_SOURCES = nilabit-cli.cpp
+bitcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES) $(EVENT_CFLAGS)
+bitcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nilabit_cli_SOURCES += nilabit-cli-res.rc
+bitcoin_cli_SOURCES += nilabit-cli-res.rc
 endif
 
-nilabit_cli_LDADD = \
-  $(LIBnilabit_CLI) \
+bitcoin_cli_LDADD = \
+  $(LIBbitcoin_CLI) \
   $(LIBUNIVALUE) \
-  $(LIBnilabit_UTIL)
+  $(LIBbitcoin_UTIL)
 
-nilabit_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+bitcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # nilabit-tx binary #
-nilabit_tx_SOURCES = nilabit-tx.cpp
-nilabit_tx_CPPFLAGS = $(AM_CPPFLAGS) $(nilabit_INCLUDES)
-nilabit_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-nilabit_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bitcoin_tx_SOURCES = nilabit-tx.cpp
+bitcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(bitcoin_INCLUDES)
+bitcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nilabit_tx_SOURCES += nilabit-tx-res.rc
+bitcoin_tx_SOURCES += nilabit-tx-res.rc
 endif
 
-nilabit_tx_LDADD = \
+bitcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
-  $(LIBnilabit_COMMON) \
-  $(LIBnilabit_UTIL) \
-  $(LIBnilabit_CRYPTO) \
+  $(LIBbitcoin_COMMON) \
+  $(LIBbitcoin_UTIL) \
+  $(LIBbitcoin_CRYPTO) \
   $(LIBSECP256K1)
 
-nilabit_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+bitcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # nilabitconsensus library #
-if BUILD_nilabit_LIBS
+if BUILD_bitcoin_LIBS
 include_HEADERS = script/nilabitconsensus.h
 libnilabitconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
@@ -407,7 +407,7 @@ endif
 
 libnilabitconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
 libnilabitconsensus_la_LIBADD = $(LIBSECP256K1)
-libnilabitconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_nilabit_INTERNAL
+libnilabitconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_bitcoin_INTERNAL
 libnilabitconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif

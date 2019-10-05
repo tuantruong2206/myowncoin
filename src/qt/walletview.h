@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef nilabit_QT_WALLETVIEW_H
-#define nilabit_QT_WALLETVIEW_H
+#ifndef bitcoin_QT_WALLETVIEW_H
+#define bitcoin_QT_WALLETVIEW_H
 
 #include "amount.h"
 
@@ -121,4 +121,4 @@ Q_SIGNALS:
     void incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address, const QString& label);
 };
 
-#endif // nilabit_QT_WALLETVIEW_H
+#endif // bitcoin_QT_WALLETVIEW_H
