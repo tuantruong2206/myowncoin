@@ -1,13 +1,13 @@
 Nilabit Core version 0.9.0 is now available from:
 
-  https://bitcoin.org/bin/0.9.0/
+  https://nilabit.org/bin/0.9.0/
 
 This is a new major version release, bringing both new features and
 bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/bitcoin/bitcoin/issues
+  https://github.com/nilabit/nilabit/issues
 
 How to Upgrade
 --------------
@@ -15,7 +15,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), uninstall all
 earlier versions of Bitcoin, then run the installer (on Windows) or just copy
-over /Applications/Bitcoin-Qt (on Mac) or bitcoind/bitcoin-qt (on Linux).
+over /Applications/nilabit-Qt (on Mac) or bitcoind/nilabit-qt (on Linux).
 
 If you are upgrading from version 0.7.2 or earlier, the first time you run
 0.9.0 your blockchain files will be re-indexed, which will take anywhere from 

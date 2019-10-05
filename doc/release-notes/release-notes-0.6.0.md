@@ -1,24 +1,24 @@
 Nilabit version 0.6.0 is now available for download at:
-http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.6.0/test/
+http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.6.0/test/
 
 This release includes more than 20 language localizations.
 More translations are welcome; join the
 project at Transifex to help:
-https://www.transifex.net/projects/p/bitcoin/
+https://www.transifex.net/projects/p/nilabit/
 
 Please report bugs using the issue tracker at github:
-https://github.com/bitcoin/bitcoin/issues
+https://github.com/nilabit/nilabit/issues
 
 Project source code is hosted at github; we are no longer
 distributing .tar.gz files here, you can get them
 directly from github:
-https://github.com/bitcoin/bitcoin/tarball/v0.6.0  # .tar.gz
-https://github.com/bitcoin/bitcoin/zipball/v0.6.0  # .zip
+https://github.com/nilabit/nilabit/tarball/v0.6.0  # .tar.gz
+https://github.com/nilabit/nilabit/zipball/v0.6.0  # .zip
 
 For Ubuntu users, there is a ppa maintained by Matt Corallo which
 you can add to your system so that it will automatically keep
 Nilabit up-to-date.  Just type
-sudo apt-add-repository ppa:bitcoin/bitcoin
+sudo apt-add-repository ppa:bitcoin/nilabit
 in your terminal, then install the bitcoin-qt package.
 
 
@@ -54,7 +54,7 @@ transactions and less traffic on the bitcoin
 network. The shorter keys are already supported
 by the network but wallet.dat files containing
 short keys are not compatible with earlier
-versions of Bitcoin-Qt/bitcoind.
+versions of Bitcoin-Qt/nilabitd.
 
 New command-line argument -blocknotify=<command>
 that will spawn a shell process to run <command> 

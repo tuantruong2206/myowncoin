@@ -7,9 +7,9 @@ User=nilabit
 Group=nilabit
 
 Type=forking
-PIDFile=/var/lib/bitcoind/bitcoind.pid
-ExecStart=/usr/bin/bitcoind -daemon -pid=/var/lib/bitcoind/bitcoind.pid \
--conf=/etc/nilabit/nilabit.conf -datadir=/var/lib/bitcoind -disablewallet
+PIDFile=/var/lib/nilabitd/nilabitd.pid
+ExecStart=/usr/bin/nilabitd -daemon -pid=/var/lib/nilabitd/nilabitd.pid \
+-conf=/etc/nilabit/nilabit.conf -datadir=/var/lib/nilabitd -disablewallet
 
 Restart=always
 PrivateTmp=true

@@ -385,7 +385,7 @@ nilabit_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 
 # bitcoinconsensus library #
 if BUILD_BITCOIN_LIBS
-include_HEADERS = script/bitcoinconsensus.h
+include_HEADERS = script/nilabitconsensus.h
 libbitcoinconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/ripemd160.cpp \
@@ -395,7 +395,7 @@ libbitcoinconsensus_la_SOURCES = \
   hash.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
-  script/bitcoinconsensus.cpp \
+  script/nilabitconsensus.cpp \
   script/interpreter.cpp \
   script/script.cpp \
   uint256.cpp \

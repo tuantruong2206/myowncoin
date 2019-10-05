@@ -19,7 +19,7 @@ TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test/"
-BASEDIR="https://bitcoin.org/bin/"
+BASEDIR="https://nilabit.org/bin/"
 VERSIONPREFIX="nilabit-core-"
 RCVERSIONSTRING="rc"
 

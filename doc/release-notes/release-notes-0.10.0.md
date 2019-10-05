@@ -1,13 +1,13 @@
 nilabit Core version 0.10.0 is now available from:
 
-  https://bitcoin.org/bin/0.10.0/
+  https://nilabit.org/bin/0.10.0/
 
 This is a new major version release, bringing both new features and
 bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/bitcoin/bitcoin/issues
+  https://github.com/nilabit/nilabit/issues
 
 Upgrading and downgrading
 =========================
@@ -17,8 +17,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
-bitcoind/bitcoin-qt (on Linux).
+installer (on Windows) or just copy over /Applications/nilabit-Qt (on Mac) or
+bitcoind/nilabit-qt (on Linux).
 
 Downgrading warning
 ---------------------
@@ -230,7 +230,7 @@ bindings such as [python-bitcoinlib](https://pypi.python.org/pypi/python-bitcoin
 alternative node implementations.
 
 This library is called `libbitcoinconsensus.so` (or, `.dll` for Windows).
-Its interface is defined in the C header [bitcoinconsensus.h](https://github.com/bitcoin/bitcoin/blob/0.10/src/script/bitcoinconsensus.h).
+Its interface is defined in the C header [bitcoinconsensus.h](https://github.com/nilabit/nilabit/blob/0.10/src/script/nilabitconsensus.h).
 
 In its initial version the API includes two functions:
 
@@ -758,5 +758,5 @@ Thanks to everyone who contributed to this release:
 - Yoichi Hirai
 - Zak Wilcox
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/nilabit/).
 

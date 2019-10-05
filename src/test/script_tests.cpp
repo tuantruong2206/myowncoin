@@ -15,7 +15,7 @@
 #include "test/test_bitcoin.h"
 
 #if defined(HAVE_CONSENSUS_LIB)
-#include "script/bitcoinconsensus.h"
+#include "script/nilabitconsensus.h"
 #endif
 
 #include <fstream>

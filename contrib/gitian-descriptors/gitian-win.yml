@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/bitcoin/bitcoin.git"
+- "url": "https://github.com/nilabit/nilabit.git"
   "dir": "bitcoin"
 files: []
 script: |
@@ -69,7 +69,7 @@ script: |
 
   # Create per-host linker wrapper
   # This is only needed for trusty, as the mingw linker leaks a few bytes of
-  # heap, causing non-determinism. See discussion in https://github.com/bitcoin/bitcoin/pull/6900
+  # heap, causing non-determinism. See discussion in https://github.com/nilabit/nilabit/pull/6900
   for i in $HOSTS; do
     mkdir -p ${WRAP_DIR}/${i}
     for prog in collect2; do

@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoin-config.h"
+#include "config/nilabit-config.h"
 #endif
 
 #include "util.h"
@@ -457,7 +457,7 @@ boost::filesystem::path GetDefaultDataDir()
     namespace fs = boost::filesystem;
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
-    // Mac: ~/Library/Application Support/Bitcoin
+    // Mac: ~/Library/Application Support/nilabit
     // Unix: ~/.nilabit
 #ifdef WIN32
     // Windows
@@ -471,7 +471,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Bitcoin";
+    return pathRet / "Library/Application Support/nilabit";
 #else
     // Unix
     return pathRet / ".nilabit";

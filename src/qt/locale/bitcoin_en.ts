@@ -299,7 +299,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+335"/>
+        <location filename="../nilabitgui.cpp" line="+335"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -1781,7 +1781,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../bitcoinunits.cpp" line="+176"/>
+        <location filename="../nilabitunits.cpp" line="+176"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
@@ -3682,7 +3682,7 @@
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+106"/>
+        <location filename="../nilabitgui.cpp" line="+106"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3749,7 +3749,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+289"/>
+        <location filename="../nilabitstrings.cpp" line="+289"/>
         <source>Options:</source>
         <translation>Options:</translation>
     </message>

@@ -30,9 +30,9 @@ the commit it claims to have been updated to.
 
 To use, make sure that you have fetched the upstream repository branch in which the subtree is
 maintained:
-* for `src/secp256k1`: https://github.com/bitcoin/secp256k1.git (branch master)
-* for `src/leveldb`: https://github.com/bitcoin/leveldb.git (branch bitcoin-fork)
-* for `src/univalue`: https://github.com/bitcoin/univalue.git (branch master)
+* for `src/secp256k1`: https://github.com/nilabit/secp256k1.git (branch master)
+* for `src/leveldb`: https://github.com/nilabit/leveldb.git (branch bitcoin-fork)
+* for `src/univalue`: https://github.com/nilabit/univalue.git (branch master)
 
 Usage: `git-subtree-check.sh DIR COMMIT`
 
@@ -45,10 +45,10 @@ A small script to automate merging pull-requests securely and sign them with GPG
 
 For example:
 
-  ./github-merge.sh bitcoin/bitcoin 3077
+  ./github-merge.sh bitcoin/nilabit 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-bitcoin/bitcoin repository.
+bitcoin/nilabit repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -68,7 +68,7 @@ Setup
 ---------
 Configuring the github-merge tool for the nilabit repository is done in the following way:
 
-    git config githubmerge.repository bitcoin/bitcoin
+    git config githubmerge.repository bitcoin/nilabit
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid (if you want to GPG sign)
 

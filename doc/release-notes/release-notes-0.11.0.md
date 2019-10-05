@@ -1,13 +1,13 @@
 Nilabit Core version 0.11.0 is now available from:
 
-  <https://bitcoin.org/bin/bitcoin-core-0.11.0/>
+  <https://nilabit.org/bin/nilabit-core-0.11.0/>
 
 This is a new major version release, bringing both new features and
 bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/bitcoin/bitcoin/issues>
+  <https://github.com/nilabit/nilabit/issues>
 
 Upgrading and downgrading
 =========================
@@ -17,8 +17,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Bitcoin-Qt (on Mac) or
-bitcoind/bitcoin-qt (on Linux).
+installer (on Windows) or just copy over /Applications/nilabit-Qt (on Mac) or
+bitcoind/nilabit-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -192,7 +192,7 @@ transaction (re)broadcast:
 One such application is selective Tor usage, where the node runs on the normal
 internet but transactions are broadcasted over Tor.
 
-For an example script see [bitcoin-submittx](https://github.com/laanwj/bitcoin-submittx).
+For an example script see [bitcoin-submittx](https://github.com/laanwj/nilabit-submittx).
 
 Privacy: Stream isolation for Tor
 ----------------------------------
@@ -396,7 +396,7 @@ git merge commit are mentioned.
 - #5839 `86eb461` keys: remove libsecp256k1 verification until it's actually supported
 - #5749 `d734d87` Help messages correctly formatted (79 chars)
 - #5884 `7077fe6` BUGFIX: Stack around the variable 'rv' was corrupted
-- #5849 `41259ca` contrib/init/bitcoind.openrc: Compatibility with previous OpenRC init script variables
+- #5849 `41259ca` contrib/init/nilabitd.openrc: Compatibility with previous OpenRC init script variables
 - #5950 `41113e3` Fix locale fallback and guard tests against invalid locale settings
 - #5965 `7c6bfb1` Add git-subtree-check.sh script
 - #6033 `1623f6e` FreeBSD, OpenBSD thread renaming
@@ -501,5 +501,5 @@ And all those who contributed additional code review and/or security research:
 
 - Sergio Demian Lerner
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/nilabit/).
 

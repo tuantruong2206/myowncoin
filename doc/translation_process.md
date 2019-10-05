@@ -8,13 +8,13 @@ Transifex is setup to monitor the Github repo for updates, and when code contain
 
 Multiple language support is critical in assisting Bitcoin’s global adoption, and growth. One of Bitcoin’s greatest strengths is cross-boarder money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex Nilabit project](https://www.transifex.com/projects/p/bitcoin/) to assist in translations. You should also join the translation mailing list for announcements - see details below.
+See the [Transifex Nilabit project](https://www.transifex.com/projects/p/nilabit/) to assist in translations. You should also join the translation mailing list for announcements - see details below.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
 `bitcoin_xx_YY.ts or bitcoin_xx.ts`
 
-`src/qt/locale/bitcoin_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `bitcoin_en.ts`.
+`src/qt/locale/nilabit_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `bitcoin_en.ts`.
 
 To automatically regenerate the `bitcoin_en.ts` file, run the following commands:
 ```sh
@@ -22,7 +22,7 @@ cd src/
 make translate
 ```
 
-`contrib/bitcoin-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/nilabit-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp
@@ -36,14 +36,14 @@ When an updated source file is merged into the Github repo, Transifex will autom
 
 To create the pull-request, use the following commands:
 ```
-git add src/qt/bitcoinstrings.cpp src/qt/locale/bitcoin_en.ts
+git add src/qt/nilabitstrings.cpp src/qt/locale/nilabit_en.ts
 git commit
 ```
 
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-You can find the Nilabit translation project at [https://www.transifex.com/projects/p/bitcoin/](https://www.transifex.com/projects/p/bitcoin/).
+You can find the Nilabit translation project at [https://www.transifex.com/projects/p/nilabit/](https://www.transifex.com/projects/p/nilabit/).
 
 ### Installing the Transifex client command-line tool
 The client it used to fetch updated translations. If you are having problems, or need more details, see [http://docs.transifex.com/developer/client/setup](http://docs.transifex.com/developer/client/setup)
@@ -74,7 +74,7 @@ The Transifex Nilabit project config file is included as part of the repo. It ca
 To assist in updating translations, we have created a script to help.
 
 1. `python contrib/devtools/update-translations.py`
-2. Update `src/qt/bitcoin_locale.qrc` manually or via
+2. Update `src/qt/nilabit_locale.qrc` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bitcoin_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. Update `src/Makefile.qt.include` manually or via
    `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bitcoin_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
@@ -94,11 +94,11 @@ When new plurals are added to the source file, it's important to do the followin
 7. Save the source file
 
 ### Translating a new language
-To create a new language template, you will need to edit the languages manifest file `src/qt/bitcoin.qrc` and add a new entry. Below is an example of the english language entry.
+To create a new language template, you will need to edit the languages manifest file `src/qt/nilabit.qrc` and add a new entry. Below is an example of the english language entry.
 
 ```xml
 <qresource prefix="/translations">
-    <file alias="en">locale/bitcoin_en.qm</file>
+    <file alias="en">locale/nilabit_en.qm</file>
     ...
 </qresource>
 ```
@@ -108,4 +108,4 @@ To create a new language template, you will need to edit the languages manifest 
 ### Questions and general assistance
 The Bitcoin-Core translation maintainers include *tcatm, seone, Diapolo, wumpus and luke-jr*. You can find them, and others, in the Freenode IRC chatroom - `irc.freenode.net #bitcoin-core-dev`.
 
-If you are a translator, you should also subscribe to the mailing list, https://groups.google.com/forum/#!forum/bitcoin-translators. Announcements will be posted during application pre-releases to notify translators to check for updates.
+If you are a translator, you should also subscribe to the mailing list, https://groups.google.com/forum/#!forum/nilabit-translators. Announcements will be posted during application pre-releases to notify translators to check for updates.

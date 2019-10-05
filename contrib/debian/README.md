@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package bitcoind/bitcoin-qt
-for Debian-based Linux systems. If you compile bitcoind/bitcoin-qt yourself, there are some useful files here.
+This directory contains files used to package bitcoind/nilabit-qt
+for Debian-based Linux systems. If you compile bitcoind/nilabit-qt yourself, there are some useful files here.
 
 ## nilabit: URI support ##
 
@@ -15,7 +15,7 @@ To install:
 
 If you build yourself, you will either need to modify the paths in
 the .desktop file or copy or symlink your bitcoin-qt binary to `/usr/bin`
-and the `../../share/pixmaps/bitcoin128.png` to `/usr/share/pixmaps`
+and the `../../share/pixmaps/nilabit128.png` to `/usr/share/pixmaps`
 
 bitcoin-qt.protocol (KDE)
 

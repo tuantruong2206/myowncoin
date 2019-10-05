@@ -6,8 +6,8 @@ TEST_BINARY=test/test_bitcoin$(EXEEXT)
 
 EXTRA_DIST += \
 	test/bctest.py \
-	test/bitcoin-util-test.py \
-	test/data/bitcoin-util-test.json \
+	test/nilabit-util-test.py \
+	test/data/nilabit-util-test.json \
 	test/data/blanktx.hex \
 	test/data/tt-delin1-out.hex \
 	test/data/tt-delout1-out.hex \
@@ -126,8 +126,8 @@ bitcoin_test_clean : FORCE
 	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_bitcoin_OBJECTS) $(TEST_BINARY)
 
 check-local:
-	@echo "Running test/bitcoin-util-test.py..."
-	$(AM_V_at)srcdir=$(srcdir) PYTHONPATH=$(builddir)/test $(srcdir)/test/bitcoin-util-test.py
+	@echo "Running test/nilabit-util-test.py..."
+	$(AM_V_at)srcdir=$(srcdir) PYTHONPATH=$(builddir)/test $(srcdir)/test/nilabit-util-test.py
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C secp256k1 check
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C univalue check
 

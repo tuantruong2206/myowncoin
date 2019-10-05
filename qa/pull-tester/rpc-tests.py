@@ -63,13 +63,13 @@ for arg in sys.argv[1:]:
 #Set env vars
 buildDir = BUILDDIR
 if "BITCOIND" not in os.environ:
-    os.environ["BITCOIND"] = buildDir + '/src/bitcoind' + EXEEXT
+    os.environ["BITCOIND"] = buildDir + '/src/nilabitd' + EXEEXT
 if "BITCOINCLI" not in os.environ:
-    os.environ["BITCOINCLI"] = buildDir + '/src/bitcoin-cli' + EXEEXT
+    os.environ["BITCOINCLI"] = buildDir + '/src/nilabit-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
-    # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
-    # https://github.com/bitcoin/bitcoin/pull/5677#issuecomment-136646964
+    # https://github.com/nilabit/nilabit/commit/d52802551752140cf41f0d9a225a43e84404d3e9
+    # https://github.com/nilabit/nilabit/pull/5677#issuecomment-136646964
     print("Win tests currently disabled by default.  Use -win option to enable")
     sys.exit(0)
 

@@ -1,91 +1,91 @@
-bin_PROGRAMS += qt/bitcoin-qt
+bin_PROGRAMS += qt/nilabit-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # Nilabit qt core #
 QT_TS = \
-  qt/locale/bitcoin_af.ts \
-  qt/locale/bitcoin_af_ZA.ts \
-  qt/locale/bitcoin_ar.ts \
-  qt/locale/bitcoin_be_BY.ts \
-  qt/locale/bitcoin_bg_BG.ts \
-  qt/locale/bitcoin_bg.ts \
-  qt/locale/bitcoin_bs.ts \
-  qt/locale/bitcoin_ca_ES.ts \
-  qt/locale/bitcoin_ca.ts \
-  qt/locale/bitcoin_ca@valencia.ts \
-  qt/locale/bitcoin_cs_CZ.ts \
-  qt/locale/bitcoin_cs.ts \
-  qt/locale/bitcoin_cy.ts \
-  qt/locale/bitcoin_da.ts \
-  qt/locale/bitcoin_de.ts \
-  qt/locale/bitcoin_el_GR.ts \
-  qt/locale/bitcoin_el.ts \
-  qt/locale/bitcoin_en_GB.ts \
-  qt/locale/bitcoin_en.ts \
-  qt/locale/bitcoin_eo.ts \
-  qt/locale/bitcoin_es_AR.ts \
-  qt/locale/bitcoin_es_CL.ts \
-  qt/locale/bitcoin_es_CO.ts \
-  qt/locale/bitcoin_es_DO.ts \
-  qt/locale/bitcoin_es_ES.ts \
-  qt/locale/bitcoin_es_MX.ts \
-  qt/locale/bitcoin_es.ts \
-  qt/locale/bitcoin_es_UY.ts \
-  qt/locale/bitcoin_es_VE.ts \
-  qt/locale/bitcoin_et.ts \
-  qt/locale/bitcoin_eu_ES.ts \
-  qt/locale/bitcoin_fa_IR.ts \
-  qt/locale/bitcoin_fa.ts \
-  qt/locale/bitcoin_fi.ts \
-  qt/locale/bitcoin_fr_CA.ts \
-  qt/locale/bitcoin_fr_FR.ts \
-  qt/locale/bitcoin_fr.ts \
-  qt/locale/bitcoin_gl.ts \
-  qt/locale/bitcoin_he.ts \
-  qt/locale/bitcoin_hi_IN.ts \
-  qt/locale/bitcoin_hr.ts \
-  qt/locale/bitcoin_hu.ts \
-  qt/locale/bitcoin_id_ID.ts \
-  qt/locale/bitcoin_it.ts \
-  qt/locale/bitcoin_ja.ts \
-  qt/locale/bitcoin_ka.ts \
-  qt/locale/bitcoin_kk_KZ.ts \
-  qt/locale/bitcoin_ko_KR.ts \
-  qt/locale/bitcoin_ky.ts \
-  qt/locale/bitcoin_la.ts \
-  qt/locale/bitcoin_lt.ts \
-  qt/locale/bitcoin_lv_LV.ts \
-  qt/locale/bitcoin_mk_MK.ts \
-  qt/locale/bitcoin_mn.ts \
-  qt/locale/bitcoin_ms_MY.ts \
-  qt/locale/bitcoin_nb.ts \
-  qt/locale/bitcoin_nl.ts \
-  qt/locale/bitcoin_pam.ts \
-  qt/locale/bitcoin_pl.ts \
-  qt/locale/bitcoin_pt_BR.ts \
-  qt/locale/bitcoin_pt_PT.ts \
-  qt/locale/bitcoin_ro_RO.ts \
-  qt/locale/bitcoin_ro.ts \
-  qt/locale/bitcoin_ru_RU.ts \
-  qt/locale/bitcoin_ru.ts \
-  qt/locale/bitcoin_sk.ts \
-  qt/locale/bitcoin_sl_SI.ts \
-  qt/locale/bitcoin_sq.ts \
-  qt/locale/bitcoin_sr.ts \
-  qt/locale/bitcoin_sv.ts \
-  qt/locale/bitcoin_ta.ts \
-  qt/locale/bitcoin_th_TH.ts \
-  qt/locale/bitcoin_tr_TR.ts \
-  qt/locale/bitcoin_tr.ts \
-  qt/locale/bitcoin_uk.ts \
-  qt/locale/bitcoin_ur_PK.ts \
-  qt/locale/bitcoin_uz@Cyrl.ts \
-  qt/locale/bitcoin_uz@Latn.ts \
-  qt/locale/bitcoin_vi.ts \
-  qt/locale/bitcoin_vi_VN.ts \
-  qt/locale/bitcoin_zh_CN.ts \
-  qt/locale/bitcoin_zh.ts \
-  qt/locale/bitcoin_zh_TW.ts
+  qt/locale/nilabit_af.ts \
+  qt/locale/nilabit_af_ZA.ts \
+  qt/locale/nilabit_ar.ts \
+  qt/locale/nilabit_be_BY.ts \
+  qt/locale/nilabit_bg_BG.ts \
+  qt/locale/nilabit_bg.ts \
+  qt/locale/nilabit_bs.ts \
+  qt/locale/nilabit_ca_ES.ts \
+  qt/locale/nilabit_ca.ts \
+  qt/locale/nilabit_ca@valencia.ts \
+  qt/locale/nilabit_cs_CZ.ts \
+  qt/locale/nilabit_cs.ts \
+  qt/locale/nilabit_cy.ts \
+  qt/locale/nilabit_da.ts \
+  qt/locale/nilabit_de.ts \
+  qt/locale/nilabit_el_GR.ts \
+  qt/locale/nilabit_el.ts \
+  qt/locale/nilabit_en_GB.ts \
+  qt/locale/nilabit_en.ts \
+  qt/locale/nilabit_eo.ts \
+  qt/locale/nilabit_es_AR.ts \
+  qt/locale/nilabit_es_CL.ts \
+  qt/locale/nilabit_es_CO.ts \
+  qt/locale/nilabit_es_DO.ts \
+  qt/locale/nilabit_es_ES.ts \
+  qt/locale/nilabit_es_MX.ts \
+  qt/locale/nilabit_es.ts \
+  qt/locale/nilabit_es_UY.ts \
+  qt/locale/nilabit_es_VE.ts \
+  qt/locale/nilabit_et.ts \
+  qt/locale/nilabit_eu_ES.ts \
+  qt/locale/nilabit_fa_IR.ts \
+  qt/locale/nilabit_fa.ts \
+  qt/locale/nilabit_fi.ts \
+  qt/locale/nilabit_fr_CA.ts \
+  qt/locale/nilabit_fr_FR.ts \
+  qt/locale/nilabit_fr.ts \
+  qt/locale/nilabit_gl.ts \
+  qt/locale/nilabit_he.ts \
+  qt/locale/nilabit_hi_IN.ts \
+  qt/locale/nilabit_hr.ts \
+  qt/locale/nilabit_hu.ts \
+  qt/locale/nilabit_id_ID.ts \
+  qt/locale/nilabit_it.ts \
+  qt/locale/nilabit_ja.ts \
+  qt/locale/nilabit_ka.ts \
+  qt/locale/nilabit_kk_KZ.ts \
+  qt/locale/nilabit_ko_KR.ts \
+  qt/locale/nilabit_ky.ts \
+  qt/locale/nilabit_la.ts \
+  qt/locale/nilabit_lt.ts \
+  qt/locale/nilabit_lv_LV.ts \
+  qt/locale/nilabit_mk_MK.ts \
+  qt/locale/nilabit_mn.ts \
+  qt/locale/nilabit_ms_MY.ts \
+  qt/locale/nilabit_nb.ts \
+  qt/locale/nilabit_nl.ts \
+  qt/locale/nilabit_pam.ts \
+  qt/locale/nilabit_pl.ts \
+  qt/locale/nilabit_pt_BR.ts \
+  qt/locale/nilabit_pt_PT.ts \
+  qt/locale/nilabit_ro_RO.ts \
+  qt/locale/nilabit_ro.ts \
+  qt/locale/nilabit_ru_RU.ts \
+  qt/locale/nilabit_ru.ts \
+  qt/locale/nilabit_sk.ts \
+  qt/locale/nilabit_sl_SI.ts \
+  qt/locale/nilabit_sq.ts \
+  qt/locale/nilabit_sr.ts \
+  qt/locale/nilabit_sv.ts \
+  qt/locale/nilabit_ta.ts \
+  qt/locale/nilabit_th_TH.ts \
+  qt/locale/nilabit_tr_TR.ts \
+  qt/locale/nilabit_tr.ts \
+  qt/locale/nilabit_uk.ts \
+  qt/locale/nilabit_ur_PK.ts \
+  qt/locale/nilabit_uz@Cyrl.ts \
+  qt/locale/nilabit_uz@Latn.ts \
+  qt/locale/nilabit_vi.ts \
+  qt/locale/nilabit_vi_VN.ts \
+  qt/locale/nilabit_zh_CN.ts \
+  qt/locale/nilabit_zh.ts \
+  qt/locale/nilabit_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -156,16 +156,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/bitcoin.moc \
-  qt/bitcoinamountfield.moc \
+  qt/nilabit.moc \
+  qt/nilabitamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
 QT_QRC_CPP = qt/qrc_bitcoin.cpp
-QT_QRC = qt/bitcoin.qrc
+QT_QRC = qt/nilabit.qrc
 QT_QRC_LOCALE_CPP = qt/qrc_bitcoin_locale.cpp
-QT_QRC_LOCALE = qt/bitcoin_locale.qrc
+QT_QRC_LOCALE = qt/nilabit_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -176,10 +176,10 @@ BITCOIN_QT_H = \
   qt/addresstablemodel.h \
   qt/askpassphrasedialog.h \
   qt/bantablemodel.h \
-  qt/bitcoinaddressvalidator.h \
-  qt/bitcoinamountfield.h \
-  qt/bitcoingui.h \
-  qt/bitcoinunits.h \
+  qt/nilabitaddressvalidator.h \
+  qt/nilabitamountfield.h \
+  qt/nilabitgui.h \
+  qt/nilabitunits.h \
   qt/clientmodel.h \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
@@ -229,8 +229,8 @@ RES_ICONS = \
   qt/res/icons/address-book.png \
   qt/res/icons/about.png \
   qt/res/icons/about_qt.png \
-  qt/res/icons/bitcoin.ico \
-  qt/res/icons/bitcoin.png \
+  qt/res/icons/nilabit.ico \
+  qt/res/icons/nilabit.png \
   qt/res/icons/clock1.png \
   qt/res/icons/clock2.png \
   qt/res/icons/clock3.png \
@@ -275,10 +275,10 @@ RES_ICONS = \
 
 BITCOIN_QT_CPP = \
   qt/bantablemodel.cpp \
-  qt/bitcoinaddressvalidator.cpp \
-  qt/bitcoinamountfield.cpp \
-  qt/bitcoingui.cpp \
-  qt/bitcoinunits.cpp \
+  qt/nilabitaddressvalidator.cpp \
+  qt/nilabitamountfield.cpp \
+  qt/nilabitgui.cpp \
+  qt/nilabitunits.cpp \
   qt/clientmodel.cpp \
   qt/csvmodelwriter.cpp \
   qt/guiutil.cpp \
@@ -334,7 +334,7 @@ RES_IMAGES =
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/bitcoin-qt-res.rc
+BITCOIN_RC = qt/res/nilabit-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms -DQT_NO_KEYWORDS
@@ -367,7 +367,7 @@ qt_bitcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDE
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 qt_bitcoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_bitcoin_qt_SOURCES = qt/bitcoin.cpp
+qt_bitcoin_qt_SOURCES = qt/nilabit.cpp
 if TARGET_DARWIN
   qt_bitcoin_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -392,13 +392,13 @@ QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-qt/bitcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES)
+qt/nilabitstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/nilabitstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/bitcoin_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/nilabit_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
@@ -416,9 +416,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 bitcoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_bitcoin_qt_OBJECTS) qt/bitcoin-qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_bitcoin_qt_OBJECTS) qt/nilabit-qt$(EXEEXT) $(LIBBITCOINQT)
 
-bitcoin_qt : qt/bitcoin-qt$(EXEEXT)
+bitcoin_qt : qt/nilabit-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

@@ -1,14 +1,14 @@
 Nilabit version 0.5.3 is now available for download at:
-http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.5.3/
+http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.5.3/
 
 This is a bugfix-only release based on 0.5.1.
 It also includes a few protocol updates.
 
 Please report bugs using the issue tracker at github:
-https://github.com/bitcoin/bitcoin/issues
+https://github.com/nilabit/nilabit/issues
 
 Stable source code is hosted at Gitorious:
-http://gitorious.org/bitcoin/bitcoind-stable/archive-tarball/v0.5.3#.tar.gz
+http://gitorious.org/nilabit/nilabitd-stable/archive-tarball/v0.5.3#.tar.gz
 
 PROTOCOL UPDATES
 

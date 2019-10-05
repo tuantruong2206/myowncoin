@@ -1,10 +1,10 @@
 Nilabit version 0.6.3 is now available for download at:
-  http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.6.3/
+  http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.6.3/
 
 This is a bug-fix release, with no new features.
 
 Please report bugs using the issue tracker at github:
-  https://github.com/bitcoin/bitcoin/issues
+  https://github.com/nilabit/nilabit/issues
 
 CHANGE SUMMARY
 

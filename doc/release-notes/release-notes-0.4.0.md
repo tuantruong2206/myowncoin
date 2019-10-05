@@ -1,5 +1,5 @@
 Nilabit version 0.4.0 is now available for download at:
-http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.4.0/
+http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.4.0/
 
 The main feature in this release is wallet private key encryption;
 you can set a passphrase that must be entered before sending coins.
@@ -48,7 +48,7 @@ your coins.
 It is recommended that you backup your wallet file before you
 encrypt your wallet.  To do this, close the Nilabit client and
 copy the wallet.dat file from ~/.bitcoin/ on Linux, /Users/(user
-name)/Application Support/Bitcoin/ on Mac OSX, and %APPDATA%/Bitcoin/
+name)/Application Support/nilabit/ on Mac OSX, and %APPDATA%/nilabit/
 on Windows (that is /Users/(user name)/AppData/Roaming/Nilabit on
 Windows Vista and 7 and /Documents and Settings/(user name)/Application
 Data/Nilabit on Windows XP).  Once you have copied that file to a

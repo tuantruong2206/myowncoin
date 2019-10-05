@@ -304,7 +304,7 @@ Clone the git repositories for nilabit and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/bitcoin/bitcoin
+git clone https://github.com/nilabit/nilabit
 ```
 
 Setting up the Gitian image
@@ -354,12 +354,12 @@ tail -f var/build.log
 
 Output from `gbuild` will look something like
 
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/bitcoin/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/nilabit/.git/
     remote: Counting objects: 57959, done.
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/bitcoin/bitcoin
+    From https://github.com/nilabit/nilabit
     ... (new tags, new branch etc)
     --- Building for precise amd64 ---
     Stopping target if it is up
@@ -385,11 +385,11 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/laanwj/bitcoin.git
+URL=https://github.com/laanwj/nilabit.git
 COMMIT=2014_03_windows_unicode_path
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Building fully offline
@@ -415,7 +415,7 @@ cd /path/to/gitian-builder
 LXC_ARCH=amd64 LXC_SUITE=precise on-target -u root apt-get update
 LXC_ARCH=amd64 LXC_SUITE=precise on-target -u root \
   -e DEBIAN_FRONTEND=noninteractive apt-get --no-install-recommends -y install \
-  $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../bitcoin/contrib/gitian-descriptors/*|sort|uniq )
+  $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../nilabit/contrib/gitian-descriptors/*|sort|uniq )
 LXC_ARCH=amd64 LXC_SUITE=precise on-target -u root apt-get -q -y purge grub
 LXC_ARCH=amd64 LXC_SUITE=precise on-target -u root -e DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade
 ```
@@ -435,12 +435,12 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/bitcoin/bitcoin-detached-sigs.git
+git clone https://github.com/nilabit/nilabit-detached-sigs.git
 
-BTCPATH=/some/root/path/bitcoin.git
-SIGPATH=/some/root/path/bitcoin-detached-sigs.git
+BTCPATH=/some/root/path/nilabit.git
+SIGPATH=/some/root/path/nilabit-detached-sigs.git
 
-./bin/gbuild --url bitcoin=${BTCPATH},signature=${SIGPATH} ../bitcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+./bin/gbuild --url bitcoin=${BTCPATH},signature=${SIGPATH} ../nilabit/contrib/gitian-descriptors/gitian-win-signer.yml
 ```
 
 Signing externally
@@ -455,9 +455,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/bitcoin-linux-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/bitcoin-win-build.assert
-    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/bitcoin-osx-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/nilabit-linux-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/nilabit-win-build.assert
+    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/nilabit-osx-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -467,5 +467,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[bitcoin/gitian.sigs](https://github.com/bitcoin/gitian.sigs/) repository, or if that's not possible create a pull
+[bitcoin/gitian.sigs](https://github.com/nilabit/gitian.sigs/) repository, or if that's not possible create a pull
 request. You can also mail the files to Wladimir (laanwj@gmail.com) and he will commit them.
