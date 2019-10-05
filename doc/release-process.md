@@ -16,7 +16,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
 	git clone https://github.com/nilabit/nilabit.git
 
-###Bitcoin maintainers/release engineers, update (commit) version in sources
+###nilabit maintainers/release engineers, update (commit) version in sources
 
 	pushd ./nilabit
 	contrib/verifysfbinaries/verify.sh
@@ -83,32 +83,32 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 ```
-./bin/gbuild --url bitcoin=/path/to/nilabit,signature=/path/to/sigs {rest of arguments}
+./bin/gbuild --url nilabit=/path/to/nilabit,signature=/path/to/sigs {rest of arguments}
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
 ###Build and sign Nilabit Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit bitcoin=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gbuild --commit nilabit=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
     mv build/out/nilabit-*.tar.gz build/out/src/nilabit-*.tar.gz ../
 
-	./bin/gbuild --commit bitcoin=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gbuild --commit nilabit=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-win.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../nilabit/contrib/gitian-descriptors/gitian-win.yml
     mv build/out/nilabit-*-win-unsigned.tar.gz inputs/nilabit-win-unsigned.tar.gz
     mv build/out/nilabit-*.zip build/out/nilabit-*.exe ../
 
-	./bin/gbuild --commit bitcoin=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gbuild --commit nilabit=v${VERSION} ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
     mv build/out/nilabit-*-osx-unsigned.tar.gz inputs/nilabit-osx-unsigned.tar.gz
     mv build/out/nilabit-*.tar.gz build/out/nilabit-*.dmg ../
 
   Build output expected:
 
-  1. source tarball (bitcoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (bitcoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup-unsigned.exe, bitcoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (bitcoin-${VERSION}-osx-unsigned.dmg, bitcoin-${VERSION}-osx64.tar.gz)
+  1. source tarball (nilabit-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (nilabit-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (nilabit-${VERSION}-win[32|64]-setup-unsigned.exe, nilabit-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (nilabit-${VERSION}-osx-unsigned.dmg, nilabit-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ###Verify other gitian builders signatures to your own. (Optional)
@@ -139,7 +139,7 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [bitcoin-detached-sigs](https://github.com/nilabit/nilabit-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [nilabit-detached-sigs](https://github.com/nilabit/nilabit-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
@@ -182,19 +182,19 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bitcoin.org server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the nilabit.org server
   into `/var/www/bin/nilabit-core-${VERSION}`
 
-- Update bitcoin.org version
+- Update nilabit.org version
 
-  - First, check to see if the Bitcoin.org maintainers have prepared a
+  - First, check to see if the nilabit.org maintainers have prepared a
     release: https://github.com/nilabit-dot-org/nilabit.org/labels/Releases
 
       - If they have, it will have previously failed their Travis CI
         checks because the final release files weren't uploaded.
         Trigger a Travis CI rebuild---if it passes, merge.
 
-  - If they have not prepared a release, follow the Bitcoin.org release
+  - If they have not prepared a release, follow the nilabit.org release
     instructions: https://github.com/nilabit-dot-org/nilabit.org#release-notes
 
   - After the pull request is merged, the website will automatically show the newest version within 15 minutes, as well
@@ -202,15 +202,15 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - Release sticky on bitcointalk: https://nilabittalk.org/index.php?board=1.0
+  - Release sticky on nilabittalk: https://nilabittalk.org/index.php?board=1.0
 
-  - Bitcoin-development mailing list
+  - nilabit-development mailing list
 
-  - Update title of #bitcoin on Freenode IRC
+  - Update title of #nilabit on Freenode IRC
 
   - Optionally reddit /r/nilabit, ... but this will usually sort out itself
 
-- Notify BlueMatt so that he can start building [the PPAs](https://launchpad.net/~bitcoin/+archive/ubuntu/nilabit)
+- Notify BlueMatt so that he can start building [the PPAs](https://launchpad.net/~nilabit/+archive/ubuntu/nilabit)
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

@@ -4,11 +4,11 @@ Sample init scripts and service configuration for bitcoind
 Sample scripts and configuration files for systemd, Upstart and OpenRC
 can be found in the contrib/init folder.
 
-    contrib/init/nilabitd.service:    systemd service unit configuration
-    contrib/init/nilabitd.openrc:     OpenRC compatible SysV style init script
-    contrib/init/nilabitd.openrcconf: OpenRC conf.d file
-    contrib/init/nilabitd.conf:       Upstart service configuration file
-    contrib/init/nilabitd.init:       CentOS compatible SysV style init script
+    contrib/init/bitcoind.service:    systemd service unit configuration
+    contrib/init/bitcoind.openrc:     OpenRC compatible SysV style init script
+    contrib/init/bitcoind.openrcconf: OpenRC conf.d file
+    contrib/init/bitcoind.conf:       Upstart service configuration file
+    contrib/init/bitcoind.init:       CentOS compatible SysV style init script
 
 1. Service User
 ---------------------------------
@@ -53,11 +53,11 @@ see `contrib/debian/examples/nilabit.conf`.
 
 All three configurations assume several paths that might need to be adjusted.
 
-Binary:              `/usr/bin/nilabitd`  
+Binary:              `/usr/bin/bitcoind`  
 Configuration file:  `/etc/nilabit/nilabit.conf`  
-Data directory:      `/var/lib/nilabitd`  
-PID file:            `/var/run/nilabitd/nilabitd.pid` (OpenRC and Upstart) or `/var/lib/nilabitd/nilabitd.pid` (systemd)  
-Lock file:           `/var/lock/subsys/nilabitd` (CentOS)  
+Data directory:      `/var/lib/bitcoind`  
+PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/var/lib/bitcoind/bitcoind.pid` (systemd)  
+Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
 should all be owned by the nilabit user and group.  It is advised for security
@@ -67,7 +67,7 @@ can then be controlled by group membership.
 
 3b) Mac OS X
 
-Binary:              `/usr/local/bin/nilabitd`  
+Binary:              `/usr/local/bin/bitcoind`  
 Configuration file:  `~/Library/Application Support/nilabit/nilabit.conf`  
 Data directory:      `~/Library/Application Support/nilabit`
 Lock file:           `~/Library/Application Support/nilabit/.lock`
@@ -88,7 +88,7 @@ To test, run `systemctl start bitcoind` and to enable for system startup run
 
 Rename bitcoind.openrc to bitcoind and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-`/etc/init.d/nilabitd start` and configure it to run on startup with
+`/etc/init.d/bitcoind start` and configure it to run on startup with
 `rc-update add bitcoind`
 
 4c) Upstart (for Debian/Ubuntu based distributions)
@@ -101,21 +101,21 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 
 4d) CentOS
 
-Copy bitcoind.init to /etc/init.d/nilabitd. Test by running `service bitcoind start`.
+Copy bitcoind.init to /etc/init.d/bitcoind. Test by running `service bitcoind start`.
 
 Using this script, you can adjust the path and flags to the bitcoind program by
-setting the BITCOIND and FLAGS environment variables in the file
-/etc/sysconfig/nilabitd. You can also use the DAEMONOPTS environment variable here.
+setting the bitcoind and FLAGS environment variables in the file
+/etc/sysconfig/bitcoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X
 
-Copy org.bitcoin.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.bitcoin.bitcoind.plist`.
+Copy org.nilabit.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.nilabit.bitcoind.plist`.
 
 This Launch Agent will cause bitcoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
-You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
+You will need to modify org.nilabit.bitcoind.plist if you intend to use it as a
 Launch Daemon with a dedicated nilabit user.
 
 5. Auto-respawn

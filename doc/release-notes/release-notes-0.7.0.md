@@ -15,10 +15,10 @@ source-only tarballs/zipballs directly from there:
 Ubuntu Linux users can use the "Personal Package Archive" (PPA)
 maintained by Matt Corallo to automatically keep 
 Nilabit up-to-date.  Just type
-  sudo apt-add-repository ppa:bitcoin/nilabit
+  sudo apt-add-repository ppa:nilabit/nilabit
   sudo apt-get update
-in your terminal, then install the bitcoin-qt package:
-  sudo apt-get install bitcoin-qt
+in your terminal, then install the nilabit-qt package:
+  sudo apt-get install nilabit-qt
 
 
 How to Upgrade
@@ -119,8 +119,8 @@ Qt GUI
 * Much better translations
 * Override progress bar design on platforms with segmented progress bars to assist with readability
 * Added 'immature balance' display on the overview page
-* (Windows only): enable ASLR and DEP for bitcoin-qt.exe
-* (Windows only): add meta-data to bitcoin-qt.exe (e.g. description)
+* (Windows only): enable ASLR and DEP for nilabit-qt.exe
+* (Windows only): add meta-data to nilabit-qt.exe (e.g. description)
 
 Internal codebase
 

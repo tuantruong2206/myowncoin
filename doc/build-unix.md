@@ -73,10 +73,10 @@ If that doesn't work, you can install all boost development packages with:
 
     sudo apt-get install libboost-all-dev
 
-BerkeleyDB is required for the wallet. db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/nilabit).
+BerkeleyDB is required for the wallet. db4.8 packages are available [here](https://launchpad.net/~nilabit/+archive/nilabit).
 You can add the repository and install using the following commands:
 
-    sudo add-apt-repository ppa:bitcoin/nilabit
+    sudo add-apt-repository ppa:nilabit/nilabit
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
@@ -141,10 +141,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-BITCOIN_ROOT=$(pwd)
+nilabit_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the nilabit directory
-BDB_PREFIX="${BITCOIN_ROOT}/db4"
+BDB_PREFIX="${nilabit_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -160,7 +160,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 
 # Configure nilabit Core to use our own-built instance of BDB
-cd $BITCOIN_ROOT
+cd $nilabit_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
 ```

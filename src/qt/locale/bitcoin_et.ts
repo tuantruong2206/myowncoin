@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Bitcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <translation>Need on sinu nilabiti aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -128,8 +128,8 @@
         <translation>Kinnita rahakoti krüpteering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BITCOINID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR nilabitS&lt;/b&gt;!</source>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA nilabitID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,7 +180,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signeeri &amp;sõnum</translation>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Send coins to a Nilabit address</source>
-        <translation>Saada münte Bitcoini aadressile</translation>
+        <translation>Saada münte nilabiti aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -274,8 +274,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -303,11 +303,11 @@
     </message>
     <message>
         <source>Sign messages with your Nilabit addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Bitcoini aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma nilabiti aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Bitcoini aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud nilabiti aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -326,12 +326,12 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
+        <source>nilabit Core</source>
+        <translation>nilabiti tuumik</translation>
     </message>
     <message>
         <source>&amp;About Nilabit Core</source>
-        <translation>Kirjeldus Bitcoini Tuumast</translation>
+        <translation>Kirjeldus nilabiti Tuumast</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -570,7 +570,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Nilabit address.</source>
-        <translation>Sisestatud aadress "%1" ei ole Bitcoinis kehtiv.</translation>
+        <translation>Sisestatud aadress "%1" ei ole nilabitis kehtiv.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -591,8 +591,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
+        <source>nilabit Core</source>
+        <translation>nilabiti tuumik</translation>
     </message>
     <message>
         <source>version</source>
@@ -600,7 +600,7 @@
     </message>
     <message>
         <source>About Nilabit Core</source>
-        <translation>Kirjeldus Bitcoini Tuumast</translation>
+        <translation>Kirjeldus nilabiti Tuumast</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -622,8 +622,8 @@
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
+        <source>nilabit Core</source>
+        <translation>nilabiti tuumik</translation>
     </message>
     <message>
         <source>Error</source>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>nilabiti kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -778,8 +778,8 @@
         <translation>URI käsitsemine</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start nilabit: click-to-pay handler</source>
+        <translation>nilabit ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -1204,7 +1204,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Nilabit address</source>
-        <translation>Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum nilabiti aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1224,7 +1224,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud nilabiti aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1290,12 +1290,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
+        <source>nilabit Core</source>
+        <translation>nilabiti tuumik</translation>
     </message>
     <message>
         <source>The Nilabit Core developers</source>
-        <translation>Bitcoini Tuuma arendajad</translation>
+        <translation>nilabiti Tuuma arendajad</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1670,7 +1670,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>

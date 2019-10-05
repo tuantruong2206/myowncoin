@@ -7,11 +7,11 @@
 # Exercise API with -disablewallet.
 #
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 
 
-class DisableWalletTest (BitcoinTestFramework):
+class DisableWalletTest (nilabitTestFramework):
 
     def setup_chain(self):
         print("Initializing test directory "+self.options.tmpdir)

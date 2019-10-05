@@ -1,5 +1,5 @@
-#ifndef BITCOIN_TEST_TEST_BITCOIN_H
-#define BITCOIN_TEST_TEST_BITCOIN_H
+#ifndef nilabit_TEST_TEST_nilabit_H
+#define nilabit_TEST_TEST_nilabit_H
 
 #include "chainparamsbase.h"
 #include "key.h"

@@ -1,4 +1,4 @@
-Bitcoin-Qt version 0.8.6 final is now available from:
+nilabit-Qt version 0.8.6 final is now available from:
 
   http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.8.6/
 
@@ -47,7 +47,7 @@ your machine.
 
 - Additional debug.log logging for diagnosis of network problems, log timestamps by default
 
-- Fix Bitcoin-Qt startup crash when clicking dock icon on OSX 
+- Fix nilabit-Qt startup crash when clicking dock icon on OSX 
 
 - Fix memory leaks in CKey::SetCompactSignature() and Key::SignCompact()
 

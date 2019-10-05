@@ -1,4 +1,4 @@
-Bitcoin-Qt version 0.8.4 is now available from:
+nilabit-Qt version 0.8.4 is now available from:
   http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.8.4/
 
 This is a maintenance release to fix a critical bug and three
@@ -29,7 +29,7 @@ Security issues
 
 An attacker could send a series of messages that resulted in
 an integer division-by-zero error in the Bloom Filter handling
-code, causing the Bitcoin-Qt or bitcoind process to crash.
+code, causing the nilabit-Qt or bitcoind process to crash.
 Bloom filters were introduced with version 0.8, so versions 0.8.0
 through 0.8.3 are vulnerable to this critical denial-of-service attack.
 
@@ -55,7 +55,7 @@ OSX: use 'FD_FULLSYNC' with LevelDB, which will (hopefully!)
 prevent the database corruption issues many people have
 experienced on OSX.
 
-Linux: clicking on bitcoin: links was broken if you were using
+Linux: clicking on nilabit: links was broken if you were using
 a Gnome-based desktop.
 
 Fix a hang-at-shutdown bug that only affects users that compile

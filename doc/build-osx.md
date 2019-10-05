@@ -96,13 +96,13 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./nilabitd`, provided that you are still in the `src`
+It's now available at `./bitcoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./nilabitd` to get the filename where it should be put, or just try these
+Run `./bitcoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/nilabit/nilabit.conf"
+    echo -e "rpcuser=nilabitrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/nilabit/nilabit.conf"
     chmod 600 "/Users/${USER}/Library/Application Support/nilabit/nilabit.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
@@ -114,6 +114,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./nilabitd -daemon # to start the nilabit daemon.
+    ./bitcoind -daemon # to start the nilabit daemon.
     ./nilabit-cli --help  # for a list of command-line options.
     ./nilabit-cli help    # When the daemon is running, to get a list of RPC commands

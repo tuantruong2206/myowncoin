@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 from test_framework.mininode import *
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 import time
 from test_framework.blocktools import create_block, create_coinbase
@@ -105,10 +105,10 @@ class TestNode(NodeConnCB):
         return received_pong
 
 
-class AcceptBlockTest(BitcoinTestFramework):
+class AcceptBlockTest(nilabitTestFramework):
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("BITCOIND", "bitcoind"),
+                          default=os.getenv("bitcoind", "bitcoind"),
                           help="bitcoind binary to test")
 
     def setup_chain(self):

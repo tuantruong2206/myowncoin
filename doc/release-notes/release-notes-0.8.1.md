@@ -1,4 +1,4 @@
-Bitcoin-Qt/nilabitd version 0.8.1 is now available from:
+nilabit-Qt/bitcoind version 0.8.1 is now available from:
   http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.8.1/
 
 This is a maintenance release that adds a new network rule to avoid

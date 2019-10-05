@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_RPCCONSOLE_H
-#define BITCOIN_QT_RPCCONSOLE_H
+#ifndef nilabit_QT_RPCCONSOLE_H
+#define nilabit_QT_RPCCONSOLE_H
 
 #include "guiutil.h"
 #include "peertablemodel.h"
@@ -136,4 +136,4 @@ private:
     QMenu *banTableContextMenu;
 };
 
-#endif // BITCOIN_QT_RPCCONSOLE_H
+#endif // nilabit_QT_RPCCONSOLE_H

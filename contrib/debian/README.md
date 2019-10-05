@@ -7,15 +7,15 @@ for Debian-based Linux systems. If you compile bitcoind/nilabit-qt yourself, the
 ## nilabit: URI support ##
 
 
-bitcoin-qt.desktop  (Gnome / Open Desktop)
+nilabit-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install bitcoin-qt.desktop
+	sudo desktop-file-install nilabit-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your bitcoin-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your nilabit-qt binary to `/usr/bin`
 and the `../../share/pixmaps/nilabit128.png` to `/usr/share/pixmaps`
 
-bitcoin-qt.protocol (KDE)
+nilabit-qt.protocol (KDE)
 

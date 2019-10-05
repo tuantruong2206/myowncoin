@@ -8,7 +8,7 @@
 
 #include "optionsmodel.h"
 
-#include "bitcoinunits.h"
+#include "nilabitunits.h"
 #include "guiutil.h"
 
 #include "amount.h"
@@ -61,7 +61,7 @@ void OptionsModel::Init(bool resetSettings)
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::NLB);
+        settings.setValue("nDisplayUnit", nilabitUnits::NLB);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))

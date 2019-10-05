@@ -5,7 +5,7 @@
 #include "overviewpage.h"
 #include "ui_overviewpage.h"
 
-#include "bitcoinunits.h"
+#include "nilabitunits.h"
 #include "clientmodel.h"
 #include "guiconstants.h"
 #include "guiutil.h"
@@ -26,7 +26,7 @@ class TxViewDelegate : public QAbstractItemDelegate
     Q_OBJECT
 public:
     TxViewDelegate(const PlatformStyle *platformStyle):
-        QAbstractItemDelegate(), unit(BitcoinUnits::NLB),
+        QAbstractItemDelegate(), unit(nilabitUnits::NLB),
         platformStyle(platformStyle)
     {
 
@@ -84,7 +84,7 @@ public:
             foreground = option.palette.color(QPalette::Text);
         }
         painter->setPen(foreground);
-        QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true, BitcoinUnits::separatorAlways);
+        QString amountText = nilabitUnits::formatWithUnit(unit, amount, true, nilabitUnits::separatorAlways);
         if(!confirmed)
         {
             amountText = QString("[") + amountText + QString("]");
@@ -162,14 +162,14 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     currentWatchOnlyBalance = watchOnlyBalance;
     currentWatchUnconfBalance = watchUnconfBalance;
     currentWatchImmatureBalance = watchImmatureBalance;
-    ui->labelBalance->setText(BitcoinUnits::formatWithUnit(unit, balance, false, BitcoinUnits::separatorAlways));
-    ui->labelUnconfirmed->setText(BitcoinUnits::formatWithUnit(unit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelImmature->setText(BitcoinUnits::formatWithUnit(unit, immatureBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelTotal->setText(BitcoinUnits::formatWithUnit(unit, balance + unconfirmedBalance + immatureBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelWatchAvailable->setText(BitcoinUnits::formatWithUnit(unit, watchOnlyBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelWatchPending->setText(BitcoinUnits::formatWithUnit(unit, watchUnconfBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelWatchImmature->setText(BitcoinUnits::formatWithUnit(unit, watchImmatureBalance, false, BitcoinUnits::separatorAlways));
-    ui->labelWatchTotal->setText(BitcoinUnits::formatWithUnit(unit, watchOnlyBalance + watchUnconfBalance + watchImmatureBalance, false, BitcoinUnits::separatorAlways));
+    ui->labelBalance->setText(nilabitUnits::formatWithUnit(unit, balance, false, nilabitUnits::separatorAlways));
+    ui->labelUnconfirmed->setText(nilabitUnits::formatWithUnit(unit, unconfirmedBalance, false, nilabitUnits::separatorAlways));
+    ui->labelImmature->setText(nilabitUnits::formatWithUnit(unit, immatureBalance, false, nilabitUnits::separatorAlways));
+    ui->labelTotal->setText(nilabitUnits::formatWithUnit(unit, balance + unconfirmedBalance + immatureBalance, false, nilabitUnits::separatorAlways));
+    ui->labelWatchAvailable->setText(nilabitUnits::formatWithUnit(unit, watchOnlyBalance, false, nilabitUnits::separatorAlways));
+    ui->labelWatchPending->setText(nilabitUnits::formatWithUnit(unit, watchUnconfBalance, false, nilabitUnits::separatorAlways));
+    ui->labelWatchImmature->setText(nilabitUnits::formatWithUnit(unit, watchImmatureBalance, false, nilabitUnits::separatorAlways));
+    ui->labelWatchTotal->setText(nilabitUnits::formatWithUnit(unit, watchOnlyBalance + watchUnconfBalance + watchImmatureBalance, false, nilabitUnits::separatorAlways));
 
     // only show immature (newly mined) balance if it's non-zero, so as not to complicate things
     // for the non-mining users

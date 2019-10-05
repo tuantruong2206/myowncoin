@@ -4,11 +4,11 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 import urllib.parse
 
-class AbandonConflictTest(BitcoinTestFramework):
+class AbandonConflictTest(nilabitTestFramework):
 
     def setup_network(self):
         self.nodes = []

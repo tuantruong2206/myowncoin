@@ -5,12 +5,12 @@
 
 # Exercise the wallet keypool, and interaction with wallet encryption/locking
 
-# Add python-bitcoinrpc to module search path:
+# Add python-nilabitrpc to module search path:
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 
-class KeyPoolTest(BitcoinTestFramework):
+class KeyPoolTest(nilabitTestFramework):
 
     def run_test(self):
         nodes = self.nodes

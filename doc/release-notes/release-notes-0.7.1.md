@@ -14,10 +14,10 @@ source-only tarballs/zipballs directly from there:
 Ubuntu Linux users can use the "Personal Package Archive" (PPA)
 maintained by Matt Corallo to automatically keep 
 up-to-date.  Just type:
-  sudo apt-add-repository ppa:bitcoin/nilabit
+  sudo apt-add-repository ppa:nilabit/nilabit
   sudo apt-get update
-in your terminal, then install the bitcoin-qt package:
-  sudo apt-get install bitcoin-qt
+in your terminal, then install the nilabit-qt package:
+  sudo apt-get install nilabit-qt
 
 KNOWN ISSUES
 ------------
@@ -75,7 +75,7 @@ Dependency changes
 Bug fixes
 ---------
 
-* Clicking on a bitcoin: URI on Windows should now launch Bitcoin-Qt properly.
+* Clicking on a nilabit: URI on Windows should now launch nilabit-Qt properly.
 
 * When running -testnet, use RPC port 18332 by default.
 

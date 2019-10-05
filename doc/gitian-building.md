@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to bitcoin.org.
+to nilabit.org.
 
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
@@ -41,7 +41,7 @@ Debian Linux was chosen as the host distribution because it has a lightweight in
 Any kind of virtualization can be used, for example:
 - [VirtualBox](https://www.virtualbox.org/) (covered by this guide)
 - [KVM](http://www.linux-kvm.org/page/Main_Page)
-- [LXC](https://linuxcontainers.org/), see also [Gitian host docker container](https://github.com/gdm85/tenku/tree/master/docker/gitian-bitcoin-host/README.md).
+- [LXC](https://linuxcontainers.org/), see also [Gitian host docker container](https://github.com/gdm85/tenku/tree/master/docker/gitian-nilabit-host/README.md).
 
 You can also install Gitian on actual hardware instead of using virtualization.
 
@@ -387,9 +387,9 @@ For example:
 ```bash
 URL=https://github.com/laanwj/nilabit.git
 COMMIT=2014_03_windows_unicode_path
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit nilabit=${COMMIT} --url nilabit=${URL} ../nilabit/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit nilabit=${COMMIT} --url nilabit=${URL} ../nilabit/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit nilabit=${COMMIT} --url nilabit=${URL} ../nilabit/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Building fully offline
@@ -440,7 +440,7 @@ git clone https://github.com/nilabit/nilabit-detached-sigs.git
 BTCPATH=/some/root/path/nilabit.git
 SIGPATH=/some/root/path/nilabit-detached-sigs.git
 
-./bin/gbuild --url bitcoin=${BTCPATH},signature=${SIGPATH} ../nilabit/contrib/gitian-descriptors/gitian-win-signer.yml
+./bin/gbuild --url nilabit=${BTCPATH},signature=${SIGPATH} ../nilabit/contrib/gitian-descriptors/gitian-win-signer.yml
 ```
 
 Signing externally
@@ -467,5 +467,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[bitcoin/gitian.sigs](https://github.com/nilabit/gitian.sigs/) repository, or if that's not possible create a pull
+[nilabit/gitian.sigs](https://github.com/nilabit/gitian.sigs/) repository, or if that's not possible create a pull
 request. You can also mail the files to Wladimir (laanwj@gmail.com) and he will commit them.

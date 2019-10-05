@@ -1,4 +1,4 @@
-Bitcoin-Qt version 0.8.2 is now available from:
+nilabit-Qt version 0.8.2 is now available from:
   http://sourceforge.net/projects/nilabit/files/nilabit/nilabit-0.8.2/
 
 This is a maintenance release that fixes many bugs and includes
@@ -43,7 +43,7 @@ with code that automatically calculates and suggests appropriate fees in the
 0.9 release and note that if you set a fee policy significantly different from
 the rest of the network your transactions may never confirm.
 
-Bitcoin-Qt changes
+nilabit-Qt changes
 
 * New icon and splash screen
 * Improve reporting of synchronization process
@@ -58,7 +58,7 @@ Bitcoin-Qt changes
   to current translations
 
 MacOSX:
-* OSX support for click-to-pay (bitcoin:) links
+* OSX support for click-to-pay (nilabit:) links
 * Fix GUI disappearing problem on MacOSX (issue #1522)
 
 Linux/Unix:
@@ -97,8 +97,8 @@ Wallet compatibility/rescuing
 
 Known Bugs
 
-* Entering the 'getblocktemplate' or 'getwork' RPC commands into the Bitcoin-Qt debug
-console will cause Bitcoin-Qt to crash. Run Bitcoin-Qt with the -server command-line
+* Entering the 'getblocktemplate' or 'getwork' RPC commands into the nilabit-Qt debug
+console will cause nilabit-Qt to crash. Run nilabit-Qt with the -server command-line
 option to workaround.
 
 Thanks to everybody who contributed to the 0.8.2 release!

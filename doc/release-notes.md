@@ -66,7 +66,7 @@ The following outputs are affected by this change:
 - RPC `decodescript`
 - REST `/rest/tx/` (JSON format)
 - REST `/rest/block/` (JSON format when including extended tx details)
-- `bitcoin-tx -json`
+- `nilabit-tx -json`
 
 ### Configuration and command-line options
 

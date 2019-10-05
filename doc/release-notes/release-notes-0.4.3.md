@@ -1,5 +1,5 @@
 bitcoind version 0.4.3 is now available for download at:
-http://luke.dashjr.org/programs/nilabit/files/nilabitd-0.4.3/ (until Gavin uploads to SourceForge)
+http://luke.dashjr.org/programs/nilabit/files/bitcoind-0.4.3/ (until Gavin uploads to SourceForge)
 
 This is a bugfix-only release based on 0.4.0.
 
@@ -9,7 +9,7 @@ Please report bugs for the daemon only using the issue tracker at github:
 https://github.com/nilabit/nilabit/issues
 
 Stable source code is hosted at Gitorious:
-http://gitorious.org/nilabit/nilabitd-stable/archive-tarball/v0.4.3#.tar.gz
+http://gitorious.org/nilabit/bitcoind-stable/archive-tarball/v0.4.3#.tar.gz
 
 BUG FIXES
 

@@ -1,14 +1,14 @@
-Bitcoin Core integration/staging tree
+nilabit Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/nilabit/nilabit.svg?branch=master)](https://travis-ci.org/nilabit/nilabit)
 
 https://nilabitcore.org
 
-What is Bitcoin?
+What is nilabit?
 ----------------
 
-Bitcoin is an experimental new digital currency that enables instant payments to
+nilabit is an experimental new digital currency that enables instant payments to
 anyone, anywhere in the world. Nilabit uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Nilabit Core is the name of open source
@@ -21,7 +21,7 @@ The Nilabit Core software, see https://nilabit.org/en/download, or read the
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+nilabit Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -37,7 +37,7 @@ The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #bitcoin-core-dev.
+Developer IRC can be found on Freenode at #nilabit-core-dev.
 
 Testing
 -------
@@ -71,7 +71,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/nilabit/).
+[nilabit Core's Transifex page](https://www.transifex.com/projects/p/nilabit/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

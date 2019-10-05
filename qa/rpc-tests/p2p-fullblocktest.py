@@ -17,7 +17,7 @@ class PreviousSpendableOutput(object):
         self.n = n  # the output we're spending
 
 '''
-This reimplements tests from the bitcoinj/FullBlockTestGenerator used
+This reimplements tests from the nilabitj/FullBlockTestGenerator used
 by the pull-tester.
 
 We use the testing framework in which we expect a particular answer from

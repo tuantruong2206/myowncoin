@@ -7,10 +7,10 @@
 # Test the BIP66 changeover logic
 #
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 
-class BIP66Test(BitcoinTestFramework):
+class BIP66Test(nilabitTestFramework):
 
     def setup_network(self):
         self.nodes = []

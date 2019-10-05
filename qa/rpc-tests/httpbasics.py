@@ -7,13 +7,13 @@
 # Test rpc http basics
 #
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import nilabitTestFramework
 from test_framework.util import *
 
 import http.client
 import urllib.parse
 
-class HTTPBasicsTest (BitcoinTestFramework):
+class HTTPBasicsTest (nilabitTestFramework):
     def setup_nodes(self):
         return start_nodes(4, self.options.tmpdir)
 

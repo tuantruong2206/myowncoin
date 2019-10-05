@@ -20,8 +20,8 @@ https://github.com/nilabit/nilabit/zipball/v0.5.1  # .zip
 For Ubuntu users, there is a new ppa maintained by Matt Corallo which
 you can add to your system so that it will automatically keep
 Nilabit up-to-date.  Just type
-sudo apt-add-repository ppa:bitcoin/nilabit
-in your terminal, then install the bitcoin-qt package.
+sudo apt-add-repository ppa:nilabit/nilabit
+in your terminal, then install the nilabit-qt package.
 
 
 BUG FIXES
@@ -40,4 +40,4 @@ orphan blocks.
 
 The wallet passphrase dialog now warns you if the caps lock key was pressed.
 
-Improved searching in addresses and labels in bitcoin-qt.
+Improved searching in addresses and labels in nilabit-qt.

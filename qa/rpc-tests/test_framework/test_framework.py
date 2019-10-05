@@ -5,7 +5,7 @@
 
 # Base class for RPC testing
 
-# Add python-bitcoinrpc to module search path:
+# Add python-nilabitrpc to module search path:
 import os
 import sys
 
@@ -29,7 +29,7 @@ from .util import (
 from .authproxy import AuthServiceProxy, JSONRPCException
 
 
-class BitcoinTestFramework(object):
+class nilabitTestFramework(object):
 
     # These may be over-ridden by subclasses:
     def run_test(self):
@@ -171,7 +171,7 @@ class BitcoinTestFramework(object):
 # 2 binaries: 1 test binary, 1 ref binary
 # n>2 binaries: 1 test binary, n-1 ref binaries
 
-class ComparisonTestFramework(BitcoinTestFramework):
+class ComparisonTestFramework(nilabitTestFramework):
 
     # Can override the num_nodes variable to indicate how many nodes to run.
     def __init__(self):
@@ -179,10 +179,10 @@ class ComparisonTestFramework(BitcoinTestFramework):
 
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("BITCOIND", "bitcoind"),
+                          default=os.getenv("bitcoind", "bitcoind"),
                           help="bitcoind binary to test")
         parser.add_option("--refbinary", dest="refbinary",
-                          default=os.getenv("BITCOIND", "bitcoind"),
+                          default=os.getenv("bitcoind", "bitcoind"),
                           help="bitcoind binary to use for reference nodes (if any)")
 
     def setup_chain(self):

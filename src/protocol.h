@@ -7,8 +7,8 @@
 #error This header can only be compiled as C++.
 #endif
 
-#ifndef BITCOIN_PROTOCOL_H
-#define BITCOIN_PROTOCOL_H
+#ifndef nilabit_PROTOCOL_H
+#define nilabit_PROTOCOL_H
 
 #include "netbase.h"
 #include "serialize.h"
@@ -241,7 +241,7 @@ enum {
 
     // Bits 24-31 are reserved for temporary experiments. Just pick a bit that
     // isn't getting used, or one not being used much, and notify the
-    // bitcoin-development mailing list. Remember that service bits are just
+    // nilabit-development mailing list. Remember that service bits are just
     // unauthenticated advertisements, so your code must be robust against
     // collisions and other cases where nodes may be advertising a service they
     // do not actually support. Other service bits should be allocated via the
@@ -318,4 +318,4 @@ enum {
     MSG_FILTERED_BLOCK,
 };
 
-#endif // BITCOIN_PROTOCOL_H
+#endif // nilabit_PROTOCOL_H

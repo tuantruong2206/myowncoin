@@ -7,7 +7,7 @@ Please report bugs using the issue tracker at github:
 https://github.com/nilabit/nilabit/issues
 
 Stable source code is hosted at Gitorious:
-http://gitorious.org/nilabit/nilabitd-stable/archive-tarball/v0.5.2#.tar.gz
+http://gitorious.org/nilabit/bitcoind-stable/archive-tarball/v0.5.2#.tar.gz
 
 BUG FIXES
 

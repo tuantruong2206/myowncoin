@@ -238,7 +238,7 @@ def main():
     (options, args) = parser.parse_args()
 
     check_json_precision()
-    config = read_bitcoin_config(options.datadir)
+    config = read_nilabit_config(options.datadir)
     if options.testnet: config['testnet'] = True
     bitcoind = connect_JSON(config)
 

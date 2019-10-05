@@ -1,2 +1,2 @@
-usr/local/bin/nilabitd usr/bin
+usr/local/bin/bitcoind usr/bin
 usr/local/bin/nilabit-cli usr/bin

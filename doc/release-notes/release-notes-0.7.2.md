@@ -40,7 +40,7 @@ Bug fixes
   database twice.
 
 * Fix use-after-free problems in initialization and shutdown, the latter of
-  which caused Bitcoin-Qt to crash on Windows when exiting.
+  which caused nilabit-Qt to crash on Windows when exiting.
 
 * Correct library linking so building on Windows natively works.
 

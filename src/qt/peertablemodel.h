@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_PEERTABLEMODEL_H
-#define BITCOIN_QT_PEERTABLEMODEL_H
+#ifndef nilabit_QT_PEERTABLEMODEL_H
+#define nilabit_QT_PEERTABLEMODEL_H
 
 #include "main.h" // For CNodeStateStats
 #include "net.h"
@@ -78,4 +78,4 @@ private:
     QTimer *timer;
 };
 
-#endif // BITCOIN_QT_PEERTABLEMODEL_H
+#endif // nilabit_QT_PEERTABLEMODEL_H

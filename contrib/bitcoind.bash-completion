@@ -1,12 +1,12 @@
-# bash programmable completion nilabitd(1) and nilabit-cli(1)
+# bash programmable completion bitcoind(1) and nilabit-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 have bitcoind && {
 
-# call $nilabitd for RPC
-_bitcoin_rpc() {
+# call $bitcoind for RPC
+_nilabit_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -20,9 +20,9 @@ _bitcoin_rpc() {
 }
 
 # Add nilabit accounts to COMPREPLY
-_bitcoin_accounts() {
+_nilabit_accounts() {
     local accounts
-    accounts=$(_bitcoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_nilabit_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
@@ -30,8 +30,8 @@ _bitcoind() {
     local cur prev words=() cword
     local bitcoind
 
-    # save and use original argument to invoke nilabitd
-    # nilabitd might not be in $PATH
+    # save and use original argument to invoke bitcoind
+    # bitcoind might not be in $PATH
     bitcoind="$1"
 
     COMPREPLY=()
@@ -53,7 +53,7 @@ _bitcoind() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _bitcoin_accounts
+                _nilabit_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _bitcoind() {
                 return 0
                 ;;
             move|setaccount)
-                _bitcoin_accounts
+                _nilabit_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _bitcoind() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _bitcoin_accounts
+            _nilabit_accounts
             return 0
             ;;
     esac
@@ -119,7 +119,7 @@ _bitcoind() {
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_bitcoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_nilabit_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _bitcoind() {
     esac
 }
 
-complete -F _bitcoind bitcoind bitcoin-cli
+complete -F _bitcoind bitcoind nilabit-cli
 }
 
 # Local variables:

@@ -14,7 +14,7 @@ The following are some helpful notes on how to run nilabit on your native platfo
 Unpack the files into a directory and run:
 
 - `bin/nilabit-qt` (GUI) or
-- `bin/nilabitd` (headless)
+- `bin/bitcoind` (headless)
 
 ### Windows
 
@@ -26,9 +26,9 @@ Drag nilabit-Core to your applications folder, and then run nilabit-Core.
 
 ### Need Help?
 
-* See the documentation at the [nilabit Wiki](https://en.bitcoin.it/wiki/Main_Page)
+* See the documentation at the [nilabit Wiki](https://en.nilabit.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#nilabit](http://webchat.freenode.net?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoin).
+* Ask for help on [#nilabit](http://webchat.freenode.net?channels=nilabit) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=nilabit).
 * Ask for help on the [nilabitTalk](https://nilabittalk.org/) forums, in the [Technical Support board](https://nilabittalk.org/index.php?board=4.0).
 
 Building
@@ -60,8 +60,8 @@ The nilabit repo's [root README](/README.md) contains relevant information on th
 
 ### Resources
 * Discuss on the [nilabitTalk](https://nilabittalk.org/) forums, in the [Development & Technical Discussion board](https://nilabittalk.org/index.php?board=6.0).
-* Discuss project-specific development on #bitcoin-core-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-core-dev).
-* Discuss general nilabit development on #bitcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-dev).
+* Discuss project-specific development on #nilabit-core-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=nilabit-core-dev).
+* Discuss general nilabit development on #nilabit-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=nilabit-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

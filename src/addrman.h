@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_ADDRMAN_H
-#define BITCOIN_ADDRMAN_H
+#ifndef nilabit_ADDRMAN_H
+#define nilabit_ADDRMAN_H
 
 #include "netbase.h"
 #include "protocol.h"
@@ -577,4 +577,4 @@ public:
 
 };
 
-#endif // BITCOIN_ADDRMAN_H
+#endif // nilabit_ADDRMAN_H
