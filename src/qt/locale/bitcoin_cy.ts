@@ -152,7 +152,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>nilabitGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Cysoni â'r rhwydwaith...</translation>
@@ -214,8 +214,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>nilabit</source>
+        <translation>nilabit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -230,8 +230,8 @@
         <translation>&amp;Derbyn</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Dangos gwybodaeth am Graidd Bitcoin</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Dangos gwybodaeth am Graidd nilabit</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -254,12 +254,12 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Craidd Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Craidd nilabit</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Ynghylch Craidd Bitcoin</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>&amp;Ynghylch Craidd nilabit</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -425,12 +425,12 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Craidd Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Craidd nilabit</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Ynghylch Craidd Bitcoin</translation>
+        <source>About Nilabit Core</source>
+        <translation>Ynghylch Craidd nilabit</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -444,12 +444,12 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Croeso i Graidd Bitcoin</translation>
+        <source>Welcome to Nilabit Core.</source>
+        <translation>Croeso i Graidd nilabit</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Craidd Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Craidd nilabit</translation>
     </message>
     <message>
         <source>Error</source>
@@ -664,12 +664,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Craidd Bitcoin</translation>
+        <source>nilabit Core</source>
+        <translation>Craidd nilabit</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Datblygwyr Graidd Bitcoin</translation>
+        <source>The Nilabit Core developers</source>
+        <translation>Datblygwyr Graidd nilabit</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -776,7 +776,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>nilabit-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsiynau:</translation>

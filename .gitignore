@@ -3,12 +3,12 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
+src/nilabit
 src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/qt/test/test_bitcoin-qt
+src/nilabit-cli
+src/nilabit-tx
+src/test/test_nilabit
+src/qt/test/test_nilabit-qt
 
 # autoreconf
 Makefile.in
@@ -31,8 +31,8 @@ config.log
 config.status
 configure
 libtool
-src/config/bitcoin-config.h
-src/config/bitcoin-config.h.in
+src/config/nilabit-config.h
+src/config/nilabit-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -57,7 +57,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.bitcoin
+.nilabit
 *.a
 *.pb.cc
 *.pb.h
@@ -76,12 +76,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+nilabit-qt
+nilabit-Qt.app
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+nilabit-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -95,7 +95,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_nilabit.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -109,10 +109,10 @@ qa/pull-tester/cache/*
 qa/pull-tester/test.*/*
 qa/tmp
 cache/
-share/BitcoindComparisonTool.jar
+share/bitcoindComparisonTool.jar
 
 !src/leveldb*/Makefile
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
+libnilabitconsensus.pc

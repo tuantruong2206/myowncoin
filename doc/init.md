@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "bitcoin" user
+All three Linux startup configurations assume the existence of a "nilabit" user
 and group.  They must be created before attempting to use these scripts.
 The OS X configuration assumes bitcoind will be set up for the current user.
 
@@ -44,7 +44,7 @@ This allows for running bitcoind without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/bitcoin.conf`.
+see `contrib/debian/examples/nilabit.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,23 +54,23 @@ see `contrib/debian/examples/bitcoin.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/bitcoind`  
-Configuration file:  `/etc/bitcoin/bitcoin.conf`  
+Configuration file:  `/etc/nilabit/nilabit.conf`  
 Data directory:      `/var/lib/bitcoind`  
 PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/var/lib/bitcoind/bitcoind.pid` (systemd)  
 Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the bitcoin user and group.  It is advised for security
+should all be owned by the nilabit user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-bitcoin user and group.  Access to bitcoin-cli and other bitcoind rpc clients
+nilabit user and group.  Access to nilabit-cli and other bitcoind rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoind`  
-Configuration file:  `~/Library/Application Support/Bitcoin/bitcoin.conf`  
-Data directory:      `~/Library/Application Support/Bitcoin`
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`
+Configuration file:  `~/Library/Application Support/nilabit/nilabit.conf`  
+Data directory:      `~/Library/Application Support/nilabit`
+Lock file:           `~/Library/Application Support/nilabit/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
@@ -104,19 +104,19 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy bitcoind.init to /etc/init.d/bitcoind. Test by running `service bitcoind start`.
 
 Using this script, you can adjust the path and flags to the bitcoind program by
-setting the BITCOIND and FLAGS environment variables in the file
+setting the bitcoind and FLAGS environment variables in the file
 /etc/sysconfig/bitcoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X
 
-Copy org.bitcoin.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.bitcoin.bitcoind.plist`.
+Copy org.nilabit.bitcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.nilabit.bitcoind.plist`.
 
 This Launch Agent will cause bitcoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
-You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
-Launch Daemon with a dedicated bitcoin user.
+You will need to modify org.nilabit.bitcoind.plist if you intend to use it as a
+Launch Daemon with a dedicated nilabit user.
 
 5. Auto-respawn
 -----------------------------------
