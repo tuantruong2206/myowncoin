@@ -19,7 +19,7 @@ _bitcoin_rpc() {
     $bitcoind "${rpcargs[@]}" "$@"
 }
 
-# Add bitcoin accounts to COMPREPLY
+# Add Nilabit accounts to COMPREPLY
 _bitcoin_accounts() {
     local accounts
     accounts=$(_bitcoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')

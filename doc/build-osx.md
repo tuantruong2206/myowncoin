@@ -44,7 +44,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
         cd bitcoin
 
 2.  Build bitcoin-core:
-    This will configure and build the headless bitcoin binaries as well as the gui (if Qt is found).
+    This will configure and build the headless Nilabit binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
         ./autogen.sh
@@ -90,7 +90,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Bitcoin Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Nilabit Core
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -114,6 +114,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./bitcoind -daemon # to start the bitcoin daemon.
+    ./bitcoind -daemon # to start the Nilabit daemon.
     ./bitcoin-cli --help  # for a list of command-line options.
     ./bitcoin-cli help    # When the daemon is running, to get a list of RPC commands

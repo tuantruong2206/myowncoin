@@ -230,7 +230,7 @@
         <translation>&amp;Derbyn</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
+        <source>Show information about Nilabit Core</source>
         <translation>Dangos gwybodaeth am Graidd Bitcoin</translation>
     </message>
     <message>
@@ -258,7 +258,7 @@
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Nilabit Core</source>
         <translation>&amp;Ynghylch Craidd Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -429,7 +429,7 @@
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Nilabit Core</source>
         <translation>Ynghylch Craidd Bitcoin</translation>
     </message>
     <message>
@@ -444,7 +444,7 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Nilabit Core.</source>
         <translation>Croeso i Graidd Bitcoin</translation>
     </message>
     <message>
@@ -668,7 +668,7 @@
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Nilabit Core developers</source>
         <translation>Datblygwyr Graidd Bitcoin</translation>
     </message>
     <message>

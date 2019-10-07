@@ -60,7 +60,7 @@ PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/
 Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the bitcoin user and group.  It is advised for security
+should all be owned by the Nilabit user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
 bitcoin user and group.  Access to bitcoin-cli and other bitcoind rpc clients
 can then be controlled by group membership.
@@ -116,7 +116,7 @@ This Launch Agent will cause bitcoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bitcoind as the current user.
 You will need to modify org.bitcoin.bitcoind.plist if you intend to use it as a
-Launch Daemon with a dedicated bitcoin user.
+Launch Daemon with a dedicated Nilabit user.
 
 5. Auto-respawn
 -----------------------------------

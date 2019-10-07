@@ -38,7 +38,7 @@
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Nilabit Core</source>
         <translation>За Биткойн ядрото</translation>
     </message>
     </context>
@@ -61,7 +61,7 @@
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Nilabit Core</source>
         <translation>За Биткойн ядрото</translation>
     </message>
     </context>
