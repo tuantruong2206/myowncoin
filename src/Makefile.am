@@ -55,15 +55,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += nilabitd
+  bin_PROGRAMS += bitcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += nilabit-cli nilabit-tx
+  bin_PROGRAMS += bitcoin-cli bitcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# Nilabit core #
+# bitcoin core #
 BITCOIN_CORE_H = \
   addrman.h \
   alert.h \
@@ -345,7 +345,7 @@ endif
 
 nilabitd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# nilabit-cli binary #
+# bitcoin-cli binary #
 nilabit_cli_SOURCES = bitcoin-cli.cpp
 nilabit_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 nilabit_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -363,7 +363,7 @@ nilabit_cli_LDADD = \
 nilabit_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# nilabit-tx binary #
+# bitcoin-tx binary #
 nilabit_tx_SOURCES = bitcoin-tx.cpp
 nilabit_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 nilabit_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
