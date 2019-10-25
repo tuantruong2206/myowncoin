@@ -30,7 +30,7 @@ because database writes are queued to speed up download
 time.
 
 
-NEW FEATURES SINCE Nilabit VERSION 0.5
+NEW FEATURES SINCE Bitcoin VERSION 0.5
 
 Initial network synchronization should be much faster
 (one or two hours on a typical machine instead of ten or more
@@ -44,7 +44,7 @@ and receiving addresses.
 New context menu on addresses to copy/edit/delete them.
 
 New Sign Message dialog that allows you to prove that you
-own a Nilabit address by creating a digital
+own a Bitcoin address by creating a digital
 signature.
 
 New wallets created with this version will
@@ -117,7 +117,7 @@ PRELIMINARY SUPPORT FOR MULTISIGNATURE TRANSACTIONS
 This release has preliminary support for multisignature
 transactions-- transactions that require authorization
 from more than one person or device before they
-will be accepted by the Nilabit network.
+will be accepted by the Bitcoin network.
 
 Prior to this release, multisignature transactions
 were considered 'non-standard' and were ignored;
@@ -131,7 +131,7 @@ once enough of the network has upgraded so relaying
 and validating them is robust.
 
 For this release, creation and testing of multisignature
-transactions is limited to the Nilabit test network using
+transactions is limited to the Bitcoin test network using
 the "addmultisigaddress" JSON-RPC api call.
 
 Short multisignature address support is included in this

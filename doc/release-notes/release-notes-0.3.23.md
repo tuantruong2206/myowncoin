@@ -1,7 +1,7 @@
-Win32, Linux, MacOSX and source releases for Nilabit v0.3.23 have been uploaded to
+Win32, Linux, MacOSX and source releases for Bitcoin v0.3.23 have been uploaded to
 https://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.23/
 
-This is another quick bugfix release, trying to deal with the influx of new Nilabit users.
+This is another quick bugfix release, trying to deal with the influx of new Bitcoin users.
 
 Main items of note:
 

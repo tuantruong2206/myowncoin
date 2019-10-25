@@ -179,7 +179,7 @@ bitcoin (0.5.3-natty0) natty; urgency=low
 bitcoin (0.5.2-natty1) natty; urgency=low
 
   * Remove mentions on anonymity in package descriptions and manpage.
-    These should never have been there, Nilabit isn't anonymous without
+    These should never have been there, Bitcoin isn't anonymous without
     a ton of work that virtually no users will ever be willing and
     capable of doing
 
@@ -229,7 +229,7 @@ bitcoin (0.5.0~rc1-natty0) natty; urgency=low
   * Mark for natty
   * Fix broken build
   * Fix copyright listing
-  * Remove bitcoin: URL handler until Nilabit actually has support for it (Oops)
+  * Remove bitcoin: URL handler until Bitcoin actually has support for it (Oops)
 
  -- Matt Corallo <matt@bluematt.me>  Wed, 26 Oct 2011 14:37:18 -0400
 
@@ -259,7 +259,7 @@ bitcoin (0.4.0-1) unstable; urgency=low
   * Drop dpkg-source local-options hint: Declared options are default
     since dpkg-source 1.16.1.
     + Add irc URL to Upstream-Contact.
-    + Add comment on Nilabit Developers to catch-all Files section.
+    + Add comment on Bitcoin Developers to catch-all Files section.
     + Add Files sections for newly readded src/cryptopp/* (new custom
       BSD-like license), and newly added doc/build-osx.txt and
       src/makefile.osx (Expat).

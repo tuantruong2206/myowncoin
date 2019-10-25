@@ -27,10 +27,10 @@ Downgrade warning
 
 Because release 0.12.0 and later will obfuscate the chainstate on every
 fresh sync or reindex, the chainstate is not backwards-compatible with
-pre-0.12 versions of Nilabit Core or other software.
+pre-0.12 versions of Bitcoin Core or other software.
 
 If you want to downgrade after you have done a reindex with 0.12.0 or later,
-you will need to reindex when you first start Nilabit Core version 0.11 or
+you will need to reindex when you first start Bitcoin Core version 0.11 or
 earlier.
 
 Notable changes

@@ -62,13 +62,13 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>
-Estas son las direcciones de Nilabit para enviar pagos . Siempre verifique la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son las direcciones de Nilabit para recibir los pagos . Se recomienda el uso de una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son las direcciones de Bitcoin para recibir los pagos . Se recomienda el uso de una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -287,7 +287,7 @@ Estas son las direcciones de Nilabit para enviar pagos . Siempre verifique la ca
         <translation>Importando bloques desde el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Nilabit address</source>
+        <source>Send coins to a Bitcoin address</source>
         <translation>Enviando monedas a una dirección de Bitcoin</translation>
     </message>
     <message>
@@ -323,8 +323,8 @@ Estas son las direcciones de Nilabit para enviar pagos . Siempre verifique la ca
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Show information about Nilabit Core</source>
-        <translation>Mostrar información sobre Nilabit Core</translation>
+        <source>Show information about Bitcoin Core</source>
+        <translation>Mostrar información sobre Bitcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>

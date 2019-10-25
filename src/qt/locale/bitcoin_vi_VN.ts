@@ -218,8 +218,8 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
-        <source>&amp;About Nilabit Core</source>
-        <translation>&amp;Về Nilabit Core</translation>
+        <source>&amp;About Bitcoin Core</source>
+        <translation>&amp;Về Bitcoin Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -385,8 +385,8 @@
         <translation>version</translation>
     </message>
     <message>
-        <source>About Nilabit Core</source>
-        <translation>Về Nilabit Core</translation>
+        <source>About Bitcoin Core</source>
+        <translation>Về Bitcoin Core</translation>
     </message>
     </context>
 <context>

@@ -16,11 +16,11 @@ source files if these have a git commit from the current year.
 
 For example a file changed in 2015 (with 2015 being the current year):
 
-```// Copyright (c) 2009-2013 The Nilabit Core developers```
+```// Copyright (c) 2009-2013 The Bitcoin Core developers```
 
 would be changed to:
 
-```// Copyright (c) 2009-2015 The Nilabit Core developers```
+```// Copyright (c) 2009-2015 The Bitcoin Core developers```
 
 git-subtree-check.sh
 ====================
@@ -66,7 +66,7 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the Nilabit repository is done in the following way:
+Configuring the github-merge tool for the Bitcoin repository is done in the following way:
 
     git config githubmerge.repository bitcoin/bitcoin
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)

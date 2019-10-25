@@ -25,7 +25,7 @@ Downgrading warning
 
 Because release 0.10.0 makes use of headers-first synchronization and parallel
 block download (see further), the block files and databases are not
-backwards-compatible with older versions of Nilabit Core or other software:
+backwards-compatible with older versions of Bitcoin Core or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or
@@ -172,7 +172,7 @@ improved by making the signatures constant time and deterministic.
 
 This change is a result of switching signing to use libsecp256k1
 instead of OpenSSL. Libsecp256k1 is a cryptographic library
-optimized for the curve Nilabit uses which was created by Bitcoin
+optimized for the curve Bitcoin uses which was created by Bitcoin
 Core developer Pieter Wuille.
 
 There exist attacks[1] against most ECC implementations where an
@@ -187,7 +187,7 @@ long time, but this functionality has still not made its
 way into a released version of OpenSSL. Libsecp256k1 achieves
 significantly stronger protection: As far as we're aware this is
 the only deployed implementation of constant time signing for
-the curve Nilabit uses and we have reason to believe that
+the curve Bitcoin uses and we have reason to believe that
 libsecp256k1 is better tested and more thoroughly reviewed
 than the implementation in OpenSSL.
 
@@ -222,7 +222,7 @@ addresses need to added to the wallet before the payment, though.
 Consensus library
 -----------------
 
-Starting from 0.10.0, the Nilabit Core distribution includes a consensus library.
+Starting from 0.10.0, the Bitcoin Core distribution includes a consensus library.
 
 The purpose of this library is to make the verification functionality that is
 critical to Bitcoin's consensus available to other applications, e.g. to language
@@ -247,9 +247,9 @@ Standard script rules relaxed for P2SH addresses
 The IsStandard() rules have been almost completely removed for P2SH
 redemption scripts, allowing applications to make use of any valid
 script type, such as "n-of-m OR y", hash-locked oracle addresses, etc.
-While the Nilabit protocol has always supported these types of script,
+While the Bitcoin protocol has always supported these types of script,
 actually using them on mainnet has been previously inconvenient as
-standard Nilabit Core nodes wouldn't relay them to miners, nor would
+standard Bitcoin Core nodes wouldn't relay them to miners, nor would
 most miners include them in blocks they mined.
 
 bitcoin-tx
@@ -261,11 +261,11 @@ included many of the RPC "raw transaction" API functions, such as
 createrawtransaction.
 
 bitcoin-tx is a newly introduced command line utility designed to enable easy
-manipulation of Nilabit transactions. A summary of its operation may be
+manipulation of Bitcoin transactions. A summary of its operation may be
 obtained via "bitcoin-tx --help" Transactions may be created or signed in a
 manner similar to the RPC raw tx API. Transactions may be updated, deleting
 inputs or outputs, or appending new inputs and outputs. Custom scripts may be
-easily composed using a simple text notation, borrowed from the Nilabit test
+easily composed using a simple text notation, borrowed from the Bitcoin test
 suite.
 
 This tool may be used for experimenting with new transaction types, signing
@@ -295,7 +295,7 @@ manipulate the priority of transactions on an individual basis.
 Bitcoin Core now supports BIP 22 long polling, so mining software can be
 notified immediately of new templates rather than having to poll periodically.
 
-Support for BIP 23 block proposals is now available in Nilabit Core's
+Support for BIP 23 block proposals is now available in Bitcoin Core's
 `getblocktemplate` method. This enables miners to check the basic validity of
 their next block before expending work on it, reducing risks of accidental
 hardforks or mining invalid blocks.
@@ -315,7 +315,7 @@ BIP 66: strict DER encoding for signatures
 
 Bitcoin Core 0.10 implements BIP 66, which introduces block version 3, and a new
 consensus rule, which prohibits non-DER signatures. Such transactions have been
-non-standard since Nilabit v0.8.0 (released in February 2013), but were
+non-standard since Bitcoin v0.8.0 (released in February 2013), but were
 technically still permitted inside blocks.
 
 This change breaks the dependency on OpenSSL's signature parsing, and is
@@ -522,7 +522,7 @@ Wallet:
 GUI:
 - `c21c74b` osx: Fix missing dock menu with qt5
 - `b90711c` Fix Transaction details shows wrong To:
-- `516053c` Make links in 'About Nilabit Core' clickable
+- `516053c` Make links in 'About Bitcoin Core' clickable
 - `bdc83e8` Ensure payment request network matches client network
 - `65f78a1` Add GUI view of peer information
 - `06a91d9` VerifyDB progress reporting

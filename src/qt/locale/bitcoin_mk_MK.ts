@@ -262,7 +262,7 @@
         <translation>Повторно индексирање на блокови од дискот...</translation>
     </message>
     <message>
-        <source>Send coins to a Nilabit address</source>
+        <source>Send coins to a Bitcoin address</source>
         <translation>Испрати биткоини на Биткоин адреса</translation>
     </message>
     <message>
@@ -286,7 +286,7 @@
         <translation>&amp;Прими</translation>
     </message>
     <message>
-        <source>Show information about Nilabit Core</source>
+        <source>Show information about Bitcoin Core</source>
         <translation>Прикажи информации за Биткоин Core</translation>
     </message>
     <message>
@@ -310,7 +310,7 @@
         <translation>Биткоин Core</translation>
     </message>
     <message>
-        <source>&amp;About Nilabit Core</source>
+        <source>&amp;About Bitcoin Core</source>
         <translation>&amp;За Биткоин Core</translation>
     </message>
     <message numerus="yes">
@@ -587,7 +587,7 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Nilabit Core</source>
+        <source>About Bitcoin Core</source>
         <translation>За Биткоин Core</translation>
     </message>
     </context>

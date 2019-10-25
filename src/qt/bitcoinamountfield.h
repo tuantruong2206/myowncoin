@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2015 The Nilabit Core developers
+// Copyright (c) 2011-2015 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@ QT_BEGIN_NAMESPACE
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering Nilabit amounts.
+/** Widget for entering Bitcoin amounts.
   */
 class BitcoinAmountField: public QWidget
 {

@@ -66,12 +66,12 @@
         <translation>Gaunami adresai</translation>
     </message>
     <message>
-        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai yra jūsų Nilabit adresai mokėjimų siuntimui. Visada patikrinkite siunčiamą sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai yra jūsų Bitcoin adresai mokėjimų siuntimui. Visada patikrinkite siunčiamą sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai yra jūsų Nilabit adresai mokėjimų gavimui. Rekomenduojame naudoti naujus gavimo adresus kiekvienai tranzakcijai.</translation>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai yra jūsų Bitcoin adresai mokėjimų gavimui. Rekomenduojame naudoti naujus gavimo adresus kiekvienai tranzakcijai.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -298,8 +298,8 @@
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Nilabit address</source>
-        <translation>Siųsti monetas Nilabit adresui</translation>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Siųsti monetas Bitcoin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -338,8 +338,8 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <source>Show information about Nilabit Core</source>
-        <translation>Rodyti informaciją apie Nilabit Core</translation>
+        <source>Show information about Bitcoin Core</source>
+        <translation>Rodyti informaciją apie Bitcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -374,8 +374,8 @@
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
-        <source>&amp;About Nilabit Core</source>
-        <translation>&amp;Apie Nilabit Core</translation>
+        <source>&amp;About Bitcoin Core</source>
+        <translation>&amp;Apie Bitcoin Core</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -615,8 +615,8 @@
         <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nilabit address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Nilabit adresas.</translation>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Bitcoin adresas.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -645,8 +645,8 @@
         <translation>versija</translation>
     </message>
     <message>
-        <source>About Nilabit Core</source>
-        <translation>Apie Nilabit Core</translation>
+        <source>About Bitcoin Core</source>
+        <translation>Apie Bitcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -668,8 +668,8 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to Nilabit Core.</source>
-        <translation>Sveiki atvykę į Nilabit Core.</translation>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Sveiki atvykę į Bitcoin Core.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
@@ -714,8 +714,8 @@
         <translation>Piniginė</translation>
     </message>
     <message>
-        <source>Automatically open the Nilabit client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Nilabit kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1289,7 +1289,7 @@
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nilabit address</source>
+        <source>Sign the message to prove you own this Bitcoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1305,8 +1305,8 @@
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nilabit address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Nilabit adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
