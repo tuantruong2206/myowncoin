@@ -57,8 +57,8 @@ public:
     enum Unit
     {
         NLB,
-        mBTC,
-        uBTC
+        mNLB,
+        uNLB
     };
 
     enum SeparatorStyle
