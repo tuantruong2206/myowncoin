@@ -1,16 +1,16 @@
 TOR SUPPORT IN BITCOIN
 ======================
 
-It is possible to run Bitcoin as a Tor hidden service, and connect to such services.
+It is possible to run Nilabit as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions default to having a SOCKS proxy listening on port 9050, but others may not. In particular, the Tor Browser Bundle defaults to listening on a random port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) for how to properly
 configure Tor.
 
 
-1. Run Bitcoin behind a Tor proxy
+1. Run Nilabit behind a Tor proxy
 ---------------------------------
 
-The first step is running Bitcoin behind a Tor proxy. This will already make all
+The first step is running Nilabit behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -34,7 +34,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./bitcoin -proxy=127.0.0.1:9050
 
 
-2. Run a Bitcoin hidden server
+2. Run a Nilabit hidden server
 ------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -48,7 +48,7 @@ config file):
 The directory can be different of course, but (both) port numbers should be equal to
 your bitcoind's P2P listen port (8333 by default).
 
-	-externalip=X   You can tell Bitcoin about its publicly reachable address using
+	-externalip=X   You can tell Nilabit about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
 	                /var/lib/tor/bitcoin-service/hostname. Onion addresses are given
@@ -100,7 +100,7 @@ Bitcoin Core automatically creates a hidden service to listen on, without
 manual configuration. This will positively affect the number of available
 .onion nodes.
 
-This new feature is enabled by default if Bitcoin Core is listening, and
+This new feature is enabled by default if Nilabit Core is listening, and
 a connection to Tor can be made. It can be configured with the `-listenonion`,
 `-torcontrol` and `-torpassword` settings. To show verbose debugging
 information, pass `-debug=tor`.

@@ -1,7 +1,7 @@
 bin_PROGRAMS += qt/bitcoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# Bitcoin qt core #
+# Nilabit qt core #
 QT_TS = \
   qt/locale/bitcoin_af.ts \
   qt/locale/bitcoin_af_ZA.ts \

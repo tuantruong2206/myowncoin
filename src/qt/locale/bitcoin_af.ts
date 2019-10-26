@@ -58,11 +58,11 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Bitcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Nilabit addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Nilabit betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Nilabit addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
@@ -270,8 +270,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Stuur munte na 'n Bitcoin adres</translation>
+        <source>Send coins to a Nilabit address</source>
+        <translation>Stuur munte na 'n Nilabit adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -298,8 +298,8 @@
         <translation>&amp;Ontvang</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Vertoon inligting oor Bitcoin Kern</translation>
+        <source>Show information about Nilabit Core</source>
+        <translation>Vertoon inligting oor Nilabit Kern</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -310,12 +310,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Bitcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Nilabit addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Nilabit adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Bitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Nilabit addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Nilabit adresse</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -330,12 +330,12 @@
         <translation>Versoek betalings (genereer QR-kodes en bitcoin: URI's)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Omtrent Bitcoin Kern</translation>
+        <source>&amp;About Nilabit Core</source>
+        <translation>&amp;Omtrent Nilabit Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Verander konfigurasie-opsies vir Bitcoin Kern</translation>
+        <source>Modify configuration options for Nilabit Core</source>
+        <translation>Verander konfigurasie-opsies vir Nilabit Kern</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
